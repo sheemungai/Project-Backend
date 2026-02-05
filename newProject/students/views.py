@@ -5,7 +5,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import status
-# from rest_framework import viewsets
+from rest_framework.permissions import IsAuthenticated
 from django.shortcuts import get_object_or_404 
 
 
@@ -45,3 +45,18 @@ class ProfileViewset(APIView):
         item = get_object_or_404(models.Profile, id=id)
         item.delete()
         return Response({"status": "success", "data": "Item Deleted"})
+    
+class MyProfileView(APIView):
+    permission_classes = [IsAuthenticated]
+    
+    def get(self, request):
+        """Get the authenticated user's profile"""
+        try:
+            profile = request.user.student_profile
+            serializer = serializers.ProfileSerializer(profile)
+            return Response({"status": "success", "data": serializer.data}, status=status.HTTP_200_OK)
+        except models.Profile.DoesNotExist:
+            return Response(
+                {"status": "error", "message": "Profile not found. Please create one."}, 
+                status=status.HTTP_404_NOT_FOUND
+            )

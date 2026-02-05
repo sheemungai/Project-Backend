@@ -1,0 +1,14 @@
+@url = http://127.0.0.1:8000
+@access_token = {{access_token}}
+
+### Register a new user
+POST /api/accounts/register/
+Content-Type: application/json
+
+{
+    "username": "shee",
+    "email": "sheilla@example.com",
+    "password": "password123",
+    "first_name": "Sheilla",
+    "last_name": "Mungai"
+}
