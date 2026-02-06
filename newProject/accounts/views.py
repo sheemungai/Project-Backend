@@ -19,11 +19,14 @@ class RegisterView(generics.CreateAPIView):
         
         # Generate JWT tokens for the new user
         refresh = RefreshToken.for_user(user)
+
+        user_type = 'admin' if user.is_staff and user.is_superuser else 'student'
         
         return Response({
             'user': UserSerializer(user).data,
             'refresh': str(refresh),
             'access': str(refresh.access_token),
+           ' user_type': user_type,
             'message': 'User registered successfully'
         }, status=status.HTTP_201_CREATED)
 
@@ -33,7 +36,20 @@ class UserProfileView(APIView):
 
     def get(self, request):
         serializer = UserSerializer(request.user)
-        return Response(serializer.data)
+        data = serializer.data
+
+        if request.user.is_staff or request.user.is_superuser:
+         data[' user_type'] = 'admin'
+
+        else:
+            data[' user_type'] = 'student'
+
+            if hasattr(request.user, 'student_profile'):
+                data['has_student_profile'] = True
+            else:
+                data['has_student_profile'] = False
+                
+        return Response(data)
 
 
 class LogoutView(APIView):
@@ -47,3 +63,13 @@ class LogoutView(APIView):
             return Response({"message": "Logout successful"}, status=status.HTTP_205_RESET_CONTENT)
         except Exception:
             return Response({"error": "Invalid token"}, status=status.HTTP_400_BAD_REQUEST)
+        
+
+class IsAdminView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        is_admin = request.user.is_staff and request.user.is_superuser
+        return Response({'is_admin': is_admin,
+                         'user_type': 'admin' if is_admin else 'student'
+                         })

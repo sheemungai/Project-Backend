@@ -1,14 +1,129 @@
 @url = http://127.0.0.1:8000
-@access_token = {{access_token}}
-
+@access_token =eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzcwNDExNTE1LCJpYXQiOjE3NzA0MDc5MTUsImp0aSI6ImQ3NTlhYjNlNzQxZjQ5OGQ4YzViN2M3ZjQ1ZWQwMTIxIiwidXNlcl9pZCI6IjQifQ.j2_pZqe-UL5kvcbcR_mKToXCD-trJa2YSFZW89HE5Yo
 ### Register a new user
-POST /api/accounts/register/
+POST {{url}}/api/accounts/register/
 Content-Type: application/json
 
 {
     "username": "shee",
     "email": "sheilla@example.com",
-    "password": "password123",
+    "password": "sheilla123",
+    "password2": "sheilla123",
     "first_name": "Sheilla",
     "last_name": "Mungai"
 }
+
+### Login
+POST {{url}}/api/accounts/login/
+Content-Type: application/json
+
+{
+    "username": "shee",
+    "password": "sheilla123"
+}
+
+### register admin
+POST {{url}}/api/accounts/register/
+Content-Type: application/json
+
+{
+    "username": "Mungai",
+    "email": "mungai@example.com",
+    "password": "mungai123",
+    "password2": "mungai123",
+    "first_name": "Sheilla",
+    "last_name": "Mungai",
+    "user_type": "admin"
+}
+
+### Get user profile (requires token)
+GET {{url}}/api/profiles/
+Authorization: Bearer {{access_token}}
+
+### Update user profile (requires token)
+POST {{url}}/api/profiles/
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+    "address": "123 Main St",
+    "dob": "1990-01-01",
+    "gender": "female",
+    "phone": "0712345678"
+}
+
+### Register another user
+POST {{url}}/api/accounts/register/
+Content-Type: application/json
+
+{
+    "username": "John",
+    "email": "john@gmail.com",
+    "password": "johndoe123",
+    "password2": "johndoe123",
+    "first_name": "John",   
+    "last_name": "Doe"
+}
+
+### Login with the new user
+POST {{url}}/api/accounts/login/
+Content-Type: application/json
+
+{
+    "username": "John",
+    "password": "johndoe123"
+}
+
+### Update user profile (requires token)
+POST {{url}}/api/profiles/
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+    "address": "778 Oak St",
+    "dob": "2002-01-01",
+    "gender": "male",
+    "phone": "0734567890"
+}
+
+### Get user profile (requires token)
+GET {{url}}/api/profiles/
+Authorization: Bearer {{access_token}}
+
+
+### Register another user
+POST {{url}}/api/accounts/register/
+Content-Type: application/json
+
+{
+    "username": "Jane",
+    "email": "jane@gmail.com",
+    "password": "janedoe123",
+    "password2": "janedoe123",
+    "first_name": "Jane",   
+    "last_name": "Doe"
+}
+
+### Login with the new user
+POST {{url}}/api/accounts/login/
+Content-Type: application/json
+
+{
+    "username": "Jane",
+    "password": "janedoe123"
+}
+
+### Update user profile (requires token)
+POST {{url}}/api/profiles/
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+    "address": "456 Elm St",
+    "dob": "2000-01-01",
+    "gender": "female",
+    "phone": "0723456789"
+}
+### Get user profile (requires token)
+GET {{url}}/api/profiles/
+Authorization: Bearer {{access_token}}

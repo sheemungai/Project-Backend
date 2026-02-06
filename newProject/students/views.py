@@ -25,15 +25,29 @@ class ProfileViewset(APIView):
 
       # creating a profile
     def post(self, request):
+
+        if hasattr(request.user, 'student_profile'):
+            return Response(
+                {"status": "error", "message": "Profile already exists for this user."}, 
+                status=status.HTTP_403_FORBIDDEN
+            )
         serializer = serializers.ProfileSerializer(data=request.data)
         if serializer.is_valid():
-            serializer.save()
+            serializer.save(user=request.user)
             return Response({"status": "success", "data": serializer.data}, status=status.HTTP_200_OK)
         else:
             return Response({"status": "error", "data": serializer.errors}, status=status.HTTP_400_BAD_REQUEST)
       # updating an existing profile
     def patch(self, request, id=None):
         item = get_object_or_404(models.Profile, id=id)
+
+          # Check if user owns this profile
+        if item.user != request.user and not request.user.is_staff:
+            return Response(
+                {"status": "error", "message": "You can only update your own profile"}, 
+                status=status.HTTP_403_FORBIDDEN
+            )
+        
         serializer = serializers.ProfileSerializer(item, data=request.data, partial=True)
         if serializer.is_valid():
             serializer.save()
@@ -43,6 +57,13 @@ class ProfileViewset(APIView):
     #  deleting a profile
     def delete(self, request, id=None):
         item = get_object_or_404(models.Profile, id=id)
+        # check if profile exist
+        if item.user != request.user and not request.user.is_staff:
+            return Response(
+                {"status": "error", "message": "You can only delete your own profile"}, 
+                status=status.HTTP_403_FORBIDDEN
+            )
+
         item.delete()
         return Response({"status": "success", "data": "Item Deleted"})
     
