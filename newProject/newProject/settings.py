@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'students',
     'rest_framework_simplejwt',
     'accounts',
+    'rest_framework',
+    'assessment',
 ]
 
 MIDDLEWARE = [
