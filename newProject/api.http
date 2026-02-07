@@ -1,6 +1,7 @@
 @url = http://127.0.0.1:8000
-@access_token =eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzcwNDExNTE1LCJpYXQiOjE3NzA0MDc5MTUsImp0aSI6ImQ3NTlhYjNlNzQxZjQ5OGQ4YzViN2M3ZjQ1ZWQwMTIxIiwidXNlcl9pZCI6IjQifQ.j2_pZqe-UL5kvcbcR_mKToXCD-trJa2YSFZW89HE5Yo
-### Register a new user
+@access_token =eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzcwNDYxNzQyLCJpYXQiOjE3NzA0NTgxNDIsImp0aSI6IjdiN2MxNTg1NjRhZDQzM2I5ZjQwNmVjZThkMDVhNjM5IiwidXNlcl9pZCI6IjIifQ.4UafSgvctS3fOj94sgUJcPwtqZ0ONfK2NQb5i9o2HhI
+
+#### Register a new user
 POST {{url}}/api/accounts/register/
 Content-Type: application/json
 
@@ -21,6 +22,10 @@ Content-Type: application/json
     "username": "shee",
     "password": "sheilla123"
 }
+
+### Get user profile (requires token)
+GET {{url}}/api/profiles/3
+Authorization: Bearer {{access_token}}
 
 ### register admin
 POST {{url}}/api/accounts/register/
@@ -125,5 +130,114 @@ Content-Type: application/json
     "phone": "0723456789"
 }
 ### Get user profile (requires token)
-GET {{url}}/api/profiles/
+GET {{url}}/api/profiles/3
 Authorization: Bearer {{access_token}}
+
+
+### Add Grade - Mathematics
+POST {{url}}/api/grades/
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+    "subject": "MATHEMATICS",
+    "grade": "A"
+}
+
+### Add Grade - English
+POST {{url}}/api/grades/
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+    "subject": "ENGLISH",
+    "grade": "B+"
+}
+
+### Add Grade - Kiswahili
+POST {{url}}/api/grades/
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+    "subject": "KISWAHILI",
+    "grade": "A-"
+}
+
+### Add Grade - Physics
+POST {{url}}/api/grades/
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+    "subject": "PHYSICS",
+    "grade": "B"
+}
+
+### Add Grade - Chemistry
+POST {{url}}/api/grades/
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+    "subject": "CHEMISTRY",
+    "grade": "B+"
+}
+
+### Get All Grades (with statistics)
+GET {{url}}/api/grades/
+Authorization: Bearer {{access_token}}
+
+### Get Single Grade by ID
+GET {{url}}/api/grades/1/
+Authorization: Bearer {{access_token}}
+
+### Update Grade
+PATCH {{url}}/api/grades/1/
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+    "grade": "A-"
+}
+
+### Delete Grade
+DELETE {{url}}/api/grades/1/
+Authorization: Bearer {{access_token}}
+
+### ==================== STUDENT PREFERENCES ====================
+
+### Get Preferences (auto-creates if doesn't exist)
+GET {{url}}/api/preferences/
+Authorization: Bearer {{access_token}}
+
+### Create/Update Preferences
+POST {{url}}/api/preferences/
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+    "preferred_subjects": ["MATHEMATICS", "PHYSICS", "CHEMISTRY"],
+    "preferred_career_fields": ["Engineering", "Computer Science", "Data Science"],
+    "preferred_institutions": ["University of Nairobi", "JKUAT", "Strathmore"],
+    "location_preference": "Nairobi"
+}
+
+### Update Preferences (Partial)
+PATCH {{url}}/api/preferences/
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+    "location_preference": "Mombasa",
+    "preferred_career_fields": ["Medicine", "Pharmacy", "Nursing"]
+}
+
+### Update Only Preferred Subjects
+PATCH {{url}}/api/preferences/
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+    "preferred_subjects": ["BIOLOGY", "CHEMISTRY", "PHYSICS"]
+}
