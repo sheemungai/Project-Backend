@@ -1,7 +1,5 @@
 @url = http://127.0.0.1:8000
-@access_token =eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzcwNDYxNzQyLCJpYXQiOjE3NzA0NTgxNDIsImp0aSI6IjdiN2MxNTg1NjRhZDQzM2I5ZjQwNmVjZThkMDVhNjM5IiwidXNlcl9pZCI6IjIifQ.4UafSgvctS3fOj94sgUJcPwtqZ0ONfK2NQb5i9o2HhI
-
-#### Register a new user
+@access_token =eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzcwNjI0OTYxLCJpYXQiOjE3NzA2MjEzNjEsImp0aSI6ImI2Y2JjZjgxODQ5ODQ5ZTY5NzdlMzdmMjY0NDhjY2MyIiwidXNlcl9pZCI6IjMifQ.sbttZmbTSGhp9Tu3Qsdxfi8tgi3wCmItiOwekRnuNOE
 POST {{url}}/api/accounts/register/
 Content-Type: application/json
 
@@ -19,8 +17,8 @@ POST {{url}}/api/accounts/login/
 Content-Type: application/json
 
 {
-    "username": "shee",
-    "password": "sheilla123"
+    "username": "Mungai",
+    "password": "mungai123"
 }
 
 ### Get user profile (requires token)
@@ -240,4 +238,109 @@ Content-Type: application/json
 
 {
     "preferred_subjects": ["BIOLOGY", "CHEMISTRY", "PHYSICS"]
+}
+
+
+### Get all active psychometric questions
+GET {{url}}/api/assessment/questions/
+Authorization: Bearer {{access_token}}
+
+### Get questions by category (RIASEC)
+GET {{url}}/api/assessment/questions/?category=REALISTIC
+Authorization: Bearer {{access_token}}
+
+### Get questions by category (Big Five)
+GET {{url}}/api/assessment/questions/?category=OPENNESS
+Authorization: Bearer {{access_token}}
+
+### Create new question (Admin only)
+POST {{url}}/api/assessment/questions/manage/
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+    "question_text": "I enjoy working with tools and machinery",
+    "category": "REALISTIC"
+}
+
+
+# ------Psychometric Questions Management (Admin only)------
+### Create multiple questions (Admin only)
+POST {{url}}/api/assessment/questions/manage/
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+    "question_text": "I like conducting experiments and analyzing data",
+    "category": "INVESTIGATIVE"
+}
+
+###
+POST {{url}}/api/assessment/questions/manage/
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+    "question_text": "I enjoy creative activities like painting or writing",
+    "category": "ARTISTIC"
+}
+
+###
+POST {{url}}/api/assessment/questions/manage/
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+    "question_text": "I like helping and teaching others",
+    "category": "SOCIAL"
+}
+
+###
+POST {{url}}/api/assessment/questions/manage/
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+    "question_text": "I enjoy leading teams and managing projects",
+    "category": "ENTERPRISING"
+}
+
+###
+POST {{url}}/api/assessment/questions/manage/
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+    "question_text": "I like organizing data and following established procedures",
+    "category": "CONVENTIONAL"
+}
+
+### Update a question (Admin only)
+PATCH {{url}}/api/assessment/questions/manage/1/
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+    "question_text": "I enjoy working with tools, machinery, and building things",
+    "is_active": true
+}
+
+### Soft delete a question (Admin only)
+DELETE {{url}}/api/assessment/questions/manage/1/
+Authorization: Bearer {{access_token}}
+
+### Submit batch responses (recommended for complete test)
+POST {{url}}/api/assessment/submit/
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+    "responses": [
+        {"question_id": 1, "response_value": 5},
+        {"question_id": 2, "response_value": 4},
+        {"question_id": 3, "response_value": 3},
+        {"question_id": 4, "response_value": 5},
+        {"question_id": 5, "response_value": 4},
+        {"question_id": 6, "response_value": 2}
+    ]
 }

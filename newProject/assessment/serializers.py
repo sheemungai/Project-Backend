@@ -1,6 +1,5 @@
 from rest_framework import serializers
 from .models import PsychometricQuestion, PsychometricResponse
-from students.models import Profile
 
 
 class PsychometricQuestionSerializer(serializers.ModelSerializer):

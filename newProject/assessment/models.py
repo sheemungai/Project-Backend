@@ -1,6 +1,6 @@
 from django.db import models
 from django.core.validators import MinValueValidator, MaxValueValidator
-from students.models import Profile  # ← CORRECT: Import from students app
+from students.models import Profile  
 
 # Create your models here.
 class PsychometricQuestion(models.Model):
