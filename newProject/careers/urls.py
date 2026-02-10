@@ -1,11 +1,11 @@
 from django.urls import path
-from .views import CareerPathView, CourseView, InstitutionView
+from .views import CareerPathViewSet, CourseViewSet, InstitutionViewSet
 
 urlpatterns = [
-    path('careerpaths/', CareerPathView.as_view()),
-    path('careerpaths/<int:pk>/', CareerPathView.as_view()),
-    path('courses/', CourseView.as_view()),                
-    path('courses/<int:pk>/', CourseView.as_view()),
-    path('institutions/', InstitutionView.as_view()),
-    path('institutions/<int:pk>/', InstitutionView.as_view()),
+    path('careerpaths/', CareerPathViewSet.as_view()),
+    path('careerpaths/<int:pk>/', CareerPathViewSet.as_view()),
+    path('courses/', CourseViewSet.as_view()),                
+    path('courses/<int:pk>/', CourseViewSet.as_view()),
+    path('institutions/', InstitutionViewSet.as_view()),
+    path('institutions/<int:pk>/', InstitutionViewSet.as_view()),
 ]
