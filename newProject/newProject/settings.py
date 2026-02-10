@@ -43,6 +43,9 @@ INSTALLED_APPS = [
     'accounts',
     'rest_framework',
     'assessment',
+    'rest_framework',
+    'careers'
+    'clusterCalculator'
 ]
 
 MIDDLEWARE = [
@@ -77,6 +80,7 @@ WSGI_APPLICATION = 'newProject.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
+
 
 DATABASES = {
         'default': {
