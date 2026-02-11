@@ -1,17 +1,12 @@
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+from .views import ClusterViewSet, StudentGradeViewSet, SubjectViewSet
 
-from django.urls import path
-from .views import  ClusterViewSet, StudentGradeViewSet, SubjectViewSet
-from importlib.resources import path
-
+router = DefaultRouter()
+router.register(r'subjects', SubjectViewSet, basename='subject')
+router.register(r'grades', StudentGradeViewSet, basename='studentgrade')
+router.register(r'clusters', ClusterViewSet, basename='cluster')
 
 urlpatterns = [
-    path('subjects/', SubjectViewSet.as_view()),
-    path('subjects/<int:pk>/', SubjectViewSet.as_view()),
-    path('grades/', StudentGradeViewSet.as_view()),
-    path('grades/<int:pk>/', StudentGradeViewSet.as_view()),
-    path('clusters/', ClusterViewSet.as_view({'get': 'list'})),
-    path('clusters/<int:pk>/', ClusterViewSet.as_view({'get': 'retrieve'})),
-    path('student-grades/', StudentGradeViewSet.as_view({'get': 'list', 'post': 'create'})),
-    path('student-grades/<int:pk>/', StudentGradeViewSet.as_view({'get': 'retrieve', 'put': 'update', 'delete': 'destroy'})),
-
+    path('', include(router.urls)),
 ]

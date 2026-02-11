@@ -1,11 +1,12 @@
-from django.urls import path
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
 from .views import CareerPathViewSet, CourseViewSet, InstitutionViewSet
 
+router = DefaultRouter()
+router.register(r'careerpaths', CareerPathViewSet, basename='careerpath')
+router.register(r'courses', CourseViewSet, basename='course')
+router.register(r'institutions', InstitutionViewSet, basename='institution')
+
 urlpatterns = [
-    path('careerpaths/', CareerPathViewSet.as_view()),
-    path('careerpaths/<int:pk>/', CareerPathViewSet.as_view()),
-    path('courses/', CourseViewSet.as_view()),                
-    path('courses/<int:pk>/', CourseViewSet.as_view()),
-    path('institutions/', InstitutionViewSet.as_view()),
-    path('institutions/<int:pk>/', InstitutionViewSet.as_view()),
+    path('', include(router.urls)),
 ]

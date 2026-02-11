@@ -43,8 +43,7 @@ INSTALLED_APPS = [
     'accounts',
     'rest_framework',
     'assessment',
-    'rest_framework',
-    'careers'
+    'careers',
     'clusterCalculator'
 ]
 
