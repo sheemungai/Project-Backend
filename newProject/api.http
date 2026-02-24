@@ -1,5 +1,5 @@
 @url = http://127.0.0.1:8000
-@access_token =eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzcwODA1OTQwLCJpYXQiOjE3NzA4MDIzNDAsImp0aSI6IjMyNDM3YmM4YzYzMjQ0ZWJiNDYyYzcwOGZjOTRiMDY2IiwidXNlcl9pZCI6Mn0.7p0GizGJXcU_bvn7iyFWkrtkQiK1s8yzKzB0-8ifqHQ
+@access_token =eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzcxOTQ0NjgwLCJpYXQiOjE3NzE5NDEwODAsImp0aSI6ImNhMDY3YjUyZDZkYTQ5MTE4MjM4NDNlZDRmYWE1Y2IwIiwidXNlcl9pZCI6M30.VGj_XadTwM2SOkcXmqCeijZAlQ_tb8rIOZHGPVZsDPM
 POST {{url}}/api/accounts/register/
 Content-Type: application/json
 
@@ -16,13 +16,18 @@ Content-Type: application/json
 GET {{url}}/api/institutions/
 Authorization: Bearer {{access_token}}
 
+###
+GET {{url}}/api/courses/
+Authorization: Bearer {{access_token}}
+
+
 ### Login
 POST {{url}}/api/accounts/login/
 Content-Type: application/json
 
 {
-    "username": "shee",
-    "password": "sheilla123"
+    "username": "Mungai",
+    "password": "mungai123"
 }
 
 ### Get user profile (requires token)
@@ -42,7 +47,7 @@ Content-Type: application/json
     "last_name": "Mungai",
     "user_type": "admin"
 }
-
+ 
 ### Get user profile (requires token)
 GET {{url}}/api/profiles/
 Authorization: Bearer {{access_token}}

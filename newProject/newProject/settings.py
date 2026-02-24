@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'assessment',
     'careers',
-    'clusterCalculator'
+    'clusterCalculator',
+    'recommendations'
 ]
 
 MIDDLEWARE = [
