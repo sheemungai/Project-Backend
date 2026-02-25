@@ -1,6 +1,5 @@
 @url = http://127.0.0.1:8000
-@access_token =eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzcxOTQ0NjgwLCJpYXQiOjE3NzE5NDEwODAsImp0aSI6ImNhMDY3YjUyZDZkYTQ5MTE4MjM4NDNlZDRmYWE1Y2IwIiwidXNlcl9pZCI6M30.VGj_XadTwM2SOkcXmqCeijZAlQ_tb8rIOZHGPVZsDPM
-POST {{url}}/api/accounts/register/
+@access_token =eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzcyMDM0Mzk3LCJpYXQiOjE3NzIwMzA3OTcsImp0aSI6IjNiZGU5ODYxOTJlZTQ4MTZhYmQyYWZhODcyZDM5MTcwIiwidXNlcl9pZCI6Mn0.5pQ8QrOA0-m5jkSlfq5suKz-uoCiLIXUAMGigXLWTsA
 Content-Type: application/json
 
 {
@@ -26,8 +25,8 @@ POST {{url}}/api/accounts/login/
 Content-Type: application/json
 
 {
-    "username": "Mungai",
-    "password": "mungai123"
+    "username": "shee",
+    "password": "sheilla123"
 }
 
 ### Get user profile (requires token)
@@ -353,3 +352,7 @@ Content-Type: application/json
         {"question_id": 6, "response_value": 2}
     ]
 }
+
+###
+POST {{url}}/api/recommendations/generate/
+Authorization: Bearer {{access_token}}
