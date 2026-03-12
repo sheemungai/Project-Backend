@@ -356,3 +356,12 @@ Content-Type: application/json
 ###
 POST {{url}}/api/recommendations/generate/
 Authorization: Bearer {{access_token}}
+
+### Calculate cluster points (requires grades + seeded clusters)
+POST {{url}}/api/calculations/calculate/
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+    "year": 2024
+}

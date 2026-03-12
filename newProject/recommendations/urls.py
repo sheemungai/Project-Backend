@@ -13,6 +13,9 @@ router.register(r'sessions', RecommendationSessionViewSet, basename='recommendat
 urlpatterns = [
     # ── Trigger ML engine ──
     path('generate/', GenerateRecommendationsView.as_view(), name='generate-recommendations'),
+    
+    # ── Check recommendations status ──
+    # path('status/', RecommendationStatusView.as_view(), name='recommendation-status'),
 
     # ── ViewSet routes ──
     path('', include(router.urls)),
