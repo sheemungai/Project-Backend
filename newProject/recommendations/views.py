@@ -7,17 +7,19 @@ from rest_framework.views import APIView
 from .models import Recommendation, RecommendationSession
 from .serializers import (
     RecommendationSerializer,
+    EnhancedRecommendationSerializer,
     RecommendationSessionSerializer,
     RecommendationResultSerializer,
+    CourseDetailSerializer,
     MarkSeenSerializer,
     MarkSavedSerializer,
 )
 from .services import generate_student_recommendations
 
 
-# ─────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────────────────────
 # 1. GENERATE RECOMMENDATIONS
-# ─────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────────────────────
 
 class GenerateRecommendationsView(APIView):
     """
@@ -67,9 +69,9 @@ class GenerateRecommendationsView(APIView):
         return Response(serializer.data, status=status.HTTP_200_OK)
 
 
-# ─────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────────────────────
 # 2. RECOMMENDATIONS VIEWSET
-# ─────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────────────────────
 
 class RecommendationViewSet(viewsets.ReadOnlyModelViewSet):
     """
@@ -80,6 +82,8 @@ class RecommendationViewSet(viewsets.ReadOnlyModelViewSet):
     GET  /api/recommendations/?item_type=institution → institutions only
     GET  /api/recommendations/?is_saved=true      → saved/bookmarked only
     GET  /api/recommendations/{id}/               → single recommendation
+    GET  /api/recommendations/detailed/           → enhanced with career paths
+    GET  /api/recommendations/{id}/course-details/→ detailed course info
     POST /api/recommendations/{id}/mark_seen/     → mark as seen
     POST /api/recommendations/{id}/mark_saved/    → bookmark/unbookmark
     GET  /api/recommendations/courses/            → shortcut for courses
@@ -117,6 +121,37 @@ class RecommendationViewSet(viewsets.ReadOnlyModelViewSet):
             queryset = queryset.filter(is_seen=is_seen.lower() == 'true')
 
         return queryset
+
+    # ── GET /api/recommendations/detailed/ ──
+    @action(detail=False, methods=['get'], url_path='detailed')
+    def detailed(self, request):
+        """Get recommendations with career paths and detailed info"""
+        queryset = self.get_queryset()
+        serializer = EnhancedRecommendationSerializer(queryset, many=True, context={'request': request})
+        return Response(serializer.data)
+
+    # ── GET /api/recommendations/{id}/course-details/ ──
+    @action(detail=True, methods=['get'], url_path='course-details')
+    def course_details(self, request, pk=None):
+        """Get detailed course information for a recommendation"""
+        recommendation = self.get_object()
+        
+        if recommendation.item_type != 'course':
+            return Response(
+                {"error": "This recommendation is not a course"},
+                status=status.HTTP_400_BAD_REQUEST
+            )
+        
+        try:
+            from careers.models import Course
+            course = Course.objects.get(id=recommendation.item_id)
+            serializer = CourseDetailSerializer(course)
+            return Response(serializer.data)
+        except Course.DoesNotExist:
+            return Response(
+                {"error": "Course not found"},
+                status=status.HTTP_404_NOT_FOUND
+            )
 
     # ── POST /api/recommendations/{id}/mark_seen/ ──
     @action(detail=True, methods=['post'], url_path='mark_seen')
@@ -162,7 +197,7 @@ class RecommendationViewSet(viewsets.ReadOnlyModelViewSet):
         """Shortcut to get only course recommendations."""
         queryset = self.get_queryset().filter(item_type='course')
         serializer = self.get_serializer(queryset, many=True)
-        return Response(serializer.data, status=status.HTTP_200_OK)
+        return Response(serializer.data)
 
     # ── GET /api/recommendations/institutions/ ──
     @action(detail=False, methods=['get'], url_path='institutions')
@@ -170,7 +205,7 @@ class RecommendationViewSet(viewsets.ReadOnlyModelViewSet):
         """Shortcut to get only institution recommendations."""
         queryset = self.get_queryset().filter(item_type='institution')
         serializer = self.get_serializer(queryset, many=True)
-        return Response(serializer.data, status=status.HTTP_200_OK)
+        return Response(serializer.data)
 
     # ── GET /api/recommendations/saved/ ──
     @action(detail=False, methods=['get'], url_path='saved')
@@ -178,12 +213,42 @@ class RecommendationViewSet(viewsets.ReadOnlyModelViewSet):
         """Get all bookmarked recommendations."""
         queryset = self.get_queryset().filter(is_saved=True)
         serializer = self.get_serializer(queryset, many=True)
-        return Response(serializer.data, status=status.HTTP_200_OK)
+        return Response(serializer.data)
 
 
-# ─────────────────────────────────────────────────────────────
-# 3. RECOMMENDATION SESSION VIEWSET
-# ─────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────────────────────
+# 3. RECOMMENDATION STATUS VIEW
+# ─────────────────────────────────────────────────────────────────────────────
+
+class RecommendationStatusView(APIView):
+    """
+    Check if recommendations exist for the current user.
+    
+    GET /api/recommendations/status/
+    
+    Returns:
+    {
+        "exists": true/false,
+        "lastGenerated": "2024-01-15T10:30:00Z",
+        "count": 15
+    }
+    """
+    permission_classes = [IsAuthenticated]
+    
+    def get(self, request):
+        count = Recommendation.objects.filter(user=request.user).count()
+        latest = RecommendationSession.objects.filter(user=request.user).first()
+        
+        return Response({
+            "exists": count > 0,
+            "lastGenerated": latest.created_at.isoformat() if latest else None,
+            "count": count
+        })
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 4. RECOMMENDATION SESSION VIEWSET
+# ─────────────────────────────────────────────────────────────────────────────
 
 class RecommendationSessionViewSet(viewsets.ReadOnlyModelViewSet):
     """
@@ -216,4 +281,4 @@ class RecommendationSessionViewSet(viewsets.ReadOnlyModelViewSet):
             )
 
         serializer = self.get_serializer(session)
-        return Response(serializer.data, status=status.HTTP_200_OK)
+        return Response(serializer.data)

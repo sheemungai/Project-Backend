@@ -21,7 +21,7 @@ class Course(models.Model):
     name = models.CharField(max_length=255)
     institution = models.ForeignKey(Institution, related_name='courses', on_delete=models.CASCADE)
     
-    # ── ML Recommendation Fields (ADD THESE) ──
+    # ── ML Recommendation Fields ──
     career_field = models.CharField(
         max_length=100,
         blank=True,
@@ -59,6 +59,10 @@ class Course(models.Model):
 
     def __str__(self):
         return f"{self.name} - {self.institution.name}"
+    
+    def get_career_paths(self):
+        """Get career paths associated with this course"""
+        return self.career_paths.all()
     
     class Meta:
         ordering = ['institution__name', 'name']
