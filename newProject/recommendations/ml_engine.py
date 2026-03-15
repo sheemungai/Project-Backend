@@ -38,8 +38,8 @@ RIASEC_CAREER_MAP = {
 SUBJECT_CAREER_MAP = {
     'MATHEMATICS': ['Engineering', 'Computer Science', 'Data Science', 'Statistics',
                     'Finance', 'Accounting', 'Architecture'],
-    'PHYSICS':     ['Engineering', 'Architecture', 'Computer Science'],
-    'CHEMISTRY':   ['Medicine', 'Pharmacy', 'Biology', 'Chemical Engineering', 'Agriculture'],
+    'PHYSICS':     ['Engineering', 'Architecture', 'Computer Science', 'Software Engineering'],
+    'CHEMISTRY':   ['Medicine', 'Pharmacy', 'Biology', 'Chemical Engineering', 'Agriculture', 'Nursing'],
     'BIOLOGY':     ['Medicine', 'Nursing', 'Pharmacy', 'Agriculture', 'Public Health'],
     'ENGLISH':     ['Law', 'Media', 'Education', 'Creative Writing', 'Social Work'],
     'KISWAHILI':   ['Education', 'Media', 'Social Work', 'Counseling'],
@@ -160,7 +160,7 @@ class CourseRecommender:
         self,
         student_profile: dict,
         courses: list[dict],
-        top_n: int = 10
+        top_n: int = 20  # Increased to 20 for more variety
     ) -> list[dict]:
         """
         :param student_profile: Output of StudentProfileBuilder.build_profile()
@@ -170,7 +170,8 @@ class CourseRecommender:
                     'name': 'Computer Science',
                     'career_field': 'Computer Science',
                     'required_subjects': ['MATHEMATICS', 'PHYSICS'],
-                    'min_grade': 'B+'
+                    'min_grade': 'B+',
+                    'institution_id': 1  # Added institution_id
                 }, ...
               ]
         :param top_n: Number of top courses to return
@@ -181,14 +182,59 @@ class CourseRecommender:
             score = self._score_course(student_profile, course)
             if score > 0:
                 scored_courses.append({
-                    'course_id':     course['id'],
-                    'course_name':   course.get('name', ''),
-                    'score':         round(score, 4),
-                    'match_reasons': self._get_match_reasons(student_profile, course)
+                    'course_id':       course['id'],
+                    'course_name':     course.get('name', ''),
+                    'institution_id':  course.get('institution_id'),  # Include for diversity
+                    'score':           round(score, 4),
+                    'match_reasons':   self._get_match_reasons(student_profile, course)
                 })
 
+        # Sort by score
         scored_courses.sort(key=lambda x: x['score'], reverse=True)
-        return scored_courses[:top_n]
+        
+        # Apply diversity algorithm to ensure multiple institutions
+        return self._ensure_diversity(scored_courses, top_n)
+
+    def _ensure_diversity(self, scored_courses: list[dict], top_n: int) -> list[dict]:
+        """
+        Ensure recommendations come from at least 4 different institutions.
+        """
+        if not scored_courses:
+            return []
+        
+        diverse_courses = []
+        institutions_seen = set()
+        institutions_count = {}
+        
+        # First pass: count courses per institution to identify top institutions
+        for course in scored_courses:
+            inst_id = course.get('institution_id')
+            if inst_id:
+                institutions_count[inst_id] = institutions_count.get(inst_id, 0) + 1
+        
+        # Take top courses ensuring diversity
+        for course in scored_courses:
+            inst_id = course.get('institution_id')
+            
+            # If we have less than 4 institutions or this institution isn't represented yet
+            if len(institutions_seen) < 4 or inst_id not in institutions_seen:
+                diverse_courses.append(course)
+                if inst_id:
+                    institutions_seen.add(inst_id)
+            
+            # Stop if we have enough courses
+            if len(diverse_courses) >= top_n:
+                break
+        
+        # If we still need more courses, add the highest scoring remaining ones
+        if len(diverse_courses) < top_n:
+            for course in scored_courses:
+                if course not in diverse_courses:
+                    diverse_courses.append(course)
+                    if len(diverse_courses) >= top_n:
+                        break
+        
+        return diverse_courses
 
     def _score_course(self, profile: dict, course: dict) -> float:
         score = 0.0
@@ -198,14 +244,21 @@ class CourseRecommender:
         min_grade         = course.get('min_grade', 'C')
 
         # ── 1. Career field matches merged careers (RIASEC + subjects + preferences) ──
-        if career_field in profile['merged_career_fields']:
+        if career_field and career_field in profile['merged_career_fields']:
             score += 0.40
+        elif not career_field:
+            # If career field is empty, give a small default score
+            score += 0.10
 
         # ── 2. Student's strong subjects match course required subjects ──
         if required_subjects:
             matching = set(profile['strong_subjects']) & set(required_subjects)
-            subject_ratio = len(matching) / len(required_subjects)
-            score += 0.30 * subject_ratio
+            if matching:
+                subject_ratio = len(matching) / len(required_subjects)
+                score += 0.30 * subject_ratio
+        else:
+            # If no required subjects specified, give a small default
+            score += 0.15
 
         # ── 3. Student's average grade meets the minimum grade requirement ──
         min_grade_points = GRADE_POINTS.get(min_grade, 6.0)
@@ -213,10 +266,10 @@ class CourseRecommender:
             score += 0.20
 
         # ── 4. Career field is in the student's stated preferred career fields ──
-        if career_field in profile.get('preferred_career_fields', []):
+        if career_field and career_field in profile.get('preferred_career_fields', []):
             score += 0.10
 
-        return score
+        return min(score, 1.0)  # Cap at 1.0
 
     def _get_match_reasons(self, profile: dict, course: dict) -> list[str]:
         """Human-readable explanation of why the course was recommended."""
@@ -226,23 +279,24 @@ class CourseRecommender:
         required_subjects = [s.upper() for s in course.get('required_subjects', [])]
         min_grade         = course.get('min_grade', 'C')
 
-        if career_field in profile['merged_career_fields']:
+        if career_field and career_field in profile['merged_career_fields']:
             reasons.append(
                 f"Aligns with your personality type: {', '.join(profile['riasec_categories'])}"
             )
 
-        matching = set(profile['strong_subjects']) & set(required_subjects)
-        if matching:
-            reasons.append(
-                f"Your strong subjects match: {', '.join(matching)}"
-            )
+        if required_subjects:
+            matching = set(profile['strong_subjects']) & set(required_subjects)
+            if matching:
+                reasons.append(
+                    f"Your strong subjects match: {', '.join(matching)}"
+                )
 
         if profile['avg_grade'] >= GRADE_POINTS.get(min_grade, 6.0):
             reasons.append(
                 f"Your grades meet the minimum requirement ({min_grade})"
             )
 
-        if career_field in profile.get('preferred_career_fields', []):
+        if career_field and career_field in profile.get('preferred_career_fields', []):
             reasons.append(
                 f"Matches your stated career interest: {career_field}"
             )
@@ -272,7 +326,7 @@ class UniversityRecommender:
         student_profile: dict,
         recommended_course_ids: list[int],
         universities: list[dict],
-        top_n: int = 5
+        top_n: int = 10  # Increased to 10
     ) -> list[dict]:
         """
         :param student_profile: Output of StudentProfileBuilder.build_profile()
@@ -317,8 +371,10 @@ class UniversityRecommender:
 
         # ── 1. Overlap between recommended courses and university's offered courses ──
         if recommended_set:
-            overlap_ratio = len(offered_courses & recommended_set) / len(recommended_set)
-            score += 0.50 * overlap_ratio
+            overlap = offered_courses & recommended_set
+            if overlap:
+                overlap_ratio = len(overlap) / len(recommended_set)
+                score += 0.50 * overlap_ratio
 
         # ── 2. University location matches student's location preference ──
         location_pref = profile.get('location_preference', '').strip().lower()
@@ -393,8 +449,8 @@ class StudentRecommendationEngine:
         preferences: dict,
         courses: list[dict],
         universities: list[dict],
-        top_courses: int = 10,
-        top_universities: int = 5,
+        top_courses: int = 20,  # Increased default
+        top_universities: int = 10,  # Increased default
     ) -> dict:
         """
         Full recommendation pipeline.

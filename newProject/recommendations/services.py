@@ -2,6 +2,7 @@
 from collections import Counter
 from .ml_engine import StudentRecommendationEngine
 from .models import Recommendation, RecommendationSession
+from django.db.models import Prefetch
 
 
 def calculate_riasec_scores(student_profile) -> dict:
@@ -93,7 +94,7 @@ def get_courses_data(courses_queryset) -> list[dict]:
     """
     courses_data = []
     
-    for course in courses_queryset:
+    for course in courses_queryset.select_related('institution'):
         # Handle JSONField for required_subjects
         required_subjects = course.required_subjects
         if isinstance(required_subjects, str):
@@ -112,8 +113,11 @@ def get_courses_data(courses_queryset) -> list[dict]:
             'career_field':      getattr(course, 'career_field', '') or '',
             'required_subjects': list(required_subjects or []),
             'min_grade':         getattr(course, 'min_grade', 'C') or 'C',
+            'institution_id':    course.institution.id,  # Added for diversity
+            'institution_name':  course.institution.name,  # Added for logging
         })
     
+    print(f"Prepared {len(courses_data)} courses for ML engine")
     return courses_data
 
 
@@ -210,12 +214,16 @@ def generate_student_recommendations(user, include_cluster_points=False) -> dict
 
     # Fetch all courses and institutions
     courses      = Course.objects.select_related('institution').all()
-    universities = Institution.objects.prefetch_related('courses').all()
+    universities = Institution.objects.prefetch_related(
+        Prefetch('courses', queryset=Course.objects.all())
+    ).all()
+
+    print(f"Found {courses.count()} courses from {universities.count()} institutions")
 
     courses_data      = get_courses_data(courses)
     universities_data = get_universities_data(universities)
 
-    # Run ML engine
+    # Run ML engine with increased top_n for more variety
     engine  = StudentRecommendationEngine()
     results = engine.recommend(
         riasec_scores=riasec_scores,
@@ -223,8 +231,8 @@ def generate_student_recommendations(user, include_cluster_points=False) -> dict
         preferences=preferences_dict,
         courses=courses_data,
         universities=universities_data,
-        top_courses=10,
-        top_universities=5,
+        top_courses=20,  # Increased from 10
+        top_universities=10,  # Increased from 5
     )
 
     # Save to RecommendationSession
@@ -237,43 +245,64 @@ def generate_student_recommendations(user, include_cluster_points=False) -> dict
     )
 
     # Save course recommendations
+    institutions_used = set()
+    saved_courses = 0
+    
     for rec in results['recommended_courses']:
-        course = Course.objects.get(id=rec['course_id'])
-        
-        Recommendation.objects.update_or_create(
-            user=user,
-            item_id=rec['course_id'],
-            item_type='course',
-            defaults={
-                'item_name':           course.name,
-                'score':               rec['score'],
-                'recommendation_type': 'hybrid',
-                'match_reasons':       rec['match_reasons'],
-                'is_seen':             False,
-            }
-        )
+        try:
+            course = Course.objects.select_related('institution').get(id=rec['course_id'])
+            
+            Recommendation.objects.update_or_create(
+                user=user,
+                item_id=rec['course_id'],
+                item_type='course',
+                defaults={
+                    'item_name':           course.name,
+                    'score':               rec['score'],
+                    'recommendation_type': 'hybrid',
+                    'match_reasons':       rec['match_reasons'],
+                    'is_seen':             False,
+                }
+            )
+            institutions_used.add(course.institution.name)
+            saved_courses += 1
+        except Course.DoesNotExist:
+            print(f"Course {rec['course_id']} not found")
+            continue
 
     # Save university recommendations
     for rec in results['recommended_universities']:
-        uni = Institution.objects.get(id=rec['university_id'])
-        
-        Recommendation.objects.update_or_create(
-            user=user,
-            item_id=rec['university_id'],
-            item_type='institution',
-            defaults={
-                'item_name':           uni.name,
-                'score':               rec['score'],
-                'recommendation_type': 'hybrid',
-                'match_reasons':       rec['match_reasons'],
-                'is_seen':             False,
-            }
-        )
+        try:
+            uni = Institution.objects.get(id=rec['university_id'])
+            
+            Recommendation.objects.update_or_create(
+                user=user,
+                item_id=rec['university_id'],
+                item_type='institution',
+                defaults={
+                    'item_name':           uni.name,
+                    'score':               rec['score'],
+                    'recommendation_type': 'hybrid',
+                    'match_reasons':       rec['match_reasons'],
+                    'is_seen':             False,
+                }
+            )
+        except Institution.DoesNotExist:
+            print(f"Institution {rec['university_id']} not found")
+            continue
 
     # Add cluster info to results if available
     if cluster_info:
         results['cluster_info'] = cluster_info
 
+    # Add diversity info to results
+    results['diversity_info'] = {
+        'total_courses_saved': saved_courses,
+        'unique_institutions': len(institutions_used),
+        'institutions': list(institutions_used)[:10]  # First 10 institutions
+    }
+
+    print(f"Saved {saved_courses} courses from {len(institutions_used)} different institutions")
     return results
 
 
