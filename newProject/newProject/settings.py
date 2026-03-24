@@ -22,7 +22,7 @@ DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    'https://recommender-backend-ou3s.onrender.com',  # Replace with your actual Render app name
+    'recommender-backend-ou3s.onrender.com',  # Replace with your actual Render app name
     '*',  # For testing only - remove in production and specify domains
 ]
 
@@ -159,7 +159,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:8080",
     "http://127.0.0.1:5500",
     "http://localhost:5173",
-   "https://recommendation-system-beta.vercel.app/"
+   "https://recommendation-system-beta.vercel.app"
 ]
 
 # For development only - allows all origins
