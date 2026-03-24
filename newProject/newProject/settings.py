@@ -163,7 +163,7 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 # For development only - allows all origins
-CORS_ALLOW_ALL_ORIGINS = True  # Set to False in production and use CORS_ALLOWED_ORIGINS
+CORS_ALLOW_ALL_ORIGINS = False # Set to False in production and use CORS_ALLOWED_ORIGINS
 
 # Allow credentials (cookies, authorization headers)
 CORS_ALLOW_CREDENTIALS = True
