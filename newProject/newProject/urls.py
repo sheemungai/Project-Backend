@@ -22,7 +22,7 @@ urlpatterns = [
     path('api/', include('students.urls')),
     path('api/accounts/', include('accounts.urls')),
     path('api/assessment/', include('assessment.urls')), 
+    path('api/recommendations/', include('recommendations.urls')),
     path('api/', include('careers.urls')),
     path('api/', include('clusterCalculator.urls')),
-    path('api/recommendations/', include('recommendations.urls')),
 ]

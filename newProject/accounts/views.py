@@ -26,7 +26,7 @@ class RegisterView(generics.CreateAPIView):
             'user': UserSerializer(user).data,
             'refresh': str(refresh),
             'access': str(refresh.access_token),
-           ' user_type': user_type,
+            'user_type': user_type,
             'message': 'User registered successfully'
         }, status=status.HTTP_201_CREATED)
 
@@ -39,10 +39,10 @@ class UserProfileView(APIView):
         data = serializer.data
 
         if request.user.is_staff or request.user.is_superuser:
-         data[' user_type'] = 'admin'
+         data['user_type'] = 'admin'
 
         else:
-            data[' user_type'] = 'student'
+            data['user_type'] = 'student'
 
             if hasattr(request.user, 'student_profile'):
                 data['has_student_profile'] = True
