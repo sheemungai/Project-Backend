@@ -9,7 +9,7 @@ class RegisterSerializer(serializers.ModelSerializer):
     )
     password2 = serializers.CharField(write_only=True, required=True)
     user_type = serializers.ChoiceField(
-        choices =('student','admin'),
+        choices =['student','admin'],
         required= False,
         default ='student'
     )
