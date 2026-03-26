@@ -1,0 +1,272 @@
+[
+{
+  "model": "clusterCalculator.subject",
+  "pk": 1,
+  "fields": {
+    "name": "English",
+    "code": "101",
+    "is_compulsory": true,
+    "created_at": "2026-03-11T16:51:47.408Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 2,
+  "fields": {
+    "name": "Kiswahili",
+    "code": "102",
+    "is_compulsory": true,
+    "created_at": "2026-03-11T16:51:47.432Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 3,
+  "fields": {
+    "name": "Mathematics",
+    "code": "121",
+    "is_compulsory": true,
+    "created_at": "2026-03-11T16:51:47.438Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 4,
+  "fields": {
+    "name": "Biology",
+    "code": "231",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.442Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 5,
+  "fields": {
+    "name": "Chemistry",
+    "code": "233",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.445Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 6,
+  "fields": {
+    "name": "Physics",
+    "code": "232",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.450Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 7,
+  "fields": {
+    "name": "History",
+    "code": "311",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.454Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 8,
+  "fields": {
+    "name": "Geography",
+    "code": "312",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.458Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 9,
+  "fields": {
+    "name": "Christian Religious Education",
+    "code": "313",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.463Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 10,
+  "fields": {
+    "name": "Islamic Religious Education",
+    "code": "314",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.468Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 11,
+  "fields": {
+    "name": "Hindu Religious Education",
+    "code": "315",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.471Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 12,
+  "fields": {
+    "name": "French",
+    "code": "501",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.474Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 13,
+  "fields": {
+    "name": "German",
+    "code": "502",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.478Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 14,
+  "fields": {
+    "name": "Arabic",
+    "code": "503",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.483Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 15,
+  "fields": {
+    "name": "Home Science",
+    "code": "511",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.486Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 16,
+  "fields": {
+    "name": "Agriculture",
+    "code": "443",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.489Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 17,
+  "fields": {
+    "name": "Woodwork",
+    "code": "441",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.492Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 18,
+  "fields": {
+    "name": "Metalwork",
+    "code": "442",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.496Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 19,
+  "fields": {
+    "name": "Building Construction",
+    "code": "445",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.500Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 20,
+  "fields": {
+    "name": "Power Mechanics",
+    "code": "447",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.504Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 21,
+  "fields": {
+    "name": "Electricity",
+    "code": "448",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.507Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 22,
+  "fields": {
+    "name": "Drawing and Design",
+    "code": "444",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.510Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 23,
+  "fields": {
+    "name": "Aviation Technology",
+    "code": "449",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.513Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 24,
+  "fields": {
+    "name": "Computer Studies",
+    "code": "451",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.516Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 25,
+  "fields": {
+    "name": "Business Studies",
+    "code": "565",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.520Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 26,
+  "fields": {
+    "name": "Music",
+    "code": "521",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.524Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 27,
+  "fields": {
+    "name": "Art and Design",
+    "code": "522",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.527Z"
+  }
+}
+]

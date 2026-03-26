@@ -1,0 +1,783 @@
+[
+{
+  "model": "careers.institution",
+  "pk": 1,
+  "fields": {
+    "name": "CHUKA UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:37.894Z",
+    "updated_at": "2026-02-11T09:23:37.894Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 2,
+  "fields": {
+    "name": "KISII UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:37.930Z",
+    "updated_at": "2026-02-11T09:23:37.930Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 3,
+  "fields": {
+    "name": "RONGO UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:37.941Z",
+    "updated_at": "2026-02-11T09:23:37.941Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 4,
+  "fields": {
+    "name": "EGERTON UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:37.948Z",
+    "updated_at": "2026-02-11T09:23:37.948Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 5,
+  "fields": {
+    "name": "MULTIMEDIA UNIVERSITY OF KENYA",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:37.962Z",
+    "updated_at": "2026-02-11T09:23:37.962Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 6,
+  "fields": {
+    "name": "KABARNET UNIVERSITY COLLEGE",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:37.974Z",
+    "updated_at": "2026-02-11T09:23:37.974Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 7,
+  "fields": {
+    "name": "KOITALEEL SAMOEI UNIVERSITY COLLEGE",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:37.981Z",
+    "updated_at": "2026-02-11T09:23:37.981Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 8,
+  "fields": {
+    "name": "BOMET UNIVERSITY COLLEGE",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:37.993Z",
+    "updated_at": "2026-02-11T09:23:37.993Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 9,
+  "fields": {
+    "name": "THARAKA UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.000Z",
+    "updated_at": "2026-02-11T09:23:38.000Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 10,
+  "fields": {
+    "name": "UNIVERSITY OF NAIROBI",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.009Z",
+    "updated_at": "2026-02-11T09:23:38.009Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 11,
+  "fields": {
+    "name": "MOI UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.016Z",
+    "updated_at": "2026-02-11T09:23:38.016Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 12,
+  "fields": {
+    "name": "MACHAKOS UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.027Z",
+    "updated_at": "2026-02-11T09:23:38.027Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 13,
+  "fields": {
+    "name": "SOUTH EASTERN KENYA UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.035Z",
+    "updated_at": "2026-02-11T09:23:38.035Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 14,
+  "fields": {
+    "name": "PWANI UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.044Z",
+    "updated_at": "2026-02-11T09:23:38.044Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 15,
+  "fields": {
+    "name": "KENYATTA UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.051Z",
+    "updated_at": "2026-02-11T09:23:38.051Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 16,
+  "fields": {
+    "name": "TOM MBOYA UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.060Z",
+    "updated_at": "2026-02-11T09:23:38.060Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 17,
+  "fields": {
+    "name": "MASENO UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.070Z",
+    "updated_at": "2026-02-11T09:23:38.070Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 18,
+  "fields": {
+    "name": "TECHNICAL UNIVERSITY OF MOMBASA",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.077Z",
+    "updated_at": "2026-02-11T09:23:38.077Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 19,
+  "fields": {
+    "name": "JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.095Z",
+    "updated_at": "2026-02-11T09:23:38.095Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 20,
+  "fields": {
+    "name": "TECHNICAL UNIVERSITY OF KENYA",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.103Z",
+    "updated_at": "2026-02-11T09:23:38.103Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 21,
+  "fields": {
+    "name": "KCA UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.133Z",
+    "updated_at": "2026-02-11T09:23:38.133Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 22,
+  "fields": {
+    "name": "JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.146Z",
+    "updated_at": "2026-02-11T09:23:38.147Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 23,
+  "fields": {
+    "name": "GARISSA UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.156Z",
+    "updated_at": "2026-02-11T09:23:38.156Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 24,
+  "fields": {
+    "name": "UNIVERSITY OF EMBU",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.174Z",
+    "updated_at": "2026-02-11T09:23:38.174Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 25,
+  "fields": {
+    "name": "CO-OPERATIVE UNIVERSITY OF KENYA",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.180Z",
+    "updated_at": "2026-02-11T09:23:38.180Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 26,
+  "fields": {
+    "name": "KIRINYAGA UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.190Z",
+    "updated_at": "2026-02-11T09:23:38.190Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 27,
+  "fields": {
+    "name": "KABARAK UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.196Z",
+    "updated_at": "2026-02-11T09:23:38.196Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 28,
+  "fields": {
+    "name": "MERU UNIVERSITY OF SCIENCE AND TECHNOLOGY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.215Z",
+    "updated_at": "2026-02-11T09:23:38.215Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 29,
+  "fields": {
+    "name": "UNIVERSITY OF KABIANGA",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.234Z",
+    "updated_at": "2026-02-11T09:23:38.234Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 30,
+  "fields": {
+    "name": "CATHOLIC UNIVERSITY OF EASTERN  AFRICA",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.290Z",
+    "updated_at": "2026-02-11T09:23:38.290Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 31,
+  "fields": {
+    "name": "ZETECH UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.296Z",
+    "updated_at": "2026-02-11T09:23:38.296Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 32,
+  "fields": {
+    "name": "MOUNT KENYA UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.309Z",
+    "updated_at": "2026-02-11T09:23:38.309Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 33,
+  "fields": {
+    "name": "MURANG'A UNIVERSITY OF TECHNOLOGY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.325Z",
+    "updated_at": "2026-02-11T09:23:38.325Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 34,
+  "fields": {
+    "name": "KARATINA UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.331Z",
+    "updated_at": "2026-02-11T09:23:38.331Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 35,
+  "fields": {
+    "name": "DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.342Z",
+    "updated_at": "2026-02-11T09:23:38.342Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 36,
+  "fields": {
+    "name": "DAYSTAR UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.360Z",
+    "updated_at": "2026-02-11T09:23:38.360Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 37,
+  "fields": {
+    "name": "UNIVERSITY OF ELDORET",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.372Z",
+    "updated_at": "2026-02-11T09:23:38.372Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 38,
+  "fields": {
+    "name": "MASINDE MULIRO UNIVERSITY OF SCIENCE & TECHNOLOGY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.395Z",
+    "updated_at": "2026-02-11T09:23:38.395Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 39,
+  "fields": {
+    "name": "TAITA TAVETA UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.413Z",
+    "updated_at": "2026-02-11T09:23:38.413Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 40,
+  "fields": {
+    "name": "MAASAI MARA UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.545Z",
+    "updated_at": "2026-02-11T09:23:38.546Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 41,
+  "fields": {
+    "name": "KIBABII UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.572Z",
+    "updated_at": "2026-02-11T09:23:38.572Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 42,
+  "fields": {
+    "name": "KIRIRI WOMENS UNIVERSITY OF SCIENCE AND TECHNOLOGY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.578Z",
+    "updated_at": "2026-02-11T09:23:38.578Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 43,
+  "fields": {
+    "name": "UNIVERSITY OF EASTERN AFRICA, BARATON",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.593Z",
+    "updated_at": "2026-02-11T09:23:38.593Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 44,
+  "fields": {
+    "name": "KAIMOSI FRIENDS UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.645Z",
+    "updated_at": "2026-02-11T09:23:38.645Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 45,
+  "fields": {
+    "name": "KENYA METHODIST UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.729Z",
+    "updated_at": "2026-02-11T09:23:38.729Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 46,
+  "fields": {
+    "name": "LAIKIPIA UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.840Z",
+    "updated_at": "2026-02-11T09:23:38.840Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 47,
+  "fields": {
+    "name": "AFRICA NAZARENE UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.944Z",
+    "updated_at": "2026-02-11T09:23:38.944Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 48,
+  "fields": {
+    "name": "GRETSA UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:38.978Z",
+    "updated_at": "2026-02-11T09:23:38.978Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 49,
+  "fields": {
+    "name": "RIARA UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:39.010Z",
+    "updated_at": "2026-02-11T09:23:39.010Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 50,
+  "fields": {
+    "name": "TURKANA UNIVERSITY COLLEGE",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:39.024Z",
+    "updated_at": "2026-02-11T09:23:39.024Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 51,
+  "fields": {
+    "name": "PRESBYTERIAN UNIVERSITY OF EAST AFRICA",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:39.075Z",
+    "updated_at": "2026-02-11T09:23:39.075Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 52,
+  "fields": {
+    "name": "ST PAULS UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:39.096Z",
+    "updated_at": "2026-02-11T09:23:39.096Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 53,
+  "fields": {
+    "name": "OPEN UNIVERSITY OF KENYA",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:39.106Z",
+    "updated_at": "2026-02-11T09:23:39.106Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 54,
+  "fields": {
+    "name": "ALUPE UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:39.115Z",
+    "updated_at": "2026-02-11T09:23:39.115Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 55,
+  "fields": {
+    "name": "KENYATTA UNIVERSITY - MAMA NGINA UNIVERSITY COLLEGE",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:39.125Z",
+    "updated_at": "2026-02-11T09:23:39.125Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 56,
+  "fields": {
+    "name": "THE EAST AFRICAN UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:39.131Z",
+    "updated_at": "2026-02-11T09:23:39.131Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 57,
+  "fields": {
+    "name": "KENYA HIGHLANDS EVANGELICAL UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:39.162Z",
+    "updated_at": "2026-02-11T09:23:39.162Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 58,
+  "fields": {
+    "name": "NYANDARUA UNIVERSITY COLLEGE",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:39.641Z",
+    "updated_at": "2026-02-11T09:23:39.641Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 59,
+  "fields": {
+    "name": "UZIMA UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:39.760Z",
+    "updated_at": "2026-02-11T09:23:39.760Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 60,
+  "fields": {
+    "name": "LUKENYA UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:40.090Z",
+    "updated_at": "2026-02-11T09:23:40.090Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 61,
+  "fields": {
+    "name": "GREAT LAKES UNIVERSITY OF KISUMU",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:40.124Z",
+    "updated_at": "2026-02-11T09:23:40.124Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 62,
+  "fields": {
+    "name": "PAN AFRICA CHRISTIAN UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:40.201Z",
+    "updated_at": "2026-02-11T09:23:40.201Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 63,
+  "fields": {
+    "name": "MANAGEMENT UNIVERSITY OF AFRICA",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:40.209Z",
+    "updated_at": "2026-02-11T09:23:40.209Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 64,
+  "fields": {
+    "name": "SCOTT CHRISTIAN UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:40.858Z",
+    "updated_at": "2026-02-11T09:23:40.858Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 65,
+  "fields": {
+    "name": "KENYA ASSEMBLIES OF GOD EAST UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:40.962Z",
+    "updated_at": "2026-02-11T09:23:40.962Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 66,
+  "fields": {
+    "name": "TANGAZA UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:40.989Z",
+    "updated_at": "2026-02-11T09:23:40.989Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 67,
+  "fields": {
+    "name": "AFRICA INTERNATIONAL UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:41.082Z",
+    "updated_at": "2026-02-11T09:23:41.082Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 68,
+  "fields": {
+    "name": "ISLAMIC UNIVERSITY OF KENYA",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:41.134Z",
+    "updated_at": "2026-02-11T09:23:41.134Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 69,
+  "fields": {
+    "name": "MARIST INTERNATIONAL UNIVERSITY COLLEGE",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:41.155Z",
+    "updated_at": "2026-02-11T09:23:41.155Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 70,
+  "fields": {
+    "name": "INTERNATIONAL LEADERSHIP UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:46.476Z",
+    "updated_at": "2026-02-11T09:23:46.476Z"
+  }
+},
+{
+  "model": "careers.institution",
+  "pk": 71,
+  "fields": {
+    "name": "AMREF INTERNATIONAL UNIVERSITY",
+    "location": "",
+    "type": "PUBLIC",
+    "created_at": "2026-02-11T09:23:48.340Z",
+    "updated_at": "2026-02-11T09:23:48.340Z"
+  }
+}
+]

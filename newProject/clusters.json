@@ -1,0 +1,121 @@
+[
+{
+  "model": "clusterCalculator.cluster",
+  "pk": 1,
+  "fields": {
+    "name": "Engineering & Physical Sciences",
+    "code": "CLUSTER_ENGINEERING",
+    "description": "Programmes that emphasize mathematics, physics, chemistry, and technical drawing.",
+    "created_at": "2026-03-11T16:56:17.206Z",
+    "subjects": [
+      5,
+      24,
+      22,
+      3,
+      6
+    ]
+  }
+},
+{
+  "model": "clusterCalculator.cluster",
+  "pk": 2,
+  "fields": {
+    "name": "Medicine & Life Sciences",
+    "code": "CLUSTER_MEDICINE",
+    "description": "Health, biological, and life-science oriented programmes.",
+    "created_at": "2026-03-11T16:56:17.241Z",
+    "subjects": [
+      4,
+      5,
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "clusterCalculator.cluster",
+  "pk": 3,
+  "fields": {
+    "name": "Arts & Humanities",
+    "code": "CLUSTER_ARTS",
+    "description": "Humanities, languages, social sciences, and liberal arts programmes.",
+    "created_at": "2026-03-11T16:56:17.248Z",
+    "subjects": [
+      9,
+      1,
+      8,
+      7,
+      2
+    ]
+  }
+},
+{
+  "model": "clusterCalculator.cluster",
+  "pk": 4,
+  "fields": {
+    "name": "Business & ICT",
+    "code": "CLUSTER_BUSINESS",
+    "description": "Commerce, economics, ICT, and entrepreneurship related programmes.",
+    "created_at": "2026-03-11T16:56:17.254Z",
+    "subjects": [
+      25,
+      24,
+      1,
+      8,
+      3
+    ]
+  }
+},
+{
+  "model": "clusterCalculator.cluster",
+  "pk": 5,
+  "fields": {
+    "name": "Agriculture & Environmental Sciences",
+    "code": "CLUSTER_AGRICULTURE",
+    "description": "Agriculture, environmental management, and natural resource programmes.",
+    "created_at": "2026-03-11T16:56:17.259Z",
+    "subjects": [
+      16,
+      4,
+      5,
+      8,
+      3
+    ]
+  }
+},
+{
+  "model": "clusterCalculator.cluster",
+  "pk": 6,
+  "fields": {
+    "name": "Home Science & Creative Arts",
+    "code": "CLUSTER_HOME_SCIENCE",
+    "description": "Home science, design, and creative industry programmes.",
+    "created_at": "2026-03-11T16:56:17.264Z",
+    "subjects": [
+      27,
+      25,
+      1,
+      15,
+      26
+    ]
+  }
+},
+{
+  "model": "clusterCalculator.cluster",
+  "pk": 7,
+  "fields": {
+    "name": "Technology & Computing",
+    "code": "CLUSTER_TECH",
+    "description": "Pure tech pathways focusing on computing, engineering math, and problem solving.",
+    "created_at": "2026-03-11T16:57:48.497Z",
+    "subjects": [
+      25,
+      24,
+      1,
+      3,
+      6
+    ]
+  }
+}
+]
