@@ -1,0 +1,562 @@
+[
+{
+  "model": "students.profile",
+  "pk": 3,
+  "fields": {
+    "user": 2,
+    "address": "123 Main St",
+    "dob": "1990-01-01",
+    "gender": "female",
+    "phone": "0712345678",
+    "createdAt": "2026-02-06T11:07:57.567Z",
+    "updatedAt": "2026-02-06T11:07:57.567Z"
+  }
+},
+{
+  "model": "students.profile",
+  "pk": 4,
+  "fields": {
+    "user": 6,
+    "address": "456 Elm St",
+    "dob": "2000-01-01",
+    "gender": "female",
+    "phone": "0723456789",
+    "createdAt": "2026-02-06T19:57:45.211Z",
+    "updatedAt": "2026-02-06T19:57:45.211Z"
+  }
+},
+{
+  "model": "students.profile",
+  "pk": 5,
+  "fields": {
+    "user": 4,
+    "address": "778 Oak St",
+    "dob": "2002-01-01",
+    "gender": "male",
+    "phone": "0734567890",
+    "createdAt": "2026-02-06T20:05:14.505Z",
+    "updatedAt": "2026-02-06T20:05:14.505Z"
+  }
+},
+{
+  "model": "students.profile",
+  "pk": 6,
+  "fields": {
+    "user": 7,
+    "address": "kutus",
+    "dob": "2006-10-09",
+    "gender": "Female",
+    "phone": "+254701715043",
+    "createdAt": "2026-03-10T18:32:04.826Z",
+    "updatedAt": "2026-03-10T18:32:04.826Z"
+  }
+},
+{
+  "model": "students.profile",
+  "pk": 7,
+  "fields": {
+    "user": 8,
+    "address": "Nairobi, Kenya",
+    "dob": "2006-06-06",
+    "gender": "Male",
+    "phone": "0701223344",
+    "createdAt": "2026-03-11T09:29:20.152Z",
+    "updatedAt": "2026-03-11T09:29:20.152Z"
+  }
+},
+{
+  "model": "students.profile",
+  "pk": 8,
+  "fields": {
+    "user": 9,
+    "address": "kutus, Kirinyaga",
+    "dob": "2008-02-12",
+    "gender": "Male",
+    "phone": "+254700884321",
+    "createdAt": "2026-03-12T09:37:14.192Z",
+    "updatedAt": "2026-03-12T09:37:14.192Z"
+  }
+},
+{
+  "model": "students.profile",
+  "pk": 9,
+  "fields": {
+    "user": 10,
+    "address": "Nairobi, Kenya",
+    "dob": "2007-06-03",
+    "gender": "Female",
+    "phone": "0722445566",
+    "createdAt": "2026-03-13T20:50:34.033Z",
+    "updatedAt": "2026-03-13T20:50:34.033Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 1,
+  "fields": {
+    "student": 3,
+    "subject": "MATHEMATICS",
+    "grade": "A",
+    "points": 12,
+    "createdAt": "2026-02-07T09:58:29.728Z",
+    "updatedAt": "2026-02-07T09:58:29.728Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 2,
+  "fields": {
+    "student": 3,
+    "subject": "ENGLISH",
+    "grade": "B+",
+    "points": 10,
+    "createdAt": "2026-02-07T09:58:46.408Z",
+    "updatedAt": "2026-02-07T09:58:46.408Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 3,
+  "fields": {
+    "student": 3,
+    "subject": "KISWAHILI",
+    "grade": "A-",
+    "points": 11,
+    "createdAt": "2026-02-07T09:58:51.781Z",
+    "updatedAt": "2026-02-07T09:58:51.781Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 4,
+  "fields": {
+    "student": 3,
+    "subject": "PHYSICS",
+    "grade": "B",
+    "points": 9,
+    "createdAt": "2026-02-07T09:58:59.716Z",
+    "updatedAt": "2026-02-07T09:58:59.716Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 5,
+  "fields": {
+    "student": 3,
+    "subject": "CHEMISTRY",
+    "grade": "B+",
+    "points": 10,
+    "createdAt": "2026-02-07T09:59:16.065Z",
+    "updatedAt": "2026-02-07T09:59:16.065Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 8,
+  "fields": {
+    "student": 7,
+    "subject": "ENGLISH",
+    "grade": "B",
+    "points": 9,
+    "createdAt": "2026-03-11T09:29:46.771Z",
+    "updatedAt": "2026-03-11T09:29:46.771Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 9,
+  "fields": {
+    "student": 7,
+    "subject": "KISWAHILI",
+    "grade": "B-",
+    "points": 8,
+    "createdAt": "2026-03-11T09:29:57.174Z",
+    "updatedAt": "2026-03-11T09:29:57.174Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 10,
+  "fields": {
+    "student": 7,
+    "subject": "MATHEMATICS",
+    "grade": "B",
+    "points": 9,
+    "createdAt": "2026-03-11T09:30:11.391Z",
+    "updatedAt": "2026-03-11T09:30:11.391Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 11,
+  "fields": {
+    "student": 7,
+    "subject": "BIOLOGY",
+    "grade": "B-",
+    "points": 8,
+    "createdAt": "2026-03-11T09:30:22.245Z",
+    "updatedAt": "2026-03-11T09:30:22.245Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 12,
+  "fields": {
+    "student": 7,
+    "subject": "CHEMISTRY",
+    "grade": "B-",
+    "points": 8,
+    "createdAt": "2026-03-11T09:30:34.591Z",
+    "updatedAt": "2026-03-11T09:30:34.591Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 13,
+  "fields": {
+    "student": 7,
+    "subject": "PHYSICS",
+    "grade": "C+",
+    "points": 7,
+    "createdAt": "2026-03-11T09:30:48.071Z",
+    "updatedAt": "2026-03-11T09:30:48.071Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 14,
+  "fields": {
+    "student": 7,
+    "subject": "CRE",
+    "grade": "B-",
+    "points": 8,
+    "createdAt": "2026-03-11T09:31:07.602Z",
+    "updatedAt": "2026-03-11T09:31:07.602Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 15,
+  "fields": {
+    "student": 7,
+    "subject": "BUSINESS",
+    "grade": "B-",
+    "points": 8,
+    "createdAt": "2026-03-11T09:31:23.659Z",
+    "updatedAt": "2026-03-11T09:31:23.659Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 31,
+  "fields": {
+    "student": 6,
+    "subject": "ENGLISH",
+    "grade": "B",
+    "points": 9,
+    "createdAt": "2026-03-11T14:09:30.045Z",
+    "updatedAt": "2026-03-11T14:09:30.046Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 32,
+  "fields": {
+    "student": 6,
+    "subject": "MATHEMATICS",
+    "grade": "B+",
+    "points": 10,
+    "createdAt": "2026-03-11T14:09:44.668Z",
+    "updatedAt": "2026-03-11T16:42:54.910Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 33,
+  "fields": {
+    "student": 6,
+    "subject": "CHEMISTRY",
+    "grade": "C+",
+    "points": 7,
+    "createdAt": "2026-03-11T14:09:57.838Z",
+    "updatedAt": "2026-03-11T14:09:57.838Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 34,
+  "fields": {
+    "student": 6,
+    "subject": "KISWAHILI",
+    "grade": "B",
+    "points": 9,
+    "createdAt": "2026-03-11T14:10:08.330Z",
+    "updatedAt": "2026-03-11T14:10:08.330Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 35,
+  "fields": {
+    "student": 6,
+    "subject": "BIOLOGY",
+    "grade": "C+",
+    "points": 7,
+    "createdAt": "2026-03-11T14:10:27.065Z",
+    "updatedAt": "2026-03-11T14:10:27.065Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 36,
+  "fields": {
+    "student": 6,
+    "subject": "HISTORY",
+    "grade": "B",
+    "points": 9,
+    "createdAt": "2026-03-11T14:10:44.326Z",
+    "updatedAt": "2026-03-11T14:10:44.326Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 37,
+  "fields": {
+    "student": 6,
+    "subject": "CRE",
+    "grade": "B+",
+    "points": 10,
+    "createdAt": "2026-03-11T14:10:56.681Z",
+    "updatedAt": "2026-03-11T14:10:56.681Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 38,
+  "fields": {
+    "student": 6,
+    "subject": "HOME_SCIENCE",
+    "grade": "B+",
+    "points": 10,
+    "createdAt": "2026-03-11T14:11:12.788Z",
+    "updatedAt": "2026-03-11T14:11:12.788Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 39,
+  "fields": {
+    "student": 8,
+    "subject": "MATHEMATICS",
+    "grade": "C+",
+    "points": 7,
+    "createdAt": "2026-03-12T09:37:32.943Z",
+    "updatedAt": "2026-03-12T09:37:32.943Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 40,
+  "fields": {
+    "student": 8,
+    "subject": "ENGLISH",
+    "grade": "B",
+    "points": 9,
+    "createdAt": "2026-03-12T09:37:43.607Z",
+    "updatedAt": "2026-03-12T09:37:43.607Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 41,
+  "fields": {
+    "student": 8,
+    "subject": "KISWAHILI",
+    "grade": "B",
+    "points": 9,
+    "createdAt": "2026-03-12T09:37:52.357Z",
+    "updatedAt": "2026-03-12T09:37:52.357Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 42,
+  "fields": {
+    "student": 8,
+    "subject": "PHYSICS",
+    "grade": "B+",
+    "points": 10,
+    "createdAt": "2026-03-12T09:38:03.816Z",
+    "updatedAt": "2026-03-12T09:38:03.816Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 43,
+  "fields": {
+    "student": 8,
+    "subject": "CHEMISTRY",
+    "grade": "B-",
+    "points": 8,
+    "createdAt": "2026-03-12T09:38:15.739Z",
+    "updatedAt": "2026-03-12T09:38:15.739Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 44,
+  "fields": {
+    "student": 8,
+    "subject": "BIOLOGY",
+    "grade": "B-",
+    "points": 8,
+    "createdAt": "2026-03-12T09:38:27.753Z",
+    "updatedAt": "2026-03-12T09:38:27.753Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 46,
+  "fields": {
+    "student": 8,
+    "subject": "HISTORY",
+    "grade": "C+",
+    "points": 7,
+    "createdAt": "2026-03-12T09:38:53.744Z",
+    "updatedAt": "2026-03-12T09:38:53.744Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 47,
+  "fields": {
+    "student": 8,
+    "subject": "BUSINESS",
+    "grade": "C+",
+    "points": 7,
+    "createdAt": "2026-03-12T09:39:07.395Z",
+    "updatedAt": "2026-03-12T09:39:25.704Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 48,
+  "fields": {
+    "student": 9,
+    "subject": "MATHEMATICS",
+    "grade": "B",
+    "points": 9,
+    "createdAt": "2026-03-13T20:50:51.515Z",
+    "updatedAt": "2026-03-13T20:50:51.515Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 49,
+  "fields": {
+    "student": 9,
+    "subject": "ENGLISH",
+    "grade": "B-",
+    "points": 8,
+    "createdAt": "2026-03-13T20:50:59.761Z",
+    "updatedAt": "2026-03-13T20:50:59.761Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 50,
+  "fields": {
+    "student": 9,
+    "subject": "KISWAHILI",
+    "grade": "B+",
+    "points": 10,
+    "createdAt": "2026-03-13T20:51:07.114Z",
+    "updatedAt": "2026-03-13T20:51:07.114Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 51,
+  "fields": {
+    "student": 9,
+    "subject": "PHYSICS",
+    "grade": "B-",
+    "points": 8,
+    "createdAt": "2026-03-13T20:51:16.946Z",
+    "updatedAt": "2026-03-13T20:51:16.946Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 52,
+  "fields": {
+    "student": 9,
+    "subject": "CHEMISTRY",
+    "grade": "B-",
+    "points": 8,
+    "createdAt": "2026-03-13T20:51:23.892Z",
+    "updatedAt": "2026-03-13T20:51:23.892Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 53,
+  "fields": {
+    "student": 9,
+    "subject": "BIOLOGY",
+    "grade": "C+",
+    "points": 7,
+    "createdAt": "2026-03-13T20:51:31.658Z",
+    "updatedAt": "2026-03-13T20:51:31.658Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 54,
+  "fields": {
+    "student": 9,
+    "subject": "CRE",
+    "grade": "B-",
+    "points": 8,
+    "createdAt": "2026-03-13T20:51:46.183Z",
+    "updatedAt": "2026-03-13T20:51:46.183Z"
+  }
+},
+{
+  "model": "students.studentgrades",
+  "pk": 55,
+  "fields": {
+    "student": 9,
+    "subject": "BUSINESS",
+    "grade": "B-",
+    "points": 8,
+    "createdAt": "2026-03-13T20:51:56.159Z",
+    "updatedAt": "2026-03-13T20:51:56.159Z"
+  }
+},
+{
+  "model": "students.studentpreferences",
+  "pk": 1,
+  "fields": {
+    "student": 3,
+    "preferred_subjects": [
+      "MATHEMATICS",
+      "PHYSICS",
+      "CHEMISTRY"
+    ],
+    "preferred_career_fields": [
+      "Engineering",
+      "Computer Science",
+      "Data Science"
+    ],
+    "preferred_institutions": [
+      "University of Nairobi",
+      "JKUAT",
+      "Strathmore"
+    ],
+    "location_preference": "Nairobi",
+    "createdAt": "2026-02-07T10:06:19.647Z",
+    "updatedAt": "2026-02-07T10:06:27.783Z"
+  }
+}
+]

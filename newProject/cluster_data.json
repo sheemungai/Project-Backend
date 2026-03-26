@@ -1,0 +1,539 @@
+[
+{
+  "model": "clusterCalculator.subject",
+  "pk": 1,
+  "fields": {
+    "name": "English",
+    "code": "101",
+    "is_compulsory": true,
+    "created_at": "2026-03-11T16:51:47.408Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 2,
+  "fields": {
+    "name": "Kiswahili",
+    "code": "102",
+    "is_compulsory": true,
+    "created_at": "2026-03-11T16:51:47.432Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 3,
+  "fields": {
+    "name": "Mathematics",
+    "code": "121",
+    "is_compulsory": true,
+    "created_at": "2026-03-11T16:51:47.438Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 4,
+  "fields": {
+    "name": "Biology",
+    "code": "231",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.442Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 5,
+  "fields": {
+    "name": "Chemistry",
+    "code": "233",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.445Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 6,
+  "fields": {
+    "name": "Physics",
+    "code": "232",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.450Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 7,
+  "fields": {
+    "name": "History",
+    "code": "311",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.454Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 8,
+  "fields": {
+    "name": "Geography",
+    "code": "312",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.458Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 9,
+  "fields": {
+    "name": "Christian Religious Education",
+    "code": "313",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.463Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 10,
+  "fields": {
+    "name": "Islamic Religious Education",
+    "code": "314",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.468Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 11,
+  "fields": {
+    "name": "Hindu Religious Education",
+    "code": "315",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.471Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 12,
+  "fields": {
+    "name": "French",
+    "code": "501",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.474Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 13,
+  "fields": {
+    "name": "German",
+    "code": "502",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.478Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 14,
+  "fields": {
+    "name": "Arabic",
+    "code": "503",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.483Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 15,
+  "fields": {
+    "name": "Home Science",
+    "code": "511",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.486Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 16,
+  "fields": {
+    "name": "Agriculture",
+    "code": "443",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.489Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 17,
+  "fields": {
+    "name": "Woodwork",
+    "code": "441",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.492Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 18,
+  "fields": {
+    "name": "Metalwork",
+    "code": "442",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.496Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 19,
+  "fields": {
+    "name": "Building Construction",
+    "code": "445",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.500Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 20,
+  "fields": {
+    "name": "Power Mechanics",
+    "code": "447",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.504Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 21,
+  "fields": {
+    "name": "Electricity",
+    "code": "448",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.507Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 22,
+  "fields": {
+    "name": "Drawing and Design",
+    "code": "444",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.510Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 23,
+  "fields": {
+    "name": "Aviation Technology",
+    "code": "449",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.513Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 24,
+  "fields": {
+    "name": "Computer Studies",
+    "code": "451",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.516Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 25,
+  "fields": {
+    "name": "Business Studies",
+    "code": "565",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.520Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 26,
+  "fields": {
+    "name": "Music",
+    "code": "521",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.524Z"
+  }
+},
+{
+  "model": "clusterCalculator.subject",
+  "pk": 27,
+  "fields": {
+    "name": "Art and Design",
+    "code": "522",
+    "is_compulsory": false,
+    "created_at": "2026-03-11T16:51:47.527Z"
+  }
+},
+{
+  "model": "clusterCalculator.cluster",
+  "pk": 1,
+  "fields": {
+    "name": "Engineering & Physical Sciences",
+    "code": "CLUSTER_ENGINEERING",
+    "description": "Programmes that emphasize mathematics, physics, chemistry, and technical drawing.",
+    "created_at": "2026-03-11T16:56:17.206Z",
+    "subjects": [
+      5,
+      24,
+      22,
+      3,
+      6
+    ]
+  }
+},
+{
+  "model": "clusterCalculator.cluster",
+  "pk": 2,
+  "fields": {
+    "name": "Medicine & Life Sciences",
+    "code": "CLUSTER_MEDICINE",
+    "description": "Health, biological, and life-science oriented programmes.",
+    "created_at": "2026-03-11T16:56:17.241Z",
+    "subjects": [
+      4,
+      5,
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "clusterCalculator.cluster",
+  "pk": 3,
+  "fields": {
+    "name": "Arts & Humanities",
+    "code": "CLUSTER_ARTS",
+    "description": "Humanities, languages, social sciences, and liberal arts programmes.",
+    "created_at": "2026-03-11T16:56:17.248Z",
+    "subjects": [
+      9,
+      1,
+      8,
+      7,
+      2
+    ]
+  }
+},
+{
+  "model": "clusterCalculator.cluster",
+  "pk": 4,
+  "fields": {
+    "name": "Business & ICT",
+    "code": "CLUSTER_BUSINESS",
+    "description": "Commerce, economics, ICT, and entrepreneurship related programmes.",
+    "created_at": "2026-03-11T16:56:17.254Z",
+    "subjects": [
+      25,
+      24,
+      1,
+      8,
+      3
+    ]
+  }
+},
+{
+  "model": "clusterCalculator.cluster",
+  "pk": 5,
+  "fields": {
+    "name": "Agriculture & Environmental Sciences",
+    "code": "CLUSTER_AGRICULTURE",
+    "description": "Agriculture, environmental management, and natural resource programmes.",
+    "created_at": "2026-03-11T16:56:17.259Z",
+    "subjects": [
+      16,
+      4,
+      5,
+      8,
+      3
+    ]
+  }
+},
+{
+  "model": "clusterCalculator.cluster",
+  "pk": 6,
+  "fields": {
+    "name": "Home Science & Creative Arts",
+    "code": "CLUSTER_HOME_SCIENCE",
+    "description": "Home science, design, and creative industry programmes.",
+    "created_at": "2026-03-11T16:56:17.264Z",
+    "subjects": [
+      27,
+      25,
+      1,
+      15,
+      26
+    ]
+  }
+},
+{
+  "model": "clusterCalculator.cluster",
+  "pk": 7,
+  "fields": {
+    "name": "Technology & Computing",
+    "code": "CLUSTER_TECH",
+    "description": "Pure tech pathways focusing on computing, engineering math, and problem solving.",
+    "created_at": "2026-03-11T16:57:48.497Z",
+    "subjects": [
+      25,
+      24,
+      1,
+      3,
+      6
+    ]
+  }
+},
+{
+  "model": "clusterCalculator.clusterpointcalculation",
+  "pk": 7,
+  "fields": {
+    "user": 7,
+    "cluster": 3,
+    "total_points": "37.00",
+    "subjects_used": [
+      {
+        "grade": "B+",
+        "points": 10,
+        "subject": "Christian Religious Education",
+        "original_subject": "CRE"
+      },
+      {
+        "grade": "B",
+        "points": 9,
+        "subject": "History",
+        "original_subject": "HISTORY"
+      },
+      {
+        "grade": "B",
+        "points": 9,
+        "subject": "Kiswahili",
+        "original_subject": "KISWAHILI"
+      },
+      {
+        "grade": "B",
+        "points": 9,
+        "subject": "English",
+        "original_subject": "ENGLISH"
+      }
+    ],
+    "year": 2024,
+    "created_at": "2026-03-11T17:23:41.205Z"
+  }
+},
+{
+  "model": "clusterCalculator.clusterpointcalculation",
+  "pk": 8,
+  "fields": {
+    "user": 7,
+    "cluster": 2,
+    "total_points": "35.00",
+    "subjects_used": [
+      {
+        "grade": "B+",
+        "points": 10,
+        "subject": "Mathematics",
+        "original_subject": "MATHEMATICS"
+      },
+      {
+        "grade": "B",
+        "points": 9,
+        "subject": "Kiswahili",
+        "original_subject": "KISWAHILI"
+      },
+      {
+        "grade": "B",
+        "points": 9,
+        "subject": "English",
+        "original_subject": "ENGLISH"
+      },
+      {
+        "grade": "C+",
+        "points": 7,
+        "subject": "Biology",
+        "original_subject": "BIOLOGY"
+      }
+    ],
+    "year": 2024,
+    "created_at": "2026-03-11T17:23:41.226Z"
+  }
+},
+{
+  "model": "clusterCalculator.clusterpointcalculation",
+  "pk": 11,
+  "fields": {
+    "user": 7,
+    "cluster": 3,
+    "total_points": "37.00",
+    "subjects_used": [
+      {
+        "grade": "B+",
+        "points": 10,
+        "subject": "Christian Religious Education",
+        "original_subject": "CRE"
+      },
+      {
+        "grade": "B",
+        "points": 9,
+        "subject": "History",
+        "original_subject": "HISTORY"
+      },
+      {
+        "grade": "B",
+        "points": 9,
+        "subject": "Kiswahili",
+        "original_subject": "KISWAHILI"
+      },
+      {
+        "grade": "B",
+        "points": 9,
+        "subject": "English",
+        "original_subject": "ENGLISH"
+      }
+    ],
+    "year": 2025,
+    "created_at": "2026-03-12T08:49:17.126Z"
+  }
+},
+{
+  "model": "clusterCalculator.clusterpointcalculation",
+  "pk": 12,
+  "fields": {
+    "user": 7,
+    "cluster": 2,
+    "total_points": "35.00",
+    "subjects_used": [
+      {
+        "grade": "B+",
+        "points": 10,
+        "subject": "Mathematics",
+        "original_subject": "MATHEMATICS"
+      },
+      {
+        "grade": "B",
+        "points": 9,
+        "subject": "Kiswahili",
+        "original_subject": "KISWAHILI"
+      },
+      {
+        "grade": "B",
+        "points": 9,
+        "subject": "English",
+        "original_subject": "ENGLISH"
+      },
+      {
+        "grade": "C+",
+        "points": 7,
+        "subject": "Biology",
+        "original_subject": "BIOLOGY"
+      }
+    ],
+    "year": 2025,
+    "created_at": "2026-03-12T08:49:17.142Z"
+  }
+}
+]

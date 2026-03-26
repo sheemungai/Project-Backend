@@ -1,0 +1,2521 @@
+[
+{
+  "model": "recommendations.recommendation",
+  "pk": 1,
+  "fields": {
+    "user": 2,
+    "item_id": 590,
+    "item_type": "course",
+    "item_name": "BACHELOR IN BUSINESS ADMINISTRATION",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-02-25T14:49:05.581Z",
+    "updated_at": "2026-02-25T14:49:05.581Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "item_id": 1690,
+    "item_type": "course",
+    "item_name": "BACHELOR OF ACCOUNTANCY AND FINANCIAL MANAGEMENT",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-02-25T14:49:05.604Z",
+    "updated_at": "2026-02-25T14:49:05.604Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 3,
+  "fields": {
+    "user": 2,
+    "item_id": 1514,
+    "item_type": "course",
+    "item_name": "BACHELOR OF ARTS IN COMMUNICATION, LINGUISTICS AND TRANSLATION",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-02-25T14:49:05.615Z",
+    "updated_at": "2026-02-25T14:49:05.615Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 4,
+  "fields": {
+    "user": 2,
+    "item_id": 1177,
+    "item_type": "course",
+    "item_name": "BACHELOR OF ARTS IN COUNSELING PSYCHOLOGY",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-02-25T14:49:05.627Z",
+    "updated_at": "2026-02-25T14:49:05.627Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 5,
+  "fields": {
+    "user": 2,
+    "item_id": 1122,
+    "item_type": "course",
+    "item_name": "BACHELOR OF ARTS IN DEVELOPMENT STUDIES",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-02-25T14:49:05.641Z",
+    "updated_at": "2026-02-25T14:49:05.641Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 6,
+  "fields": {
+    "user": 2,
+    "item_id": 440,
+    "item_type": "course",
+    "item_name": "BACHELOR OF EDUCATION (ARTS)",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-02-25T14:49:05.654Z",
+    "updated_at": "2026-02-25T14:49:05.654Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 7,
+  "fields": {
+    "user": 2,
+    "item_id": 694,
+    "item_type": "course",
+    "item_name": "BACHELOR OF EDUCATION(EARLY CHILDHOOD DEVELOPMENT)",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-02-25T14:49:05.664Z",
+    "updated_at": "2026-02-25T14:49:05.664Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 8,
+  "fields": {
+    "user": 2,
+    "item_id": 1101,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE IN ENTREPRENEURSHIP",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-02-25T14:49:05.678Z",
+    "updated_at": "2026-02-25T14:49:05.678Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 9,
+  "fields": {
+    "user": 2,
+    "item_id": 939,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-02-25T14:49:05.691Z",
+    "updated_at": "2026-02-25T14:49:05.691Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 10,
+  "fields": {
+    "user": 2,
+    "item_id": 1308,
+    "item_type": "course",
+    "item_name": "BACHELOR OF THEOLOGY",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-02-25T14:49:05.703Z",
+    "updated_at": "2026-02-25T14:49:05.703Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 11,
+  "fields": {
+    "user": 2,
+    "item_id": 67,
+    "item_type": "institution",
+    "item_name": "AFRICA INTERNATIONAL UNIVERSITY",
+    "score": 0.5,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Offers 10 of your recommended courses"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-02-25T14:49:05.715Z",
+    "updated_at": "2026-02-25T14:49:05.715Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 12,
+  "fields": {
+    "user": 9,
+    "item_id": 590,
+    "item_type": "course",
+    "item_name": "BACHELOR IN BUSINESS ADMINISTRATION",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-12T09:44:21.381Z",
+    "updated_at": "2026-03-12T09:47:30.387Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 13,
+  "fields": {
+    "user": 9,
+    "item_id": 1690,
+    "item_type": "course",
+    "item_name": "BACHELOR OF ACCOUNTANCY AND FINANCIAL MANAGEMENT",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-12T09:44:21.397Z",
+    "updated_at": "2026-03-12T09:47:30.407Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 14,
+  "fields": {
+    "user": 9,
+    "item_id": 1514,
+    "item_type": "course",
+    "item_name": "BACHELOR OF ARTS IN COMMUNICATION, LINGUISTICS AND TRANSLATION",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-12T09:44:21.406Z",
+    "updated_at": "2026-03-12T09:47:30.427Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 15,
+  "fields": {
+    "user": 9,
+    "item_id": 1177,
+    "item_type": "course",
+    "item_name": "BACHELOR OF ARTS IN COUNSELING PSYCHOLOGY",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-12T09:44:21.415Z",
+    "updated_at": "2026-03-12T09:47:30.449Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 16,
+  "fields": {
+    "user": 9,
+    "item_id": 1122,
+    "item_type": "course",
+    "item_name": "BACHELOR OF ARTS IN DEVELOPMENT STUDIES",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-12T09:44:21.423Z",
+    "updated_at": "2026-03-12T09:47:30.472Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 17,
+  "fields": {
+    "user": 9,
+    "item_id": 440,
+    "item_type": "course",
+    "item_name": "BACHELOR OF EDUCATION (ARTS)",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-12T09:44:21.433Z",
+    "updated_at": "2026-03-12T09:47:30.490Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 18,
+  "fields": {
+    "user": 9,
+    "item_id": 694,
+    "item_type": "course",
+    "item_name": "BACHELOR OF EDUCATION(EARLY CHILDHOOD DEVELOPMENT)",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-12T09:44:21.441Z",
+    "updated_at": "2026-03-12T09:47:30.508Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 19,
+  "fields": {
+    "user": 9,
+    "item_id": 1101,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE IN ENTREPRENEURSHIP",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-12T09:44:21.456Z",
+    "updated_at": "2026-03-12T09:47:30.530Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 20,
+  "fields": {
+    "user": 9,
+    "item_id": 939,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-12T09:44:21.502Z",
+    "updated_at": "2026-03-12T09:47:30.550Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 21,
+  "fields": {
+    "user": 9,
+    "item_id": 1308,
+    "item_type": "course",
+    "item_name": "BACHELOR OF THEOLOGY",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-12T09:44:21.513Z",
+    "updated_at": "2026-03-12T09:47:30.575Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 22,
+  "fields": {
+    "user": 9,
+    "item_id": 67,
+    "item_type": "institution",
+    "item_name": "AFRICA INTERNATIONAL UNIVERSITY",
+    "score": 0.5,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Offers 10 of your recommended courses"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-12T09:44:21.521Z",
+    "updated_at": "2026-03-12T09:47:30.609Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 23,
+  "fields": {
+    "user": 10,
+    "item_id": 590,
+    "item_type": "course",
+    "item_name": "BACHELOR IN BUSINESS ADMINISTRATION",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-13T21:02:14.774Z",
+    "updated_at": "2026-03-13T21:05:15.782Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 24,
+  "fields": {
+    "user": 10,
+    "item_id": 1690,
+    "item_type": "course",
+    "item_name": "BACHELOR OF ACCOUNTANCY AND FINANCIAL MANAGEMENT",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-13T21:02:14.785Z",
+    "updated_at": "2026-03-13T21:05:15.799Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 25,
+  "fields": {
+    "user": 10,
+    "item_id": 1514,
+    "item_type": "course",
+    "item_name": "BACHELOR OF ARTS IN COMMUNICATION, LINGUISTICS AND TRANSLATION",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-13T21:02:14.791Z",
+    "updated_at": "2026-03-13T21:05:15.819Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 26,
+  "fields": {
+    "user": 10,
+    "item_id": 1177,
+    "item_type": "course",
+    "item_name": "BACHELOR OF ARTS IN COUNSELING PSYCHOLOGY",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-13T21:02:14.798Z",
+    "updated_at": "2026-03-13T21:05:15.838Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 27,
+  "fields": {
+    "user": 10,
+    "item_id": 1122,
+    "item_type": "course",
+    "item_name": "BACHELOR OF ARTS IN DEVELOPMENT STUDIES",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-13T21:02:14.804Z",
+    "updated_at": "2026-03-13T21:05:15.859Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 28,
+  "fields": {
+    "user": 10,
+    "item_id": 440,
+    "item_type": "course",
+    "item_name": "BACHELOR OF EDUCATION (ARTS)",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-13T21:02:14.811Z",
+    "updated_at": "2026-03-13T21:05:15.937Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 29,
+  "fields": {
+    "user": 10,
+    "item_id": 694,
+    "item_type": "course",
+    "item_name": "BACHELOR OF EDUCATION(EARLY CHILDHOOD DEVELOPMENT)",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-13T21:02:14.818Z",
+    "updated_at": "2026-03-13T21:05:15.954Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 30,
+  "fields": {
+    "user": 10,
+    "item_id": 1101,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE IN ENTREPRENEURSHIP",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-13T21:02:14.824Z",
+    "updated_at": "2026-03-13T21:05:15.967Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 31,
+  "fields": {
+    "user": 10,
+    "item_id": 939,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-13T21:02:14.829Z",
+    "updated_at": "2026-03-13T21:05:15.983Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 32,
+  "fields": {
+    "user": 10,
+    "item_id": 1308,
+    "item_type": "course",
+    "item_name": "BACHELOR OF THEOLOGY",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-13T21:02:14.835Z",
+    "updated_at": "2026-03-13T21:05:16.003Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 33,
+  "fields": {
+    "user": 10,
+    "item_id": 67,
+    "item_type": "institution",
+    "item_name": "AFRICA INTERNATIONAL UNIVERSITY",
+    "score": 0.5,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Offers 10 of your recommended courses"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-13T21:02:14.840Z",
+    "updated_at": "2026-03-13T21:05:16.027Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 34,
+  "fields": {
+    "user": 7,
+    "item_id": 590,
+    "item_type": "course",
+    "item_name": "BACHELOR IN BUSINESS ADMINISTRATION",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:18:27.021Z",
+    "updated_at": "2026-03-15T09:18:27.049Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 36,
+  "fields": {
+    "user": 7,
+    "item_id": 1690,
+    "item_type": "course",
+    "item_name": "BACHELOR OF ACCOUNTANCY AND FINANCIAL MANAGEMENT",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:18:27.044Z",
+    "updated_at": "2026-03-15T09:18:27.066Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 37,
+  "fields": {
+    "user": 7,
+    "item_id": 1514,
+    "item_type": "course",
+    "item_name": "BACHELOR OF ARTS IN COMMUNICATION, LINGUISTICS AND TRANSLATION",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:18:27.054Z",
+    "updated_at": "2026-03-15T09:18:27.077Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 38,
+  "fields": {
+    "user": 7,
+    "item_id": 1177,
+    "item_type": "course",
+    "item_name": "BACHELOR OF ARTS IN COUNSELING PSYCHOLOGY",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:18:27.065Z",
+    "updated_at": "2026-03-15T09:18:27.089Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 39,
+  "fields": {
+    "user": 7,
+    "item_id": 1122,
+    "item_type": "course",
+    "item_name": "BACHELOR OF ARTS IN DEVELOPMENT STUDIES",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:18:27.079Z",
+    "updated_at": "2026-03-15T09:18:27.098Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 40,
+  "fields": {
+    "user": 7,
+    "item_id": 440,
+    "item_type": "course",
+    "item_name": "BACHELOR OF EDUCATION (ARTS)",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:18:27.091Z",
+    "updated_at": "2026-03-15T09:18:27.110Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 41,
+  "fields": {
+    "user": 7,
+    "item_id": 694,
+    "item_type": "course",
+    "item_name": "BACHELOR OF EDUCATION(EARLY CHILDHOOD DEVELOPMENT)",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:18:27.109Z",
+    "updated_at": "2026-03-15T09:18:27.123Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 42,
+  "fields": {
+    "user": 7,
+    "item_id": 1101,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE IN ENTREPRENEURSHIP",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:18:27.120Z",
+    "updated_at": "2026-03-15T09:18:27.137Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 43,
+  "fields": {
+    "user": 7,
+    "item_id": 939,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:18:27.132Z",
+    "updated_at": "2026-03-15T09:18:27.155Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 44,
+  "fields": {
+    "user": 7,
+    "item_id": 1308,
+    "item_type": "course",
+    "item_name": "BACHELOR OF THEOLOGY",
+    "score": 0.2,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:18:27.142Z",
+    "updated_at": "2026-03-15T09:19:54.648Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 46,
+  "fields": {
+    "user": 7,
+    "item_id": 67,
+    "item_type": "institution",
+    "item_name": "AFRICA INTERNATIONAL UNIVERSITY",
+    "score": 0.5,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Offers 10 of your recommended courses"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:18:27.174Z",
+    "updated_at": "2026-03-15T09:18:27.202Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 47,
+  "fields": {
+    "user": 7,
+    "item_id": 647,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE ( APPLIED STATISTICS WITH COMPUTING)",
+    "score": 0.9,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Aligns with your personality type: ARTISTIC, INVESTIGATIVE, ENTERPRISING",
+      "Your strong subjects match: MATHEMATICS",
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.590Z",
+    "updated_at": "2026-03-15T10:15:43.089Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 48,
+  "fields": {
+    "user": 7,
+    "item_id": 643,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE (APPLIED STATISTICS WITH COMPUTING)",
+    "score": 0.9,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Aligns with your personality type: ARTISTIC, INVESTIGATIVE, ENTERPRISING",
+      "Your strong subjects match: MATHEMATICS",
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.639Z",
+    "updated_at": "2026-03-15T10:15:43.101Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 49,
+  "fields": {
+    "user": 7,
+    "item_id": 47,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE IN ACTUARIAL SCIENCE",
+    "score": 0.9,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Aligns with your personality type: ARTISTIC, INVESTIGATIVE, ENTERPRISING",
+      "Your strong subjects match: MATHEMATICS",
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.651Z",
+    "updated_at": "2026-03-15T10:15:43.113Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 50,
+  "fields": {
+    "user": 7,
+    "item_id": 32,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE IN ACTUARIAL SCIENCE",
+    "score": 0.9,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Aligns with your personality type: ARTISTIC, INVESTIGATIVE, ENTERPRISING",
+      "Your strong subjects match: MATHEMATICS",
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.664Z",
+    "updated_at": "2026-03-15T10:15:43.127Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 51,
+  "fields": {
+    "user": 7,
+    "item_id": 34,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE IN ACTUARIAL SCIENCE",
+    "score": 0.9,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Aligns with your personality type: ARTISTIC, INVESTIGATIVE, ENTERPRISING",
+      "Your strong subjects match: MATHEMATICS",
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.676Z",
+    "updated_at": "2026-03-15T10:15:43.143Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 52,
+  "fields": {
+    "user": 7,
+    "item_id": 55,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE IN ACTUARIAL SCIENCE",
+    "score": 0.9,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Aligns with your personality type: ARTISTIC, INVESTIGATIVE, ENTERPRISING",
+      "Your strong subjects match: MATHEMATICS",
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.693Z",
+    "updated_at": "2026-03-15T10:15:43.161Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 53,
+  "fields": {
+    "user": 7,
+    "item_id": 53,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE IN ACTUARIAL SCIENCE",
+    "score": 0.9,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Aligns with your personality type: ARTISTIC, INVESTIGATIVE, ENTERPRISING",
+      "Your strong subjects match: MATHEMATICS",
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.711Z",
+    "updated_at": "2026-03-15T10:15:43.183Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 54,
+  "fields": {
+    "user": 7,
+    "item_id": 31,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE (ACTUARIAL SCIENCE)",
+    "score": 0.9,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Aligns with your personality type: ARTISTIC, INVESTIGATIVE, ENTERPRISING",
+      "Your strong subjects match: MATHEMATICS",
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.727Z",
+    "updated_at": "2026-03-15T10:15:43.199Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 55,
+  "fields": {
+    "user": 7,
+    "item_id": 642,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE ( APPLIED STATISTICS WITH COMPUTING)",
+    "score": 0.9,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Aligns with your personality type: ARTISTIC, INVESTIGATIVE, ENTERPRISING",
+      "Your strong subjects match: MATHEMATICS",
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.743Z",
+    "updated_at": "2026-03-15T10:15:43.264Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 56,
+  "fields": {
+    "user": 7,
+    "item_id": 29,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE (ACTUARIAL SCIENCE WITH IT)",
+    "score": 0.9,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Aligns with your personality type: ARTISTIC, INVESTIGATIVE, ENTERPRISING",
+      "Your strong subjects match: MATHEMATICS",
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.759Z",
+    "updated_at": "2026-03-15T10:15:43.279Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 57,
+  "fields": {
+    "user": 7,
+    "item_id": 1748,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE (BIOSTATISTICS)",
+    "score": 0.9,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Aligns with your personality type: ARTISTIC, INVESTIGATIVE, ENTERPRISING",
+      "Your strong subjects match: MATHEMATICS",
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.775Z",
+    "updated_at": "2026-03-15T10:15:43.294Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 58,
+  "fields": {
+    "user": 7,
+    "item_id": 36,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE IN ACTUARIAL SCIENCE",
+    "score": 0.9,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Aligns with your personality type: ARTISTIC, INVESTIGATIVE, ENTERPRISING",
+      "Your strong subjects match: MATHEMATICS",
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.792Z",
+    "updated_at": "2026-03-15T10:15:43.307Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 59,
+  "fields": {
+    "user": 7,
+    "item_id": 659,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE (APPLIED STATISTICS, WITH IT)",
+    "score": 0.9,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Aligns with your personality type: ARTISTIC, INVESTIGATIVE, ENTERPRISING",
+      "Your strong subjects match: MATHEMATICS",
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.813Z",
+    "updated_at": "2026-03-15T10:15:43.319Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 61,
+  "fields": {
+    "user": 7,
+    "item_id": 52,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE IN ACTUARIAL SCIENCE",
+    "score": 0.9,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Aligns with your personality type: ARTISTIC, INVESTIGATIVE, ENTERPRISING",
+      "Your strong subjects match: MATHEMATICS",
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.827Z",
+    "updated_at": "2026-03-15T10:15:43.331Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 62,
+  "fields": {
+    "user": 7,
+    "item_id": 27,
+    "item_type": "course",
+    "item_name": "BACHELOR OF ACTUARIAL SCIENCE",
+    "score": 0.9,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Aligns with your personality type: ARTISTIC, INVESTIGATIVE, ENTERPRISING",
+      "Your strong subjects match: MATHEMATICS",
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.839Z",
+    "updated_at": "2026-03-15T10:15:43.347Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 63,
+  "fields": {
+    "user": 7,
+    "item_id": 43,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE (ACTUARIAL SCIENCE)",
+    "score": 0.9,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Aligns with your personality type: ARTISTIC, INVESTIGATIVE, ENTERPRISING",
+      "Your strong subjects match: MATHEMATICS",
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.853Z",
+    "updated_at": "2026-03-15T10:15:43.363Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 64,
+  "fields": {
+    "user": 7,
+    "item_id": 648,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE (STATISTICS & PROGRAMMING)",
+    "score": 0.9,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Aligns with your personality type: ARTISTIC, INVESTIGATIVE, ENTERPRISING",
+      "Your strong subjects match: MATHEMATICS",
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.868Z",
+    "updated_at": "2026-03-15T10:15:43.383Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 65,
+  "fields": {
+    "user": 7,
+    "item_id": 656,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE (APPLIED STATISTICS)",
+    "score": 0.9,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Aligns with your personality type: ARTISTIC, INVESTIGATIVE, ENTERPRISING",
+      "Your strong subjects match: MATHEMATICS",
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.879Z",
+    "updated_at": "2026-03-15T10:15:43.407Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 66,
+  "fields": {
+    "user": 7,
+    "item_id": 28,
+    "item_type": "course",
+    "item_name": "BACHELOR OF ACTUARIAL SCIENCE",
+    "score": 0.9,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Aligns with your personality type: ARTISTIC, INVESTIGATIVE, ENTERPRISING",
+      "Your strong subjects match: MATHEMATICS",
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.890Z",
+    "updated_at": "2026-03-15T10:15:43.421Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 67,
+  "fields": {
+    "user": 7,
+    "item_id": 637,
+    "item_type": "course",
+    "item_name": "BACHELOR OF SCIENCE (STATISTICS)",
+    "score": 0.9,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Aligns with your personality type: ARTISTIC, INVESTIGATIVE, ENTERPRISING",
+      "Your strong subjects match: MATHEMATICS",
+      "Your grades meet the minimum requirement (C)"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.902Z",
+    "updated_at": "2026-03-15T10:15:43.431Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 68,
+  "fields": {
+    "user": 7,
+    "item_id": 54,
+    "item_type": "institution",
+    "item_name": "ALUPE UNIVERSITY",
+    "score": 0.025,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Offers 1 of your recommended courses"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.913Z",
+    "updated_at": "2026-03-15T10:15:43.445Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 69,
+  "fields": {
+    "user": 7,
+    "item_id": 8,
+    "item_type": "institution",
+    "item_name": "BOMET UNIVERSITY COLLEGE",
+    "score": 0.025,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Offers 1 of your recommended courses"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.923Z",
+    "updated_at": "2026-03-15T10:15:43.457Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 70,
+  "fields": {
+    "user": 7,
+    "item_id": 30,
+    "item_type": "institution",
+    "item_name": "CATHOLIC UNIVERSITY OF EASTERN  AFRICA",
+    "score": 0.025,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Offers 1 of your recommended courses"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.934Z",
+    "updated_at": "2026-03-15T10:15:43.468Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 71,
+  "fields": {
+    "user": 7,
+    "item_id": 1,
+    "item_type": "institution",
+    "item_name": "CHUKA UNIVERSITY",
+    "score": 0.025,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Offers 1 of your recommended courses"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.942Z",
+    "updated_at": "2026-03-15T10:15:43.479Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 72,
+  "fields": {
+    "user": 7,
+    "item_id": 25,
+    "item_type": "institution",
+    "item_name": "CO-OPERATIVE UNIVERSITY OF KENYA",
+    "score": 0.025,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Offers 1 of your recommended courses"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.954Z",
+    "updated_at": "2026-03-15T10:15:43.490Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 73,
+  "fields": {
+    "user": 7,
+    "item_id": 36,
+    "item_type": "institution",
+    "item_name": "DAYSTAR UNIVERSITY",
+    "score": 0.025,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Offers 1 of your recommended courses"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.966Z",
+    "updated_at": "2026-03-15T10:15:43.501Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 74,
+  "fields": {
+    "user": 7,
+    "item_id": 35,
+    "item_type": "institution",
+    "item_name": "DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY",
+    "score": 0.025,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Offers 1 of your recommended courses"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.979Z",
+    "updated_at": "2026-03-15T10:15:43.513Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 75,
+  "fields": {
+    "user": 7,
+    "item_id": 4,
+    "item_type": "institution",
+    "item_name": "EGERTON UNIVERSITY",
+    "score": 0.025,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Offers 1 of your recommended courses"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:28.991Z",
+    "updated_at": "2026-03-15T10:15:43.524Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 76,
+  "fields": {
+    "user": 7,
+    "item_id": 23,
+    "item_type": "institution",
+    "item_name": "GARISSA UNIVERSITY",
+    "score": 0.025,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Offers 1 of your recommended courses"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:29.006Z",
+    "updated_at": "2026-03-15T10:15:43.534Z"
+  }
+},
+{
+  "model": "recommendations.recommendation",
+  "pk": 77,
+  "fields": {
+    "user": 7,
+    "item_id": 22,
+    "item_type": "institution",
+    "item_name": "JARAMOGI OGINGA ODINGA UNIVERSITY OF SCIENCE AND TECHNOLOGY",
+    "score": 0.025,
+    "recommendation_type": "hybrid",
+    "match_reasons": [
+      "Offers 1 of your recommended courses"
+    ],
+    "is_seen": false,
+    "is_saved": false,
+    "created_at": "2026-03-15T09:53:29.022Z",
+    "updated_at": "2026-03-15T10:15:43.546Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 1,
+  "fields": {
+    "user": 2,
+    "riasec_categories": [
+      "REALISTIC",
+      "SOCIAL",
+      "INVESTIGATIVE"
+    ],
+    "avg_grade": 10.4,
+    "strong_subjects": [
+      "MATHEMATICS",
+      "KISWAHILI",
+      "ENGLISH",
+      "CHEMISTRY"
+    ],
+    "matched_career_fields": [
+      "Construction",
+      "Nursing",
+      "Social Work",
+      "Biology",
+      "Mechanics",
+      "Accounting",
+      "Pharmacy",
+      "Counseling",
+      "Agriculture",
+      "Architecture",
+      "Engineering",
+      "Statistics",
+      "Computer Science",
+      "Research",
+      "Finance",
+      "Public Health",
+      "Law",
+      "Medicine",
+      "Chemical Engineering",
+      "Data Science",
+      "Creative Writing",
+      "Education",
+      "Media"
+    ],
+    "created_at": "2026-02-25T14:49:05.544Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 2,
+  "fields": {
+    "user": 9,
+    "riasec_categories": [
+      "ENTERPRISING",
+      "ARTISTIC",
+      "INVESTIGATIVE"
+    ],
+    "avg_grade": 8.12,
+    "strong_subjects": [
+      "PHYSICS"
+    ],
+    "matched_career_fields": [
+      "Medicine",
+      "Film",
+      "Research",
+      "Fine Arts",
+      "Pharmacy",
+      "Management",
+      "Engineering",
+      "Marketing",
+      "Design",
+      "Architecture",
+      "Data Science",
+      "Business",
+      "Entrepreneurship",
+      "Biology",
+      "Music",
+      "Creative Writing",
+      "Media",
+      "Computer Science",
+      "Law"
+    ],
+    "created_at": "2026-03-12T09:44:21.344Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 3,
+  "fields": {
+    "user": 9,
+    "riasec_categories": [
+      "ENTERPRISING",
+      "ARTISTIC",
+      "INVESTIGATIVE"
+    ],
+    "avg_grade": 8.12,
+    "strong_subjects": [
+      "PHYSICS"
+    ],
+    "matched_career_fields": [
+      "Medicine",
+      "Film",
+      "Research",
+      "Fine Arts",
+      "Pharmacy",
+      "Management",
+      "Engineering",
+      "Marketing",
+      "Design",
+      "Architecture",
+      "Data Science",
+      "Business",
+      "Entrepreneurship",
+      "Biology",
+      "Music",
+      "Creative Writing",
+      "Media",
+      "Computer Science",
+      "Law"
+    ],
+    "created_at": "2026-03-12T09:44:48.726Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 4,
+  "fields": {
+    "user": 9,
+    "riasec_categories": [
+      "ENTERPRISING",
+      "ARTISTIC",
+      "INVESTIGATIVE"
+    ],
+    "avg_grade": 8.12,
+    "strong_subjects": [
+      "PHYSICS"
+    ],
+    "matched_career_fields": [
+      "Medicine",
+      "Film",
+      "Research",
+      "Fine Arts",
+      "Pharmacy",
+      "Management",
+      "Engineering",
+      "Marketing",
+      "Design",
+      "Architecture",
+      "Data Science",
+      "Business",
+      "Entrepreneurship",
+      "Biology",
+      "Music",
+      "Creative Writing",
+      "Media",
+      "Computer Science",
+      "Law"
+    ],
+    "created_at": "2026-03-12T09:44:48.882Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 5,
+  "fields": {
+    "user": 9,
+    "riasec_categories": [
+      "ENTERPRISING",
+      "ARTISTIC",
+      "INVESTIGATIVE"
+    ],
+    "avg_grade": 8.12,
+    "strong_subjects": [
+      "PHYSICS"
+    ],
+    "matched_career_fields": [
+      "Medicine",
+      "Film",
+      "Research",
+      "Fine Arts",
+      "Pharmacy",
+      "Management",
+      "Engineering",
+      "Marketing",
+      "Design",
+      "Architecture",
+      "Data Science",
+      "Business",
+      "Entrepreneurship",
+      "Biology",
+      "Music",
+      "Creative Writing",
+      "Media",
+      "Computer Science",
+      "Law"
+    ],
+    "created_at": "2026-03-12T09:45:14.424Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 6,
+  "fields": {
+    "user": 9,
+    "riasec_categories": [
+      "ENTERPRISING",
+      "ARTISTIC",
+      "INVESTIGATIVE"
+    ],
+    "avg_grade": 8.12,
+    "strong_subjects": [
+      "PHYSICS"
+    ],
+    "matched_career_fields": [
+      "Medicine",
+      "Film",
+      "Research",
+      "Fine Arts",
+      "Pharmacy",
+      "Management",
+      "Engineering",
+      "Marketing",
+      "Design",
+      "Architecture",
+      "Data Science",
+      "Business",
+      "Entrepreneurship",
+      "Biology",
+      "Music",
+      "Creative Writing",
+      "Media",
+      "Computer Science",
+      "Law"
+    ],
+    "created_at": "2026-03-12T09:45:14.588Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 7,
+  "fields": {
+    "user": 9,
+    "riasec_categories": [
+      "ENTERPRISING",
+      "ARTISTIC",
+      "INVESTIGATIVE"
+    ],
+    "avg_grade": 8.12,
+    "strong_subjects": [
+      "PHYSICS"
+    ],
+    "matched_career_fields": [
+      "Medicine",
+      "Film",
+      "Research",
+      "Fine Arts",
+      "Pharmacy",
+      "Management",
+      "Engineering",
+      "Marketing",
+      "Design",
+      "Architecture",
+      "Data Science",
+      "Business",
+      "Entrepreneurship",
+      "Biology",
+      "Music",
+      "Creative Writing",
+      "Media",
+      "Computer Science",
+      "Law"
+    ],
+    "created_at": "2026-03-12T09:47:12.659Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 8,
+  "fields": {
+    "user": 9,
+    "riasec_categories": [
+      "ENTERPRISING",
+      "ARTISTIC",
+      "INVESTIGATIVE"
+    ],
+    "avg_grade": 8.12,
+    "strong_subjects": [
+      "PHYSICS"
+    ],
+    "matched_career_fields": [
+      "Medicine",
+      "Film",
+      "Research",
+      "Fine Arts",
+      "Pharmacy",
+      "Management",
+      "Engineering",
+      "Marketing",
+      "Design",
+      "Architecture",
+      "Data Science",
+      "Business",
+      "Entrepreneurship",
+      "Biology",
+      "Music",
+      "Creative Writing",
+      "Media",
+      "Computer Science",
+      "Law"
+    ],
+    "created_at": "2026-03-12T09:47:12.795Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 9,
+  "fields": {
+    "user": 9,
+    "riasec_categories": [
+      "ENTERPRISING",
+      "ARTISTIC",
+      "INVESTIGATIVE"
+    ],
+    "avg_grade": 8.12,
+    "strong_subjects": [
+      "PHYSICS"
+    ],
+    "matched_career_fields": [
+      "Medicine",
+      "Film",
+      "Research",
+      "Fine Arts",
+      "Pharmacy",
+      "Management",
+      "Engineering",
+      "Marketing",
+      "Design",
+      "Architecture",
+      "Data Science",
+      "Business",
+      "Entrepreneurship",
+      "Biology",
+      "Music",
+      "Creative Writing",
+      "Media",
+      "Computer Science",
+      "Law"
+    ],
+    "created_at": "2026-03-12T09:47:30.220Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 10,
+  "fields": {
+    "user": 9,
+    "riasec_categories": [
+      "ENTERPRISING",
+      "ARTISTIC",
+      "INVESTIGATIVE"
+    ],
+    "avg_grade": 8.12,
+    "strong_subjects": [
+      "PHYSICS"
+    ],
+    "matched_career_fields": [
+      "Medicine",
+      "Film",
+      "Research",
+      "Fine Arts",
+      "Pharmacy",
+      "Management",
+      "Engineering",
+      "Marketing",
+      "Design",
+      "Architecture",
+      "Data Science",
+      "Business",
+      "Entrepreneurship",
+      "Biology",
+      "Music",
+      "Creative Writing",
+      "Media",
+      "Computer Science",
+      "Law"
+    ],
+    "created_at": "2026-03-12T09:47:30.354Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 11,
+  "fields": {
+    "user": 10,
+    "riasec_categories": [
+      "CONVENTIONAL",
+      "ENTERPRISING",
+      "ARTISTIC"
+    ],
+    "avg_grade": 8.25,
+    "strong_subjects": [
+      "KISWAHILI"
+    ],
+    "matched_career_fields": [
+      "Finance",
+      "Statistics",
+      "Marketing",
+      "Law",
+      "Education",
+      "Accounting",
+      "Management",
+      "Fine Arts",
+      "Design",
+      "Records Management",
+      "Business",
+      "Music",
+      "Administration",
+      "Counseling",
+      "Media",
+      "Entrepreneurship",
+      "Creative Writing",
+      "Social Work",
+      "Film"
+    ],
+    "created_at": "2026-03-13T21:02:14.756Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 12,
+  "fields": {
+    "user": 10,
+    "riasec_categories": [
+      "CONVENTIONAL",
+      "ENTERPRISING",
+      "ARTISTIC"
+    ],
+    "avg_grade": 8.25,
+    "strong_subjects": [
+      "KISWAHILI"
+    ],
+    "matched_career_fields": [
+      "Finance",
+      "Statistics",
+      "Marketing",
+      "Law",
+      "Education",
+      "Accounting",
+      "Management",
+      "Fine Arts",
+      "Design",
+      "Records Management",
+      "Business",
+      "Music",
+      "Administration",
+      "Counseling",
+      "Media",
+      "Entrepreneurship",
+      "Creative Writing",
+      "Social Work",
+      "Film"
+    ],
+    "created_at": "2026-03-13T21:02:35.238Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 13,
+  "fields": {
+    "user": 10,
+    "riasec_categories": [
+      "CONVENTIONAL",
+      "ENTERPRISING",
+      "ARTISTIC"
+    ],
+    "avg_grade": 8.25,
+    "strong_subjects": [
+      "KISWAHILI"
+    ],
+    "matched_career_fields": [
+      "Finance",
+      "Statistics",
+      "Marketing",
+      "Law",
+      "Education",
+      "Accounting",
+      "Management",
+      "Fine Arts",
+      "Design",
+      "Records Management",
+      "Business",
+      "Music",
+      "Administration",
+      "Counseling",
+      "Media",
+      "Entrepreneurship",
+      "Creative Writing",
+      "Social Work",
+      "Film"
+    ],
+    "created_at": "2026-03-13T21:02:35.675Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 14,
+  "fields": {
+    "user": 10,
+    "riasec_categories": [
+      "CONVENTIONAL",
+      "ENTERPRISING",
+      "ARTISTIC"
+    ],
+    "avg_grade": 8.25,
+    "strong_subjects": [
+      "KISWAHILI"
+    ],
+    "matched_career_fields": [
+      "Finance",
+      "Statistics",
+      "Marketing",
+      "Law",
+      "Education",
+      "Accounting",
+      "Management",
+      "Fine Arts",
+      "Design",
+      "Records Management",
+      "Business",
+      "Music",
+      "Administration",
+      "Counseling",
+      "Media",
+      "Entrepreneurship",
+      "Creative Writing",
+      "Social Work",
+      "Film"
+    ],
+    "created_at": "2026-03-13T21:03:16.512Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 15,
+  "fields": {
+    "user": 10,
+    "riasec_categories": [
+      "CONVENTIONAL",
+      "ENTERPRISING",
+      "ARTISTIC"
+    ],
+    "avg_grade": 8.25,
+    "strong_subjects": [
+      "KISWAHILI"
+    ],
+    "matched_career_fields": [
+      "Finance",
+      "Statistics",
+      "Marketing",
+      "Law",
+      "Education",
+      "Accounting",
+      "Management",
+      "Fine Arts",
+      "Design",
+      "Records Management",
+      "Business",
+      "Music",
+      "Administration",
+      "Counseling",
+      "Media",
+      "Entrepreneurship",
+      "Creative Writing",
+      "Social Work",
+      "Film"
+    ],
+    "created_at": "2026-03-13T21:03:16.553Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 16,
+  "fields": {
+    "user": 10,
+    "riasec_categories": [
+      "CONVENTIONAL",
+      "ENTERPRISING",
+      "ARTISTIC"
+    ],
+    "avg_grade": 8.25,
+    "strong_subjects": [
+      "KISWAHILI"
+    ],
+    "matched_career_fields": [
+      "Finance",
+      "Statistics",
+      "Marketing",
+      "Law",
+      "Education",
+      "Accounting",
+      "Management",
+      "Fine Arts",
+      "Design",
+      "Records Management",
+      "Business",
+      "Music",
+      "Administration",
+      "Counseling",
+      "Media",
+      "Entrepreneurship",
+      "Creative Writing",
+      "Social Work",
+      "Film"
+    ],
+    "created_at": "2026-03-13T21:03:27.864Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 17,
+  "fields": {
+    "user": 10,
+    "riasec_categories": [
+      "CONVENTIONAL",
+      "ENTERPRISING",
+      "ARTISTIC"
+    ],
+    "avg_grade": 8.25,
+    "strong_subjects": [
+      "KISWAHILI"
+    ],
+    "matched_career_fields": [
+      "Finance",
+      "Statistics",
+      "Marketing",
+      "Law",
+      "Education",
+      "Accounting",
+      "Management",
+      "Fine Arts",
+      "Design",
+      "Records Management",
+      "Business",
+      "Music",
+      "Administration",
+      "Counseling",
+      "Media",
+      "Entrepreneurship",
+      "Creative Writing",
+      "Social Work",
+      "Film"
+    ],
+    "created_at": "2026-03-13T21:03:28.066Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 18,
+  "fields": {
+    "user": 10,
+    "riasec_categories": [
+      "CONVENTIONAL",
+      "ENTERPRISING",
+      "ARTISTIC"
+    ],
+    "avg_grade": 8.25,
+    "strong_subjects": [
+      "KISWAHILI"
+    ],
+    "matched_career_fields": [
+      "Finance",
+      "Statistics",
+      "Marketing",
+      "Law",
+      "Education",
+      "Accounting",
+      "Management",
+      "Fine Arts",
+      "Design",
+      "Records Management",
+      "Business",
+      "Music",
+      "Administration",
+      "Counseling",
+      "Media",
+      "Entrepreneurship",
+      "Creative Writing",
+      "Social Work",
+      "Film"
+    ],
+    "created_at": "2026-03-13T21:05:15.511Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 19,
+  "fields": {
+    "user": 10,
+    "riasec_categories": [
+      "CONVENTIONAL",
+      "ENTERPRISING",
+      "ARTISTIC"
+    ],
+    "avg_grade": 8.25,
+    "strong_subjects": [
+      "KISWAHILI"
+    ],
+    "matched_career_fields": [
+      "Finance",
+      "Statistics",
+      "Marketing",
+      "Law",
+      "Education",
+      "Accounting",
+      "Management",
+      "Fine Arts",
+      "Design",
+      "Records Management",
+      "Business",
+      "Music",
+      "Administration",
+      "Counseling",
+      "Media",
+      "Entrepreneurship",
+      "Creative Writing",
+      "Social Work",
+      "Film"
+    ],
+    "created_at": "2026-03-13T21:05:15.761Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 20,
+  "fields": {
+    "user": 7,
+    "riasec_categories": [
+      "ARTISTIC",
+      "INVESTIGATIVE",
+      "ENTERPRISING"
+    ],
+    "avg_grade": 8.88,
+    "strong_subjects": [
+      "HOME_SCIENCE",
+      "MATHEMATICS",
+      "CRE"
+    ],
+    "matched_career_fields": [
+      "Finance",
+      "Data Science",
+      "Marketing",
+      "Entrepreneurship",
+      "Accounting",
+      "Design",
+      "Research",
+      "Management",
+      "Biology",
+      "Engineering",
+      "Creative Writing",
+      "Fine Arts",
+      "Architecture",
+      "Statistics",
+      "Film",
+      "Law",
+      "Medicine",
+      "Computer Science",
+      "Pharmacy",
+      "Business",
+      "Music",
+      "Media"
+    ],
+    "created_at": "2026-03-15T09:18:26.928Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 21,
+  "fields": {
+    "user": 7,
+    "riasec_categories": [
+      "ARTISTIC",
+      "INVESTIGATIVE",
+      "ENTERPRISING"
+    ],
+    "avg_grade": 8.88,
+    "strong_subjects": [
+      "HOME_SCIENCE",
+      "MATHEMATICS",
+      "CRE"
+    ],
+    "matched_career_fields": [
+      "Finance",
+      "Data Science",
+      "Marketing",
+      "Entrepreneurship",
+      "Accounting",
+      "Design",
+      "Research",
+      "Management",
+      "Biology",
+      "Engineering",
+      "Creative Writing",
+      "Fine Arts",
+      "Architecture",
+      "Statistics",
+      "Film",
+      "Law",
+      "Medicine",
+      "Computer Science",
+      "Pharmacy",
+      "Business",
+      "Music",
+      "Media"
+    ],
+    "created_at": "2026-03-15T09:18:26.992Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 22,
+  "fields": {
+    "user": 7,
+    "riasec_categories": [
+      "ARTISTIC",
+      "INVESTIGATIVE",
+      "ENTERPRISING"
+    ],
+    "avg_grade": 8.88,
+    "strong_subjects": [
+      "HOME_SCIENCE",
+      "MATHEMATICS",
+      "CRE"
+    ],
+    "matched_career_fields": [
+      "Computer Science",
+      "Engineering",
+      "Fine Arts",
+      "Design",
+      "Music",
+      "Finance",
+      "Media",
+      "Business",
+      "Management",
+      "Creative Writing",
+      "Data Science",
+      "Film",
+      "Research",
+      "Marketing",
+      "Medicine",
+      "Statistics",
+      "Architecture",
+      "Biology",
+      "Pharmacy",
+      "Entrepreneurship",
+      "Law",
+      "Accounting"
+    ],
+    "created_at": "2026-03-15T09:53:28.526Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 23,
+  "fields": {
+    "user": 7,
+    "riasec_categories": [
+      "ARTISTIC",
+      "INVESTIGATIVE",
+      "ENTERPRISING"
+    ],
+    "avg_grade": 8.88,
+    "strong_subjects": [
+      "HOME_SCIENCE",
+      "MATHEMATICS",
+      "CRE"
+    ],
+    "matched_career_fields": [
+      "Computer Science",
+      "Engineering",
+      "Fine Arts",
+      "Design",
+      "Music",
+      "Finance",
+      "Media",
+      "Business",
+      "Management",
+      "Creative Writing",
+      "Data Science",
+      "Film",
+      "Research",
+      "Marketing",
+      "Medicine",
+      "Statistics",
+      "Architecture",
+      "Biology",
+      "Pharmacy",
+      "Entrepreneurship",
+      "Law",
+      "Accounting"
+    ],
+    "created_at": "2026-03-15T09:53:28.625Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 24,
+  "fields": {
+    "user": 7,
+    "riasec_categories": [
+      "ARTISTIC",
+      "INVESTIGATIVE",
+      "ENTERPRISING"
+    ],
+    "avg_grade": 8.88,
+    "strong_subjects": [
+      "HOME_SCIENCE",
+      "MATHEMATICS",
+      "CRE"
+    ],
+    "matched_career_fields": [
+      "Computer Science",
+      "Engineering",
+      "Fine Arts",
+      "Design",
+      "Music",
+      "Finance",
+      "Media",
+      "Business",
+      "Management",
+      "Creative Writing",
+      "Data Science",
+      "Film",
+      "Research",
+      "Marketing",
+      "Medicine",
+      "Statistics",
+      "Architecture",
+      "Biology",
+      "Pharmacy",
+      "Entrepreneurship",
+      "Law",
+      "Accounting"
+    ],
+    "created_at": "2026-03-15T09:57:06.527Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 25,
+  "fields": {
+    "user": 7,
+    "riasec_categories": [
+      "ARTISTIC",
+      "INVESTIGATIVE",
+      "ENTERPRISING"
+    ],
+    "avg_grade": 8.88,
+    "strong_subjects": [
+      "HOME_SCIENCE",
+      "MATHEMATICS",
+      "CRE"
+    ],
+    "matched_career_fields": [
+      "Computer Science",
+      "Engineering",
+      "Fine Arts",
+      "Design",
+      "Music",
+      "Finance",
+      "Media",
+      "Business",
+      "Management",
+      "Creative Writing",
+      "Data Science",
+      "Film",
+      "Research",
+      "Marketing",
+      "Medicine",
+      "Statistics",
+      "Architecture",
+      "Biology",
+      "Pharmacy",
+      "Entrepreneurship",
+      "Law",
+      "Accounting"
+    ],
+    "created_at": "2026-03-15T09:57:06.660Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 26,
+  "fields": {
+    "user": 7,
+    "riasec_categories": [
+      "ARTISTIC",
+      "INVESTIGATIVE",
+      "ENTERPRISING"
+    ],
+    "avg_grade": 8.88,
+    "strong_subjects": [
+      "HOME_SCIENCE",
+      "MATHEMATICS",
+      "CRE"
+    ],
+    "matched_career_fields": [
+      "Data Science",
+      "Marketing",
+      "Accounting",
+      "Management",
+      "Biology",
+      "Film",
+      "Statistics",
+      "Medicine",
+      "Pharmacy",
+      "Fine Arts",
+      "Business",
+      "Entrepreneurship",
+      "Media",
+      "Architecture",
+      "Engineering",
+      "Design",
+      "Creative Writing",
+      "Computer Science",
+      "Research",
+      "Law",
+      "Finance",
+      "Music"
+    ],
+    "created_at": "2026-03-15T10:15:42.989Z"
+  }
+},
+{
+  "model": "recommendations.recommendationsession",
+  "pk": 27,
+  "fields": {
+    "user": 7,
+    "riasec_categories": [
+      "ARTISTIC",
+      "INVESTIGATIVE",
+      "ENTERPRISING"
+    ],
+    "avg_grade": 8.88,
+    "strong_subjects": [
+      "HOME_SCIENCE",
+      "MATHEMATICS",
+      "CRE"
+    ],
+    "matched_career_fields": [
+      "Data Science",
+      "Marketing",
+      "Accounting",
+      "Management",
+      "Biology",
+      "Film",
+      "Statistics",
+      "Medicine",
+      "Pharmacy",
+      "Fine Arts",
+      "Business",
+      "Entrepreneurship",
+      "Media",
+      "Architecture",
+      "Engineering",
+      "Design",
+      "Creative Writing",
+      "Computer Science",
+      "Research",
+      "Law",
+      "Finance",
+      "Music"
+    ],
+    "created_at": "2026-03-15T10:15:43.063Z"
+  }
+}
+]

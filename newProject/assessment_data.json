@@ -1,0 +1,5862 @@
+[
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 1,
+  "fields": {
+    "question_text": "I enjoy working with tools and machinery",
+    "category": "REALISTIC",
+    "is_active": true,
+    "created_at": "2026-02-09T07:22:23.378Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 2,
+  "fields": {
+    "question_text": "I like conducting experiments and analyzing data",
+    "category": "INVESTIGATIVE",
+    "is_active": true,
+    "created_at": "2026-02-09T07:22:35.937Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 3,
+  "fields": {
+    "question_text": "I enjoy creative activities like painting or writing",
+    "category": "ARTISTIC",
+    "is_active": true,
+    "created_at": "2026-02-09T07:22:48.213Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 4,
+  "fields": {
+    "question_text": "I like helping and teaching others",
+    "category": "SOCIAL",
+    "is_active": true,
+    "created_at": "2026-02-09T07:23:19.040Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 5,
+  "fields": {
+    "question_text": "I enjoy leading teams and managing projects",
+    "category": "ENTERPRISING",
+    "is_active": true,
+    "created_at": "2026-02-09T07:27:55.777Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 6,
+  "fields": {
+    "question_text": "I like organizing data and following established procedures",
+    "category": "CONVENTIONAL",
+    "is_active": true,
+    "created_at": "2026-02-09T07:28:06.892Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 7,
+  "fields": {
+    "question_text": "I enjoy working with tools and machines",
+    "category": "REALISTIC",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.096Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 8,
+  "fields": {
+    "question_text": "I like working outdoors",
+    "category": "REALISTIC",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.132Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 9,
+  "fields": {
+    "question_text": "I prefer hands-on practical work",
+    "category": "REALISTIC",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.136Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 10,
+  "fields": {
+    "question_text": "I enjoy building and fixing things",
+    "category": "REALISTIC",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.141Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 11,
+  "fields": {
+    "question_text": "I like working with my hands",
+    "category": "REALISTIC",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.145Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 12,
+  "fields": {
+    "question_text": "I enjoy mechanical and technical activities",
+    "category": "REALISTIC",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.151Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 13,
+  "fields": {
+    "question_text": "I prefer physical work over desk work",
+    "category": "REALISTIC",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.156Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 14,
+  "fields": {
+    "question_text": "I like working with animals or plants",
+    "category": "REALISTIC",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.163Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 15,
+  "fields": {
+    "question_text": "I enjoy operating equipment and machinery",
+    "category": "REALISTIC",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.170Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 16,
+  "fields": {
+    "question_text": "I am good at repairing things",
+    "category": "REALISTIC",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.177Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 17,
+  "fields": {
+    "question_text": "I enjoy solving complex problems",
+    "category": "INVESTIGATIVE",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.184Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 18,
+  "fields": {
+    "question_text": "I like conducting experiments and research",
+    "category": "INVESTIGATIVE",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.230Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 19,
+  "fields": {
+    "question_text": "I enjoy analyzing data and information",
+    "category": "INVESTIGATIVE",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.278Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 20,
+  "fields": {
+    "question_text": "I like learning about scientific concepts",
+    "category": "INVESTIGATIVE",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.311Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 21,
+  "fields": {
+    "question_text": "I enjoy working with numbers and formulas",
+    "category": "INVESTIGATIVE",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.372Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 22,
+  "fields": {
+    "question_text": "I like investigating how things work",
+    "category": "INVESTIGATIVE",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.415Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 23,
+  "fields": {
+    "question_text": "I prefer working independently on research",
+    "category": "INVESTIGATIVE",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.432Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 24,
+  "fields": {
+    "question_text": "I enjoy reading scientific articles",
+    "category": "INVESTIGATIVE",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.441Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 25,
+  "fields": {
+    "question_text": "I like thinking about abstract ideas",
+    "category": "INVESTIGATIVE",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.490Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 26,
+  "fields": {
+    "question_text": "I am curious about natural phenomena",
+    "category": "INVESTIGATIVE",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.496Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 27,
+  "fields": {
+    "question_text": "I enjoy creative and artistic activities",
+    "category": "ARTISTIC",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.500Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 28,
+  "fields": {
+    "question_text": "I like expressing myself through art",
+    "category": "ARTISTIC",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.507Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 29,
+  "fields": {
+    "question_text": "I enjoy writing stories or poems",
+    "category": "ARTISTIC",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.511Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 30,
+  "fields": {
+    "question_text": "I like designing and creating things",
+    "category": "ARTISTIC",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.516Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 31,
+  "fields": {
+    "question_text": "I enjoy music and performing arts",
+    "category": "ARTISTIC",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.524Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 32,
+  "fields": {
+    "question_text": "I prefer unstructured and flexible work",
+    "category": "ARTISTIC",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.529Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 33,
+  "fields": {
+    "question_text": "I like working in creative environments",
+    "category": "ARTISTIC",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.534Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 34,
+  "fields": {
+    "question_text": "I enjoy using my imagination",
+    "category": "ARTISTIC",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.542Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 35,
+  "fields": {
+    "question_text": "I like experimenting with new ideas",
+    "category": "ARTISTIC",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.548Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 36,
+  "fields": {
+    "question_text": "I appreciate beauty and aesthetics",
+    "category": "ARTISTIC",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.558Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 37,
+  "fields": {
+    "question_text": "I enjoy helping and teaching others",
+    "category": "SOCIAL",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.565Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 38,
+  "fields": {
+    "question_text": "I like working with people",
+    "category": "SOCIAL",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.575Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 39,
+  "fields": {
+    "question_text": "I enjoy counseling and advising others",
+    "category": "SOCIAL",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.584Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 40,
+  "fields": {
+    "question_text": "I like working in teams",
+    "category": "SOCIAL",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.600Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 41,
+  "fields": {
+    "question_text": "I enjoy volunteering and community service",
+    "category": "SOCIAL",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.614Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 42,
+  "fields": {
+    "question_text": "I am good at understanding others' feelings",
+    "category": "SOCIAL",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.655Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 43,
+  "fields": {
+    "question_text": "I like resolving conflicts",
+    "category": "SOCIAL",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.663Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 44,
+  "fields": {
+    "question_text": "I enjoy caring for others",
+    "category": "SOCIAL",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.675Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 45,
+  "fields": {
+    "question_text": "I like organizing social events",
+    "category": "SOCIAL",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.680Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 46,
+  "fields": {
+    "question_text": "I prefer jobs that involve interaction",
+    "category": "SOCIAL",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.692Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 47,
+  "fields": {
+    "question_text": "I enjoy leading and managing projects",
+    "category": "ENTERPRISING",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.700Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 48,
+  "fields": {
+    "question_text": "I like persuading and influencing others",
+    "category": "ENTERPRISING",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.708Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 49,
+  "fields": {
+    "question_text": "I enjoy starting new businesses or ventures",
+    "category": "ENTERPRISING",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.728Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 50,
+  "fields": {
+    "question_text": "I like taking risks and making decisions",
+    "category": "ENTERPRISING",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.742Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 51,
+  "fields": {
+    "question_text": "I enjoy selling and promoting ideas",
+    "category": "ENTERPRISING",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.752Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 52,
+  "fields": {
+    "question_text": "I am comfortable public speaking",
+    "category": "ENTERPRISING",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.760Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 53,
+  "fields": {
+    "question_text": "I like setting goals and achieving them",
+    "category": "ENTERPRISING",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.780Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 54,
+  "fields": {
+    "question_text": "I enjoy competitive environments",
+    "category": "ENTERPRISING",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.800Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 55,
+  "fields": {
+    "question_text": "I like organizing and delegating tasks",
+    "category": "ENTERPRISING",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.826Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 56,
+  "fields": {
+    "question_text": "I am good at motivating others",
+    "category": "ENTERPRISING",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.834Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 57,
+  "fields": {
+    "question_text": "I enjoy organizing and maintaining records",
+    "category": "CONVENTIONAL",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.844Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 58,
+  "fields": {
+    "question_text": "I like following clear procedures and rules",
+    "category": "CONVENTIONAL",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.875Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 59,
+  "fields": {
+    "question_text": "I enjoy working with data and details",
+    "category": "CONVENTIONAL",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.892Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 60,
+  "fields": {
+    "question_text": "I like structured and orderly environments",
+    "category": "CONVENTIONAL",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.900Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 61,
+  "fields": {
+    "question_text": "I enjoy administrative and clerical work",
+    "category": "CONVENTIONAL",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.915Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 62,
+  "fields": {
+    "question_text": "I am good at keeping things organized",
+    "category": "CONVENTIONAL",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.929Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 63,
+  "fields": {
+    "question_text": "I like working with systems and processes",
+    "category": "CONVENTIONAL",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.942Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 64,
+  "fields": {
+    "question_text": "I enjoy tasks that require accuracy",
+    "category": "CONVENTIONAL",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.955Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 65,
+  "fields": {
+    "question_text": "I prefer predictable work routines",
+    "category": "CONVENTIONAL",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.973Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 66,
+  "fields": {
+    "question_text": "I am detail-oriented and thorough",
+    "category": "CONVENTIONAL",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.984Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 67,
+  "fields": {
+    "question_text": "I have a vivid imagination",
+    "category": "OPENNESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:21.995Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 68,
+  "fields": {
+    "question_text": "I am interested in abstract ideas",
+    "category": "OPENNESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.000Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 69,
+  "fields": {
+    "question_text": "I enjoy trying new and different things",
+    "category": "OPENNESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.009Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 70,
+  "fields": {
+    "question_text": "I appreciate art and beauty",
+    "category": "OPENNESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.017Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 71,
+  "fields": {
+    "question_text": "I am curious about many things",
+    "category": "OPENNESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.027Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 72,
+  "fields": {
+    "question_text": "I enjoy thinking about complex problems",
+    "category": "OPENNESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.039Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 73,
+  "fields": {
+    "question_text": "I like to explore new places",
+    "category": "OPENNESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.045Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 74,
+  "fields": {
+    "question_text": "I am open to new experiences",
+    "category": "OPENNESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.052Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 75,
+  "fields": {
+    "question_text": "I enjoy learning about different cultures",
+    "category": "OPENNESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.060Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 76,
+  "fields": {
+    "question_text": "I like to consider multiple perspectives",
+    "category": "OPENNESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.067Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 77,
+  "fields": {
+    "question_text": "I am always prepared and organized",
+    "category": "CONSCIENTIOUSNESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.079Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 78,
+  "fields": {
+    "question_text": "I follow through on my commitments",
+    "category": "CONSCIENTIOUSNESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.114Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 79,
+  "fields": {
+    "question_text": "I pay attention to details",
+    "category": "CONSCIENTIOUSNESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.129Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 80,
+  "fields": {
+    "question_text": "I like to have a plan and stick to it",
+    "category": "CONSCIENTIOUSNESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.142Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 81,
+  "fields": {
+    "question_text": "I am punctual and meet deadlines",
+    "category": "CONSCIENTIOUSNESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.152Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 82,
+  "fields": {
+    "question_text": "I keep my workspace tidy",
+    "category": "CONSCIENTIOUSNESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.163Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 83,
+  "fields": {
+    "question_text": "I complete tasks systematically",
+    "category": "CONSCIENTIOUSNESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.175Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 84,
+  "fields": {
+    "question_text": "I am reliable and dependable",
+    "category": "CONSCIENTIOUSNESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.181Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 85,
+  "fields": {
+    "question_text": "I think about consequences before acting",
+    "category": "CONSCIENTIOUSNESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.193Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 86,
+  "fields": {
+    "question_text": "I work hard to achieve my goals",
+    "category": "CONSCIENTIOUSNESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.214Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 87,
+  "fields": {
+    "question_text": "I enjoy being around people",
+    "category": "EXTRAVERSION",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.225Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 88,
+  "fields": {
+    "question_text": "I feel comfortable in social situations",
+    "category": "EXTRAVERSION",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.231Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 89,
+  "fields": {
+    "question_text": "I like to be the center of attention",
+    "category": "EXTRAVERSION",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.238Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 90,
+  "fields": {
+    "question_text": "I am talkative and outgoing",
+    "category": "EXTRAVERSION",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.243Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 91,
+  "fields": {
+    "question_text": "I make friends easily",
+    "category": "EXTRAVERSION",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.247Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 92,
+  "fields": {
+    "question_text": "I enjoy parties and social gatherings",
+    "category": "EXTRAVERSION",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.252Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 93,
+  "fields": {
+    "question_text": "I am energized by being with others",
+    "category": "EXTRAVERSION",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.258Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 94,
+  "fields": {
+    "question_text": "I like to start conversations",
+    "category": "EXTRAVERSION",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.262Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 95,
+  "fields": {
+    "question_text": "I am comfortable meeting new people",
+    "category": "EXTRAVERSION",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.266Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 96,
+  "fields": {
+    "question_text": "I prefer working in groups",
+    "category": "EXTRAVERSION",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.272Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 97,
+  "fields": {
+    "question_text": "I am considerate of others' feelings",
+    "category": "AGREEABLENESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.277Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 98,
+  "fields": {
+    "question_text": "I like to help and support others",
+    "category": "AGREEABLENESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.281Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 99,
+  "fields": {
+    "question_text": "I trust people easily",
+    "category": "AGREEABLENESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.287Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 100,
+  "fields": {
+    "question_text": "I am cooperative and easy to work with",
+    "category": "AGREEABLENESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.291Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 101,
+  "fields": {
+    "question_text": "I avoid conflicts and arguments",
+    "category": "AGREEABLENESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.295Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 102,
+  "fields": {
+    "question_text": "I am sympathetic and compassionate",
+    "category": "AGREEABLENESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.299Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 103,
+  "fields": {
+    "question_text": "I put others' needs before my own",
+    "category": "AGREEABLENESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.306Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 104,
+  "fields": {
+    "question_text": "I am polite and respectful",
+    "category": "AGREEABLENESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.310Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 105,
+  "fields": {
+    "question_text": "I forgive others easily",
+    "category": "AGREEABLENESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.315Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 106,
+  "fields": {
+    "question_text": "I believe most people are good",
+    "category": "AGREEABLENESS",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.321Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 107,
+  "fields": {
+    "question_text": "I often feel stressed or anxious",
+    "category": "NEUROTICISM",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.326Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 108,
+  "fields": {
+    "question_text": "I worry about things that might go wrong",
+    "category": "NEUROTICISM",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.330Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 109,
+  "fields": {
+    "question_text": "My mood changes frequently",
+    "category": "NEUROTICISM",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.336Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 110,
+  "fields": {
+    "question_text": "I get upset easily",
+    "category": "NEUROTICISM",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.342Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 111,
+  "fields": {
+    "question_text": "I feel nervous in stressful situations",
+    "category": "NEUROTICISM",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.345Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 112,
+  "fields": {
+    "question_text": "I tend to overthink situations",
+    "category": "NEUROTICISM",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.349Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 113,
+  "fields": {
+    "question_text": "I am sensitive to criticism",
+    "category": "NEUROTICISM",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.355Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 114,
+  "fields": {
+    "question_text": "I sometimes feel sad or depressed",
+    "category": "NEUROTICISM",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.360Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 115,
+  "fields": {
+    "question_text": "I have difficulty handling pressure",
+    "category": "NEUROTICISM",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.364Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 116,
+  "fields": {
+    "question_text": "I get irritated by small things",
+    "category": "NEUROTICISM",
+    "is_active": true,
+    "created_at": "2026-02-11T13:05:22.368Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 1,
+  "fields": {
+    "student": 3,
+    "question": 1,
+    "response_value": 5,
+    "submitted_at": "2026-02-25T14:48:57.782Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 2,
+  "fields": {
+    "student": 3,
+    "question": 2,
+    "response_value": 4,
+    "submitted_at": "2026-02-25T14:48:57.824Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 3,
+  "fields": {
+    "student": 3,
+    "question": 3,
+    "response_value": 3,
+    "submitted_at": "2026-02-25T14:48:57.837Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 4,
+  "fields": {
+    "student": 3,
+    "question": 4,
+    "response_value": 5,
+    "submitted_at": "2026-02-25T14:48:57.849Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 5,
+  "fields": {
+    "student": 3,
+    "question": 5,
+    "response_value": 4,
+    "submitted_at": "2026-02-25T14:48:57.861Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 6,
+  "fields": {
+    "student": 3,
+    "question": 6,
+    "response_value": 2,
+    "submitted_at": "2026-02-25T14:48:57.873Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 7,
+  "fields": {
+    "student": 7,
+    "question": 1,
+    "response_value": 2,
+    "submitted_at": "2026-03-11T09:39:46.769Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 8,
+  "fields": {
+    "student": 7,
+    "question": 2,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:46.788Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 9,
+  "fields": {
+    "student": 7,
+    "question": 3,
+    "response_value": 2,
+    "submitted_at": "2026-03-11T09:39:46.792Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 10,
+  "fields": {
+    "student": 7,
+    "question": 4,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:46.797Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 11,
+  "fields": {
+    "student": 7,
+    "question": 5,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:46.802Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 12,
+  "fields": {
+    "student": 7,
+    "question": 6,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:46.806Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 13,
+  "fields": {
+    "student": 7,
+    "question": 7,
+    "response_value": 2,
+    "submitted_at": "2026-03-11T09:39:46.812Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 14,
+  "fields": {
+    "student": 7,
+    "question": 8,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:46.817Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 15,
+  "fields": {
+    "student": 7,
+    "question": 9,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:46.821Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 16,
+  "fields": {
+    "student": 7,
+    "question": 10,
+    "response_value": 2,
+    "submitted_at": "2026-03-11T09:39:46.825Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 17,
+  "fields": {
+    "student": 7,
+    "question": 11,
+    "response_value": 2,
+    "submitted_at": "2026-03-11T09:39:46.829Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 18,
+  "fields": {
+    "student": 7,
+    "question": 12,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:46.834Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 19,
+  "fields": {
+    "student": 7,
+    "question": 13,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:46.838Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 20,
+  "fields": {
+    "student": 7,
+    "question": 14,
+    "response_value": 2,
+    "submitted_at": "2026-03-11T09:39:46.842Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 21,
+  "fields": {
+    "student": 7,
+    "question": 15,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:46.846Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 22,
+  "fields": {
+    "student": 7,
+    "question": 16,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:46.851Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 23,
+  "fields": {
+    "student": 7,
+    "question": 17,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:46.855Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 24,
+  "fields": {
+    "student": 7,
+    "question": 18,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:46.859Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 25,
+  "fields": {
+    "student": 7,
+    "question": 19,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:46.863Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 26,
+  "fields": {
+    "student": 7,
+    "question": 20,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:46.869Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 27,
+  "fields": {
+    "student": 7,
+    "question": 21,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:46.873Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 28,
+  "fields": {
+    "student": 7,
+    "question": 22,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:46.878Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 29,
+  "fields": {
+    "student": 7,
+    "question": 23,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:46.882Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 30,
+  "fields": {
+    "student": 7,
+    "question": 24,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:46.887Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 31,
+  "fields": {
+    "student": 7,
+    "question": 25,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:46.891Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 32,
+  "fields": {
+    "student": 7,
+    "question": 26,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:46.895Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 33,
+  "fields": {
+    "student": 7,
+    "question": 27,
+    "response_value": 2,
+    "submitted_at": "2026-03-11T09:39:46.902Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 34,
+  "fields": {
+    "student": 7,
+    "question": 28,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:46.907Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 35,
+  "fields": {
+    "student": 7,
+    "question": 29,
+    "response_value": 2,
+    "submitted_at": "2026-03-11T09:39:46.913Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 36,
+  "fields": {
+    "student": 7,
+    "question": 30,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:46.920Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 37,
+  "fields": {
+    "student": 7,
+    "question": 31,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:46.924Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 38,
+  "fields": {
+    "student": 7,
+    "question": 32,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:46.928Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 39,
+  "fields": {
+    "student": 7,
+    "question": 33,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:46.935Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 40,
+  "fields": {
+    "student": 7,
+    "question": 34,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:46.939Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 41,
+  "fields": {
+    "student": 7,
+    "question": 35,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:46.943Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 42,
+  "fields": {
+    "student": 7,
+    "question": 36,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:46.947Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 43,
+  "fields": {
+    "student": 7,
+    "question": 37,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:46.953Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 44,
+  "fields": {
+    "student": 7,
+    "question": 38,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:46.958Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 45,
+  "fields": {
+    "student": 7,
+    "question": 39,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:46.962Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 46,
+  "fields": {
+    "student": 7,
+    "question": 40,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:46.969Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 47,
+  "fields": {
+    "student": 7,
+    "question": 41,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:46.972Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 48,
+  "fields": {
+    "student": 7,
+    "question": 42,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:46.976Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 49,
+  "fields": {
+    "student": 7,
+    "question": 43,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:46.980Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 50,
+  "fields": {
+    "student": 7,
+    "question": 44,
+    "response_value": 5,
+    "submitted_at": "2026-03-11T09:39:46.986Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 51,
+  "fields": {
+    "student": 7,
+    "question": 45,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:46.990Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 52,
+  "fields": {
+    "student": 7,
+    "question": 46,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:46.994Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 53,
+  "fields": {
+    "student": 7,
+    "question": 47,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.000Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 54,
+  "fields": {
+    "student": 7,
+    "question": 48,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:47.004Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 55,
+  "fields": {
+    "student": 7,
+    "question": 49,
+    "response_value": 2,
+    "submitted_at": "2026-03-11T09:39:47.008Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 56,
+  "fields": {
+    "student": 7,
+    "question": 50,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:47.012Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 57,
+  "fields": {
+    "student": 7,
+    "question": 51,
+    "response_value": 2,
+    "submitted_at": "2026-03-11T09:39:47.018Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 58,
+  "fields": {
+    "student": 7,
+    "question": 52,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:47.022Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 59,
+  "fields": {
+    "student": 7,
+    "question": 53,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.027Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 60,
+  "fields": {
+    "student": 7,
+    "question": 54,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.032Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 61,
+  "fields": {
+    "student": 7,
+    "question": 55,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:47.037Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 62,
+  "fields": {
+    "student": 7,
+    "question": 56,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.041Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 63,
+  "fields": {
+    "student": 7,
+    "question": 57,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:47.045Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 64,
+  "fields": {
+    "student": 7,
+    "question": 58,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.050Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 65,
+  "fields": {
+    "student": 7,
+    "question": 59,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.055Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 66,
+  "fields": {
+    "student": 7,
+    "question": 60,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.058Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 67,
+  "fields": {
+    "student": 7,
+    "question": 61,
+    "response_value": 2,
+    "submitted_at": "2026-03-11T09:39:47.062Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 68,
+  "fields": {
+    "student": 7,
+    "question": 62,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.069Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 69,
+  "fields": {
+    "student": 7,
+    "question": 63,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.075Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 70,
+  "fields": {
+    "student": 7,
+    "question": 64,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.082Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 71,
+  "fields": {
+    "student": 7,
+    "question": 65,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.089Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 72,
+  "fields": {
+    "student": 7,
+    "question": 66,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:47.094Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 73,
+  "fields": {
+    "student": 7,
+    "question": 67,
+    "response_value": 5,
+    "submitted_at": "2026-03-11T09:39:47.102Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 74,
+  "fields": {
+    "student": 7,
+    "question": 68,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:47.108Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 75,
+  "fields": {
+    "student": 7,
+    "question": 69,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:47.116Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 76,
+  "fields": {
+    "student": 7,
+    "question": 70,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.122Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 77,
+  "fields": {
+    "student": 7,
+    "question": 71,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.127Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 78,
+  "fields": {
+    "student": 7,
+    "question": 72,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.131Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 79,
+  "fields": {
+    "student": 7,
+    "question": 73,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:47.137Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 80,
+  "fields": {
+    "student": 7,
+    "question": 74,
+    "response_value": 2,
+    "submitted_at": "2026-03-11T09:39:47.141Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 81,
+  "fields": {
+    "student": 7,
+    "question": 75,
+    "response_value": 2,
+    "submitted_at": "2026-03-11T09:39:47.144Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 82,
+  "fields": {
+    "student": 7,
+    "question": 76,
+    "response_value": 2,
+    "submitted_at": "2026-03-11T09:39:47.148Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 83,
+  "fields": {
+    "student": 7,
+    "question": 77,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.153Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 84,
+  "fields": {
+    "student": 7,
+    "question": 78,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.157Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 85,
+  "fields": {
+    "student": 7,
+    "question": 79,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.160Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 86,
+  "fields": {
+    "student": 7,
+    "question": 80,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.163Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 87,
+  "fields": {
+    "student": 7,
+    "question": 81,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.169Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 88,
+  "fields": {
+    "student": 7,
+    "question": 82,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:47.173Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 89,
+  "fields": {
+    "student": 7,
+    "question": 83,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.176Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 90,
+  "fields": {
+    "student": 7,
+    "question": 84,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.179Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 91,
+  "fields": {
+    "student": 7,
+    "question": 85,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.186Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 92,
+  "fields": {
+    "student": 7,
+    "question": 86,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.191Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 93,
+  "fields": {
+    "student": 7,
+    "question": 87,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:47.196Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 94,
+  "fields": {
+    "student": 7,
+    "question": 88,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.203Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 95,
+  "fields": {
+    "student": 7,
+    "question": 89,
+    "response_value": 2,
+    "submitted_at": "2026-03-11T09:39:47.208Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 96,
+  "fields": {
+    "student": 7,
+    "question": 90,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:47.212Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 97,
+  "fields": {
+    "student": 7,
+    "question": 91,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:47.218Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 98,
+  "fields": {
+    "student": 7,
+    "question": 92,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.221Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 99,
+  "fields": {
+    "student": 7,
+    "question": 93,
+    "response_value": 5,
+    "submitted_at": "2026-03-11T09:39:47.225Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 100,
+  "fields": {
+    "student": 7,
+    "question": 94,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:47.229Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 101,
+  "fields": {
+    "student": 7,
+    "question": 95,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:47.236Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 102,
+  "fields": {
+    "student": 7,
+    "question": 96,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.239Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 103,
+  "fields": {
+    "student": 7,
+    "question": 97,
+    "response_value": 5,
+    "submitted_at": "2026-03-11T09:39:47.243Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 104,
+  "fields": {
+    "student": 7,
+    "question": 98,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.246Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 105,
+  "fields": {
+    "student": 7,
+    "question": 99,
+    "response_value": 5,
+    "submitted_at": "2026-03-11T09:39:47.253Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 106,
+  "fields": {
+    "student": 7,
+    "question": 100,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.257Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 107,
+  "fields": {
+    "student": 7,
+    "question": 101,
+    "response_value": 5,
+    "submitted_at": "2026-03-11T09:39:47.261Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 108,
+  "fields": {
+    "student": 7,
+    "question": 102,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.264Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 109,
+  "fields": {
+    "student": 7,
+    "question": 103,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.270Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 110,
+  "fields": {
+    "student": 7,
+    "question": 104,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.273Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 111,
+  "fields": {
+    "student": 7,
+    "question": 105,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.277Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 112,
+  "fields": {
+    "student": 7,
+    "question": 106,
+    "response_value": 5,
+    "submitted_at": "2026-03-11T09:39:47.280Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 113,
+  "fields": {
+    "student": 7,
+    "question": 107,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.286Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 114,
+  "fields": {
+    "student": 7,
+    "question": 108,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:47.290Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 115,
+  "fields": {
+    "student": 7,
+    "question": 109,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.293Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 116,
+  "fields": {
+    "student": 7,
+    "question": 110,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.297Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 117,
+  "fields": {
+    "student": 7,
+    "question": 111,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:47.303Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 118,
+  "fields": {
+    "student": 7,
+    "question": 112,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T09:39:47.307Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 119,
+  "fields": {
+    "student": 7,
+    "question": 113,
+    "response_value": 2,
+    "submitted_at": "2026-03-11T09:39:47.310Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 120,
+  "fields": {
+    "student": 7,
+    "question": 114,
+    "response_value": 2,
+    "submitted_at": "2026-03-11T09:39:47.314Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 121,
+  "fields": {
+    "student": 7,
+    "question": 115,
+    "response_value": 2,
+    "submitted_at": "2026-03-11T09:39:47.320Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 122,
+  "fields": {
+    "student": 7,
+    "question": 116,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T09:39:47.325Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 123,
+  "fields": {
+    "student": 6,
+    "question": 1,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:41.484Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 124,
+  "fields": {
+    "student": 6,
+    "question": 2,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:41.565Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 125,
+  "fields": {
+    "student": 6,
+    "question": 3,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:41.580Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 126,
+  "fields": {
+    "student": 6,
+    "question": 4,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:41.606Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 127,
+  "fields": {
+    "student": 6,
+    "question": 5,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:41.627Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 128,
+  "fields": {
+    "student": 6,
+    "question": 6,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:41.635Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 129,
+  "fields": {
+    "student": 6,
+    "question": 7,
+    "response_value": 2,
+    "submitted_at": "2026-03-11T10:31:41.644Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 130,
+  "fields": {
+    "student": 6,
+    "question": 8,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:41.698Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 131,
+  "fields": {
+    "student": 6,
+    "question": 9,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:41.713Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 132,
+  "fields": {
+    "student": 6,
+    "question": 10,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:41.725Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 133,
+  "fields": {
+    "student": 6,
+    "question": 11,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:41.731Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 134,
+  "fields": {
+    "student": 6,
+    "question": 12,
+    "response_value": 2,
+    "submitted_at": "2026-03-11T10:31:41.739Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 135,
+  "fields": {
+    "student": 6,
+    "question": 13,
+    "response_value": 2,
+    "submitted_at": "2026-03-11T10:31:41.744Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 136,
+  "fields": {
+    "student": 6,
+    "question": 14,
+    "response_value": 2,
+    "submitted_at": "2026-03-11T10:31:41.751Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 137,
+  "fields": {
+    "student": 6,
+    "question": 15,
+    "response_value": 2,
+    "submitted_at": "2026-03-11T10:31:41.761Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 138,
+  "fields": {
+    "student": 6,
+    "question": 16,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:41.774Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 139,
+  "fields": {
+    "student": 6,
+    "question": 17,
+    "response_value": 5,
+    "submitted_at": "2026-03-11T10:31:41.779Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 140,
+  "fields": {
+    "student": 6,
+    "question": 18,
+    "response_value": 5,
+    "submitted_at": "2026-03-11T10:31:41.786Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 141,
+  "fields": {
+    "student": 6,
+    "question": 19,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:41.810Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 142,
+  "fields": {
+    "student": 6,
+    "question": 20,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:41.821Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 143,
+  "fields": {
+    "student": 6,
+    "question": 21,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:41.826Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 144,
+  "fields": {
+    "student": 6,
+    "question": 22,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:41.832Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 145,
+  "fields": {
+    "student": 6,
+    "question": 23,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:41.837Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 146,
+  "fields": {
+    "student": 6,
+    "question": 24,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:41.841Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 147,
+  "fields": {
+    "student": 6,
+    "question": 25,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:41.863Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 148,
+  "fields": {
+    "student": 6,
+    "question": 26,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:41.875Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 149,
+  "fields": {
+    "student": 6,
+    "question": 27,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:41.887Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 150,
+  "fields": {
+    "student": 6,
+    "question": 28,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:41.903Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 151,
+  "fields": {
+    "student": 6,
+    "question": 29,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:41.908Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 152,
+  "fields": {
+    "student": 6,
+    "question": 30,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:41.923Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 153,
+  "fields": {
+    "student": 6,
+    "question": 31,
+    "response_value": 5,
+    "submitted_at": "2026-03-11T10:31:41.928Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 154,
+  "fields": {
+    "student": 6,
+    "question": 32,
+    "response_value": 5,
+    "submitted_at": "2026-03-11T10:31:41.932Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 155,
+  "fields": {
+    "student": 6,
+    "question": 33,
+    "response_value": 5,
+    "submitted_at": "2026-03-11T10:31:41.939Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 156,
+  "fields": {
+    "student": 6,
+    "question": 34,
+    "response_value": 5,
+    "submitted_at": "2026-03-11T10:31:41.944Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 157,
+  "fields": {
+    "student": 6,
+    "question": 35,
+    "response_value": 5,
+    "submitted_at": "2026-03-11T10:31:41.957Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 158,
+  "fields": {
+    "student": 6,
+    "question": 36,
+    "response_value": 5,
+    "submitted_at": "2026-03-11T10:31:41.962Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 159,
+  "fields": {
+    "student": 6,
+    "question": 37,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:41.967Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 160,
+  "fields": {
+    "student": 6,
+    "question": 38,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:41.975Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 161,
+  "fields": {
+    "student": 6,
+    "question": 39,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:41.988Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 162,
+  "fields": {
+    "student": 6,
+    "question": 40,
+    "response_value": 5,
+    "submitted_at": "2026-03-11T10:31:42.022Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 163,
+  "fields": {
+    "student": 6,
+    "question": 41,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.031Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 164,
+  "fields": {
+    "student": 6,
+    "question": 42,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.040Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 165,
+  "fields": {
+    "student": 6,
+    "question": 43,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.057Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 166,
+  "fields": {
+    "student": 6,
+    "question": 44,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.081Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 167,
+  "fields": {
+    "student": 6,
+    "question": 45,
+    "response_value": 2,
+    "submitted_at": "2026-03-11T10:31:42.089Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 168,
+  "fields": {
+    "student": 6,
+    "question": 46,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.093Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 169,
+  "fields": {
+    "student": 6,
+    "question": 47,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.097Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 170,
+  "fields": {
+    "student": 6,
+    "question": 48,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.102Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 171,
+  "fields": {
+    "student": 6,
+    "question": 49,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.106Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 172,
+  "fields": {
+    "student": 6,
+    "question": 50,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.109Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 173,
+  "fields": {
+    "student": 6,
+    "question": 51,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.113Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 174,
+  "fields": {
+    "student": 6,
+    "question": 52,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.116Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 175,
+  "fields": {
+    "student": 6,
+    "question": 53,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.123Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 176,
+  "fields": {
+    "student": 6,
+    "question": 54,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.128Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 177,
+  "fields": {
+    "student": 6,
+    "question": 55,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.131Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 178,
+  "fields": {
+    "student": 6,
+    "question": 56,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.137Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 179,
+  "fields": {
+    "student": 6,
+    "question": 57,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.140Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 180,
+  "fields": {
+    "student": 6,
+    "question": 58,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.143Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 181,
+  "fields": {
+    "student": 6,
+    "question": 59,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.147Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 182,
+  "fields": {
+    "student": 6,
+    "question": 60,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.152Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 183,
+  "fields": {
+    "student": 6,
+    "question": 61,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.183Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 184,
+  "fields": {
+    "student": 6,
+    "question": 62,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.190Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 185,
+  "fields": {
+    "student": 6,
+    "question": 63,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.196Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 186,
+  "fields": {
+    "student": 6,
+    "question": 64,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.203Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 187,
+  "fields": {
+    "student": 6,
+    "question": 65,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.208Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 188,
+  "fields": {
+    "student": 6,
+    "question": 66,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.213Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 189,
+  "fields": {
+    "student": 6,
+    "question": 67,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.219Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 190,
+  "fields": {
+    "student": 6,
+    "question": 68,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.225Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 191,
+  "fields": {
+    "student": 6,
+    "question": 69,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.230Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 192,
+  "fields": {
+    "student": 6,
+    "question": 70,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.237Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 193,
+  "fields": {
+    "student": 6,
+    "question": 71,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.242Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 194,
+  "fields": {
+    "student": 6,
+    "question": 72,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.247Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 195,
+  "fields": {
+    "student": 6,
+    "question": 73,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.254Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 196,
+  "fields": {
+    "student": 6,
+    "question": 74,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.260Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 197,
+  "fields": {
+    "student": 6,
+    "question": 75,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.267Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 198,
+  "fields": {
+    "student": 6,
+    "question": 76,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.274Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 199,
+  "fields": {
+    "student": 6,
+    "question": 77,
+    "response_value": 5,
+    "submitted_at": "2026-03-11T10:31:42.279Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 200,
+  "fields": {
+    "student": 6,
+    "question": 78,
+    "response_value": 5,
+    "submitted_at": "2026-03-11T10:31:42.287Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 201,
+  "fields": {
+    "student": 6,
+    "question": 79,
+    "response_value": 5,
+    "submitted_at": "2026-03-11T10:31:42.292Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 202,
+  "fields": {
+    "student": 6,
+    "question": 80,
+    "response_value": 5,
+    "submitted_at": "2026-03-11T10:31:42.313Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 203,
+  "fields": {
+    "student": 6,
+    "question": 81,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.388Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 204,
+  "fields": {
+    "student": 6,
+    "question": 82,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.393Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 205,
+  "fields": {
+    "student": 6,
+    "question": 83,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.398Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 206,
+  "fields": {
+    "student": 6,
+    "question": 84,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.404Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 207,
+  "fields": {
+    "student": 6,
+    "question": 85,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.409Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 208,
+  "fields": {
+    "student": 6,
+    "question": 86,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.414Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 209,
+  "fields": {
+    "student": 6,
+    "question": 87,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.421Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 210,
+  "fields": {
+    "student": 6,
+    "question": 88,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.426Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 211,
+  "fields": {
+    "student": 6,
+    "question": 89,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.430Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 212,
+  "fields": {
+    "student": 6,
+    "question": 90,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.437Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 213,
+  "fields": {
+    "student": 6,
+    "question": 91,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.442Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 214,
+  "fields": {
+    "student": 6,
+    "question": 92,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.447Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 215,
+  "fields": {
+    "student": 6,
+    "question": 93,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.454Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 216,
+  "fields": {
+    "student": 6,
+    "question": 94,
+    "response_value": 5,
+    "submitted_at": "2026-03-11T10:31:42.460Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 217,
+  "fields": {
+    "student": 6,
+    "question": 95,
+    "response_value": 5,
+    "submitted_at": "2026-03-11T10:31:42.464Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 218,
+  "fields": {
+    "student": 6,
+    "question": 96,
+    "response_value": 5,
+    "submitted_at": "2026-03-11T10:31:42.472Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 219,
+  "fields": {
+    "student": 6,
+    "question": 97,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.477Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 220,
+  "fields": {
+    "student": 6,
+    "question": 98,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.483Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 221,
+  "fields": {
+    "student": 6,
+    "question": 99,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.489Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 222,
+  "fields": {
+    "student": 6,
+    "question": 100,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.494Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 223,
+  "fields": {
+    "student": 6,
+    "question": 101,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.499Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 224,
+  "fields": {
+    "student": 6,
+    "question": 102,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.506Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 225,
+  "fields": {
+    "student": 6,
+    "question": 103,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.512Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 226,
+  "fields": {
+    "student": 6,
+    "question": 104,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.518Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 227,
+  "fields": {
+    "student": 6,
+    "question": 105,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.525Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 228,
+  "fields": {
+    "student": 6,
+    "question": 106,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.530Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 229,
+  "fields": {
+    "student": 6,
+    "question": 107,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.535Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 230,
+  "fields": {
+    "student": 6,
+    "question": 108,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.539Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 231,
+  "fields": {
+    "student": 6,
+    "question": 109,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.542Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 232,
+  "fields": {
+    "student": 6,
+    "question": 110,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.546Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 233,
+  "fields": {
+    "student": 6,
+    "question": 111,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.550Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 234,
+  "fields": {
+    "student": 6,
+    "question": 112,
+    "response_value": 4,
+    "submitted_at": "2026-03-11T10:31:42.556Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 235,
+  "fields": {
+    "student": 6,
+    "question": 113,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.561Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 236,
+  "fields": {
+    "student": 6,
+    "question": 114,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.567Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 237,
+  "fields": {
+    "student": 6,
+    "question": 115,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.573Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 238,
+  "fields": {
+    "student": 6,
+    "question": 116,
+    "response_value": 3,
+    "submitted_at": "2026-03-11T10:31:42.578Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 239,
+  "fields": {
+    "student": 8,
+    "question": 1,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:17.600Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 240,
+  "fields": {
+    "student": 8,
+    "question": 2,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.655Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 241,
+  "fields": {
+    "student": 8,
+    "question": 3,
+    "response_value": 5,
+    "submitted_at": "2026-03-12T09:44:17.664Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 242,
+  "fields": {
+    "student": 8,
+    "question": 4,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:17.671Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 243,
+  "fields": {
+    "student": 8,
+    "question": 5,
+    "response_value": 5,
+    "submitted_at": "2026-03-12T09:44:17.680Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 244,
+  "fields": {
+    "student": 8,
+    "question": 6,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:17.688Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 245,
+  "fields": {
+    "student": 8,
+    "question": 7,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.696Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 246,
+  "fields": {
+    "student": 8,
+    "question": 8,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:17.702Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 247,
+  "fields": {
+    "student": 8,
+    "question": 9,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:17.708Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 248,
+  "fields": {
+    "student": 8,
+    "question": 10,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.717Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 249,
+  "fields": {
+    "student": 8,
+    "question": 11,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.724Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 250,
+  "fields": {
+    "student": 8,
+    "question": 12,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.732Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 251,
+  "fields": {
+    "student": 8,
+    "question": 13,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:17.738Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 252,
+  "fields": {
+    "student": 8,
+    "question": 14,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.746Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 253,
+  "fields": {
+    "student": 8,
+    "question": 15,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.752Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 254,
+  "fields": {
+    "student": 8,
+    "question": 16,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:17.759Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 255,
+  "fields": {
+    "student": 8,
+    "question": 17,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.767Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 256,
+  "fields": {
+    "student": 8,
+    "question": 18,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.773Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 257,
+  "fields": {
+    "student": 8,
+    "question": 19,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:17.780Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 258,
+  "fields": {
+    "student": 8,
+    "question": 20,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:17.786Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 259,
+  "fields": {
+    "student": 8,
+    "question": 21,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:17.792Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 260,
+  "fields": {
+    "student": 8,
+    "question": 22,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.800Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 261,
+  "fields": {
+    "student": 8,
+    "question": 23,
+    "response_value": 5,
+    "submitted_at": "2026-03-12T09:44:17.806Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 262,
+  "fields": {
+    "student": 8,
+    "question": 24,
+    "response_value": 5,
+    "submitted_at": "2026-03-12T09:44:17.814Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 263,
+  "fields": {
+    "student": 8,
+    "question": 25,
+    "response_value": 5,
+    "submitted_at": "2026-03-12T09:44:17.818Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 264,
+  "fields": {
+    "student": 8,
+    "question": 26,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.824Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 265,
+  "fields": {
+    "student": 8,
+    "question": 27,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.831Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 266,
+  "fields": {
+    "student": 8,
+    "question": 28,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.836Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 267,
+  "fields": {
+    "student": 8,
+    "question": 29,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.842Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 268,
+  "fields": {
+    "student": 8,
+    "question": 30,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.849Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 269,
+  "fields": {
+    "student": 8,
+    "question": 31,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.855Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 270,
+  "fields": {
+    "student": 8,
+    "question": 32,
+    "response_value": 5,
+    "submitted_at": "2026-03-12T09:44:17.862Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 271,
+  "fields": {
+    "student": 8,
+    "question": 33,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.869Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 272,
+  "fields": {
+    "student": 8,
+    "question": 34,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.874Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 273,
+  "fields": {
+    "student": 8,
+    "question": 35,
+    "response_value": 5,
+    "submitted_at": "2026-03-12T09:44:17.881Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 274,
+  "fields": {
+    "student": 8,
+    "question": 36,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.886Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 275,
+  "fields": {
+    "student": 8,
+    "question": 37,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.891Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 276,
+  "fields": {
+    "student": 8,
+    "question": 38,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.898Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 277,
+  "fields": {
+    "student": 8,
+    "question": 39,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:17.903Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 278,
+  "fields": {
+    "student": 8,
+    "question": 40,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.908Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 279,
+  "fields": {
+    "student": 8,
+    "question": 41,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.915Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 280,
+  "fields": {
+    "student": 8,
+    "question": 42,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.920Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 281,
+  "fields": {
+    "student": 8,
+    "question": 43,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.927Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 282,
+  "fields": {
+    "student": 8,
+    "question": 44,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:17.934Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 283,
+  "fields": {
+    "student": 8,
+    "question": 45,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.941Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 284,
+  "fields": {
+    "student": 8,
+    "question": 46,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.949Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 285,
+  "fields": {
+    "student": 8,
+    "question": 47,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.956Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 286,
+  "fields": {
+    "student": 8,
+    "question": 48,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.965Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 287,
+  "fields": {
+    "student": 8,
+    "question": 49,
+    "response_value": 5,
+    "submitted_at": "2026-03-12T09:44:17.973Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 288,
+  "fields": {
+    "student": 8,
+    "question": 50,
+    "response_value": 5,
+    "submitted_at": "2026-03-12T09:44:17.980Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 289,
+  "fields": {
+    "student": 8,
+    "question": 51,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.986Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 290,
+  "fields": {
+    "student": 8,
+    "question": 52,
+    "response_value": 5,
+    "submitted_at": "2026-03-12T09:44:17.991Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 291,
+  "fields": {
+    "student": 8,
+    "question": 53,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:17.998Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 292,
+  "fields": {
+    "student": 8,
+    "question": 54,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.004Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 293,
+  "fields": {
+    "student": 8,
+    "question": 55,
+    "response_value": 5,
+    "submitted_at": "2026-03-12T09:44:18.010Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 294,
+  "fields": {
+    "student": 8,
+    "question": 56,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.070Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 295,
+  "fields": {
+    "student": 8,
+    "question": 57,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.092Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 296,
+  "fields": {
+    "student": 8,
+    "question": 58,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:18.104Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 297,
+  "fields": {
+    "student": 8,
+    "question": 59,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.114Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 298,
+  "fields": {
+    "student": 8,
+    "question": 60,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.121Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 299,
+  "fields": {
+    "student": 8,
+    "question": 61,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:18.131Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 300,
+  "fields": {
+    "student": 8,
+    "question": 62,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.138Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 301,
+  "fields": {
+    "student": 8,
+    "question": 63,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:18.148Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 302,
+  "fields": {
+    "student": 8,
+    "question": 64,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.157Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 303,
+  "fields": {
+    "student": 8,
+    "question": 65,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.166Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 304,
+  "fields": {
+    "student": 8,
+    "question": 66,
+    "response_value": 5,
+    "submitted_at": "2026-03-12T09:44:18.173Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 305,
+  "fields": {
+    "student": 8,
+    "question": 67,
+    "response_value": 5,
+    "submitted_at": "2026-03-12T09:44:18.184Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 306,
+  "fields": {
+    "student": 8,
+    "question": 68,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:18.191Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 307,
+  "fields": {
+    "student": 8,
+    "question": 69,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:18.200Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 308,
+  "fields": {
+    "student": 8,
+    "question": 70,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:18.208Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 309,
+  "fields": {
+    "student": 8,
+    "question": 71,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.218Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 310,
+  "fields": {
+    "student": 8,
+    "question": 72,
+    "response_value": 5,
+    "submitted_at": "2026-03-12T09:44:18.225Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 311,
+  "fields": {
+    "student": 8,
+    "question": 73,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:18.234Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 312,
+  "fields": {
+    "student": 8,
+    "question": 74,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:18.242Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 313,
+  "fields": {
+    "student": 8,
+    "question": 75,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:18.251Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 314,
+  "fields": {
+    "student": 8,
+    "question": 76,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:18.259Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 315,
+  "fields": {
+    "student": 8,
+    "question": 77,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.268Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 316,
+  "fields": {
+    "student": 8,
+    "question": 78,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.276Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 317,
+  "fields": {
+    "student": 8,
+    "question": 79,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.286Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 318,
+  "fields": {
+    "student": 8,
+    "question": 80,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.293Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 319,
+  "fields": {
+    "student": 8,
+    "question": 81,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.302Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 320,
+  "fields": {
+    "student": 8,
+    "question": 82,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:18.312Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 321,
+  "fields": {
+    "student": 8,
+    "question": 83,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:18.320Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 322,
+  "fields": {
+    "student": 8,
+    "question": 84,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.329Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 323,
+  "fields": {
+    "student": 8,
+    "question": 85,
+    "response_value": 5,
+    "submitted_at": "2026-03-12T09:44:18.337Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 324,
+  "fields": {
+    "student": 8,
+    "question": 86,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:18.348Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 325,
+  "fields": {
+    "student": 8,
+    "question": 87,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:18.356Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 326,
+  "fields": {
+    "student": 8,
+    "question": 88,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.366Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 327,
+  "fields": {
+    "student": 8,
+    "question": 89,
+    "response_value": 5,
+    "submitted_at": "2026-03-12T09:44:18.374Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 328,
+  "fields": {
+    "student": 8,
+    "question": 90,
+    "response_value": 5,
+    "submitted_at": "2026-03-12T09:44:18.384Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 329,
+  "fields": {
+    "student": 8,
+    "question": 91,
+    "response_value": 5,
+    "submitted_at": "2026-03-12T09:44:18.391Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 330,
+  "fields": {
+    "student": 8,
+    "question": 92,
+    "response_value": 5,
+    "submitted_at": "2026-03-12T09:44:18.401Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 331,
+  "fields": {
+    "student": 8,
+    "question": 93,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.408Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 332,
+  "fields": {
+    "student": 8,
+    "question": 94,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.418Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 333,
+  "fields": {
+    "student": 8,
+    "question": 95,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.427Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 334,
+  "fields": {
+    "student": 8,
+    "question": 96,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.436Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 335,
+  "fields": {
+    "student": 8,
+    "question": 97,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.446Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 336,
+  "fields": {
+    "student": 8,
+    "question": 98,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.455Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 337,
+  "fields": {
+    "student": 8,
+    "question": 99,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.465Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 338,
+  "fields": {
+    "student": 8,
+    "question": 100,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.473Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 339,
+  "fields": {
+    "student": 8,
+    "question": 101,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.497Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 340,
+  "fields": {
+    "student": 8,
+    "question": 102,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:18.518Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 341,
+  "fields": {
+    "student": 8,
+    "question": 103,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:18.525Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 342,
+  "fields": {
+    "student": 8,
+    "question": 104,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.535Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 343,
+  "fields": {
+    "student": 8,
+    "question": 105,
+    "response_value": 5,
+    "submitted_at": "2026-03-12T09:44:18.544Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 344,
+  "fields": {
+    "student": 8,
+    "question": 106,
+    "response_value": 5,
+    "submitted_at": "2026-03-12T09:44:18.553Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 345,
+  "fields": {
+    "student": 8,
+    "question": 107,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:18.562Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 346,
+  "fields": {
+    "student": 8,
+    "question": 108,
+    "response_value": 5,
+    "submitted_at": "2026-03-12T09:44:18.569Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 347,
+  "fields": {
+    "student": 8,
+    "question": 109,
+    "response_value": 5,
+    "submitted_at": "2026-03-12T09:44:18.575Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 348,
+  "fields": {
+    "student": 8,
+    "question": 110,
+    "response_value": 5,
+    "submitted_at": "2026-03-12T09:44:18.583Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 349,
+  "fields": {
+    "student": 8,
+    "question": 111,
+    "response_value": 5,
+    "submitted_at": "2026-03-12T09:44:18.589Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 350,
+  "fields": {
+    "student": 8,
+    "question": 112,
+    "response_value": 4,
+    "submitted_at": "2026-03-12T09:44:18.597Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 351,
+  "fields": {
+    "student": 8,
+    "question": 113,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:18.604Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 352,
+  "fields": {
+    "student": 8,
+    "question": 114,
+    "response_value": 3,
+    "submitted_at": "2026-03-12T09:44:18.614Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 353,
+  "fields": {
+    "student": 8,
+    "question": 115,
+    "response_value": 2,
+    "submitted_at": "2026-03-12T09:44:18.623Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 354,
+  "fields": {
+    "student": 8,
+    "question": 116,
+    "response_value": 2,
+    "submitted_at": "2026-03-12T09:44:18.632Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 355,
+  "fields": {
+    "student": 9,
+    "question": 1,
+    "response_value": 2,
+    "submitted_at": "2026-03-13T21:02:10.936Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 356,
+  "fields": {
+    "student": 9,
+    "question": 2,
+    "response_value": 2,
+    "submitted_at": "2026-03-13T21:02:11.025Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 357,
+  "fields": {
+    "student": 9,
+    "question": 3,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.034Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 358,
+  "fields": {
+    "student": 9,
+    "question": 4,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.039Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 359,
+  "fields": {
+    "student": 9,
+    "question": 5,
+    "response_value": 5,
+    "submitted_at": "2026-03-13T21:02:11.046Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 360,
+  "fields": {
+    "student": 9,
+    "question": 6,
+    "response_value": 4,
+    "submitted_at": "2026-03-13T21:02:11.054Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 361,
+  "fields": {
+    "student": 9,
+    "question": 7,
+    "response_value": 1,
+    "submitted_at": "2026-03-13T21:02:11.060Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 362,
+  "fields": {
+    "student": 9,
+    "question": 8,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.067Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 363,
+  "fields": {
+    "student": 9,
+    "question": 9,
+    "response_value": 2,
+    "submitted_at": "2026-03-13T21:02:11.073Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 364,
+  "fields": {
+    "student": 9,
+    "question": 10,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.079Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 365,
+  "fields": {
+    "student": 9,
+    "question": 11,
+    "response_value": 4,
+    "submitted_at": "2026-03-13T21:02:11.086Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 366,
+  "fields": {
+    "student": 9,
+    "question": 12,
+    "response_value": 2,
+    "submitted_at": "2026-03-13T21:02:11.092Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 367,
+  "fields": {
+    "student": 9,
+    "question": 13,
+    "response_value": 2,
+    "submitted_at": "2026-03-13T21:02:11.096Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 368,
+  "fields": {
+    "student": 9,
+    "question": 14,
+    "response_value": 2,
+    "submitted_at": "2026-03-13T21:02:11.104Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 369,
+  "fields": {
+    "student": 9,
+    "question": 15,
+    "response_value": 2,
+    "submitted_at": "2026-03-13T21:02:11.111Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 370,
+  "fields": {
+    "student": 9,
+    "question": 16,
+    "response_value": 2,
+    "submitted_at": "2026-03-13T21:02:11.121Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 371,
+  "fields": {
+    "student": 9,
+    "question": 17,
+    "response_value": 5,
+    "submitted_at": "2026-03-13T21:02:11.138Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 372,
+  "fields": {
+    "student": 9,
+    "question": 18,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.144Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 373,
+  "fields": {
+    "student": 9,
+    "question": 19,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.153Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 374,
+  "fields": {
+    "student": 9,
+    "question": 20,
+    "response_value": 4,
+    "submitted_at": "2026-03-13T21:02:11.159Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 375,
+  "fields": {
+    "student": 9,
+    "question": 21,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.168Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 376,
+  "fields": {
+    "student": 9,
+    "question": 22,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.174Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 377,
+  "fields": {
+    "student": 9,
+    "question": 23,
+    "response_value": 2,
+    "submitted_at": "2026-03-13T21:02:11.179Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 378,
+  "fields": {
+    "student": 9,
+    "question": 24,
+    "response_value": 2,
+    "submitted_at": "2026-03-13T21:02:11.188Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 379,
+  "fields": {
+    "student": 9,
+    "question": 25,
+    "response_value": 5,
+    "submitted_at": "2026-03-13T21:02:11.193Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 380,
+  "fields": {
+    "student": 9,
+    "question": 26,
+    "response_value": 2,
+    "submitted_at": "2026-03-13T21:02:11.200Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 381,
+  "fields": {
+    "student": 9,
+    "question": 27,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.206Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 382,
+  "fields": {
+    "student": 9,
+    "question": 28,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.211Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 383,
+  "fields": {
+    "student": 9,
+    "question": 29,
+    "response_value": 2,
+    "submitted_at": "2026-03-13T21:02:11.220Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 384,
+  "fields": {
+    "student": 9,
+    "question": 30,
+    "response_value": 4,
+    "submitted_at": "2026-03-13T21:02:11.225Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 385,
+  "fields": {
+    "student": 9,
+    "question": 31,
+    "response_value": 1,
+    "submitted_at": "2026-03-13T21:02:11.233Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 386,
+  "fields": {
+    "student": 9,
+    "question": 32,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.239Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 387,
+  "fields": {
+    "student": 9,
+    "question": 33,
+    "response_value": 4,
+    "submitted_at": "2026-03-13T21:02:11.245Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 388,
+  "fields": {
+    "student": 9,
+    "question": 34,
+    "response_value": 5,
+    "submitted_at": "2026-03-13T21:02:11.255Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 389,
+  "fields": {
+    "student": 9,
+    "question": 35,
+    "response_value": 5,
+    "submitted_at": "2026-03-13T21:02:11.262Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 390,
+  "fields": {
+    "student": 9,
+    "question": 36,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.273Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 391,
+  "fields": {
+    "student": 9,
+    "question": 37,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.280Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 392,
+  "fields": {
+    "student": 9,
+    "question": 38,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.290Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 393,
+  "fields": {
+    "student": 9,
+    "question": 39,
+    "response_value": 4,
+    "submitted_at": "2026-03-13T21:02:11.309Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 394,
+  "fields": {
+    "student": 9,
+    "question": 40,
+    "response_value": 5,
+    "submitted_at": "2026-03-13T21:02:11.318Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 395,
+  "fields": {
+    "student": 9,
+    "question": 41,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.339Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 396,
+  "fields": {
+    "student": 9,
+    "question": 42,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.350Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 397,
+  "fields": {
+    "student": 9,
+    "question": 43,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.357Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 398,
+  "fields": {
+    "student": 9,
+    "question": 44,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.363Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 399,
+  "fields": {
+    "student": 9,
+    "question": 45,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.372Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 400,
+  "fields": {
+    "student": 9,
+    "question": 46,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.378Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 401,
+  "fields": {
+    "student": 9,
+    "question": 47,
+    "response_value": 5,
+    "submitted_at": "2026-03-13T21:02:11.387Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 402,
+  "fields": {
+    "student": 9,
+    "question": 48,
+    "response_value": 5,
+    "submitted_at": "2026-03-13T21:02:11.393Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 403,
+  "fields": {
+    "student": 9,
+    "question": 49,
+    "response_value": 2,
+    "submitted_at": "2026-03-13T21:02:11.404Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 404,
+  "fields": {
+    "student": 9,
+    "question": 50,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.410Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 405,
+  "fields": {
+    "student": 9,
+    "question": 51,
+    "response_value": 2,
+    "submitted_at": "2026-03-13T21:02:11.417Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 406,
+  "fields": {
+    "student": 9,
+    "question": 52,
+    "response_value": 4,
+    "submitted_at": "2026-03-13T21:02:11.423Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 407,
+  "fields": {
+    "student": 9,
+    "question": 53,
+    "response_value": 4,
+    "submitted_at": "2026-03-13T21:02:11.427Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 408,
+  "fields": {
+    "student": 9,
+    "question": 54,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.435Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 409,
+  "fields": {
+    "student": 9,
+    "question": 55,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.440Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 410,
+  "fields": {
+    "student": 9,
+    "question": 56,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.444Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 411,
+  "fields": {
+    "student": 9,
+    "question": 57,
+    "response_value": 4,
+    "submitted_at": "2026-03-13T21:02:11.452Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 412,
+  "fields": {
+    "student": 9,
+    "question": 58,
+    "response_value": 4,
+    "submitted_at": "2026-03-13T21:02:11.456Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 413,
+  "fields": {
+    "student": 9,
+    "question": 59,
+    "response_value": 4,
+    "submitted_at": "2026-03-13T21:02:11.460Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 414,
+  "fields": {
+    "student": 9,
+    "question": 60,
+    "response_value": 4,
+    "submitted_at": "2026-03-13T21:02:11.468Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 415,
+  "fields": {
+    "student": 9,
+    "question": 61,
+    "response_value": 2,
+    "submitted_at": "2026-03-13T21:02:11.474Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 416,
+  "fields": {
+    "student": 9,
+    "question": 62,
+    "response_value": 4,
+    "submitted_at": "2026-03-13T21:02:11.478Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 417,
+  "fields": {
+    "student": 9,
+    "question": 63,
+    "response_value": 4,
+    "submitted_at": "2026-03-13T21:02:11.485Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 418,
+  "fields": {
+    "student": 9,
+    "question": 64,
+    "response_value": 5,
+    "submitted_at": "2026-03-13T21:02:11.490Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 419,
+  "fields": {
+    "student": 9,
+    "question": 65,
+    "response_value": 2,
+    "submitted_at": "2026-03-13T21:02:11.494Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 420,
+  "fields": {
+    "student": 9,
+    "question": 66,
+    "response_value": 5,
+    "submitted_at": "2026-03-13T21:02:11.502Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 421,
+  "fields": {
+    "student": 9,
+    "question": 67,
+    "response_value": 4,
+    "submitted_at": "2026-03-13T21:02:11.507Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 422,
+  "fields": {
+    "student": 9,
+    "question": 68,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.522Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 423,
+  "fields": {
+    "student": 9,
+    "question": 69,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.534Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 424,
+  "fields": {
+    "student": 9,
+    "question": 70,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.539Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 425,
+  "fields": {
+    "student": 9,
+    "question": 71,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.545Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 426,
+  "fields": {
+    "student": 9,
+    "question": 72,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.553Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 427,
+  "fields": {
+    "student": 9,
+    "question": 73,
+    "response_value": 5,
+    "submitted_at": "2026-03-13T21:02:11.558Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 428,
+  "fields": {
+    "student": 9,
+    "question": 74,
+    "response_value": 5,
+    "submitted_at": "2026-03-13T21:02:11.565Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 429,
+  "fields": {
+    "student": 9,
+    "question": 75,
+    "response_value": 2,
+    "submitted_at": "2026-03-13T21:02:11.573Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 430,
+  "fields": {
+    "student": 9,
+    "question": 76,
+    "response_value": 2,
+    "submitted_at": "2026-03-13T21:02:11.578Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 431,
+  "fields": {
+    "student": 9,
+    "question": 77,
+    "response_value": 5,
+    "submitted_at": "2026-03-13T21:02:11.587Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 432,
+  "fields": {
+    "student": 9,
+    "question": 78,
+    "response_value": 5,
+    "submitted_at": "2026-03-13T21:02:11.592Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 433,
+  "fields": {
+    "student": 9,
+    "question": 79,
+    "response_value": 4,
+    "submitted_at": "2026-03-13T21:02:11.600Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 434,
+  "fields": {
+    "student": 9,
+    "question": 80,
+    "response_value": 4,
+    "submitted_at": "2026-03-13T21:02:11.607Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 435,
+  "fields": {
+    "student": 9,
+    "question": 81,
+    "response_value": 5,
+    "submitted_at": "2026-03-13T21:02:11.612Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 436,
+  "fields": {
+    "student": 9,
+    "question": 82,
+    "response_value": 4,
+    "submitted_at": "2026-03-13T21:02:11.622Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 437,
+  "fields": {
+    "student": 9,
+    "question": 83,
+    "response_value": 4,
+    "submitted_at": "2026-03-13T21:02:11.627Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 438,
+  "fields": {
+    "student": 9,
+    "question": 84,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.637Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 439,
+  "fields": {
+    "student": 9,
+    "question": 85,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.642Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 440,
+  "fields": {
+    "student": 9,
+    "question": 86,
+    "response_value": 4,
+    "submitted_at": "2026-03-13T21:02:11.650Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 441,
+  "fields": {
+    "student": 9,
+    "question": 87,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.658Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 442,
+  "fields": {
+    "student": 9,
+    "question": 88,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.666Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 443,
+  "fields": {
+    "student": 9,
+    "question": 89,
+    "response_value": 2,
+    "submitted_at": "2026-03-13T21:02:11.673Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 444,
+  "fields": {
+    "student": 9,
+    "question": 90,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.678Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 445,
+  "fields": {
+    "student": 9,
+    "question": 91,
+    "response_value": 2,
+    "submitted_at": "2026-03-13T21:02:11.687Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 446,
+  "fields": {
+    "student": 9,
+    "question": 92,
+    "response_value": 2,
+    "submitted_at": "2026-03-13T21:02:11.692Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 447,
+  "fields": {
+    "student": 9,
+    "question": 93,
+    "response_value": 4,
+    "submitted_at": "2026-03-13T21:02:11.699Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 448,
+  "fields": {
+    "student": 9,
+    "question": 94,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.705Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 449,
+  "fields": {
+    "student": 9,
+    "question": 95,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.711Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 450,
+  "fields": {
+    "student": 9,
+    "question": 96,
+    "response_value": 5,
+    "submitted_at": "2026-03-13T21:02:11.722Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 451,
+  "fields": {
+    "student": 9,
+    "question": 97,
+    "response_value": 5,
+    "submitted_at": "2026-03-13T21:02:11.737Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 452,
+  "fields": {
+    "student": 9,
+    "question": 98,
+    "response_value": 5,
+    "submitted_at": "2026-03-13T21:02:11.742Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 453,
+  "fields": {
+    "student": 9,
+    "question": 99,
+    "response_value": 5,
+    "submitted_at": "2026-03-13T21:02:11.749Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 454,
+  "fields": {
+    "student": 9,
+    "question": 100,
+    "response_value": 5,
+    "submitted_at": "2026-03-13T21:02:11.755Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 455,
+  "fields": {
+    "student": 9,
+    "question": 101,
+    "response_value": 5,
+    "submitted_at": "2026-03-13T21:02:11.760Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 456,
+  "fields": {
+    "student": 9,
+    "question": 102,
+    "response_value": 4,
+    "submitted_at": "2026-03-13T21:02:11.767Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 457,
+  "fields": {
+    "student": 9,
+    "question": 103,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.773Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 458,
+  "fields": {
+    "student": 9,
+    "question": 104,
+    "response_value": 5,
+    "submitted_at": "2026-03-13T21:02:11.778Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 459,
+  "fields": {
+    "student": 9,
+    "question": 105,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.785Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 460,
+  "fields": {
+    "student": 9,
+    "question": 106,
+    "response_value": 5,
+    "submitted_at": "2026-03-13T21:02:11.790Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 461,
+  "fields": {
+    "student": 9,
+    "question": 107,
+    "response_value": 2,
+    "submitted_at": "2026-03-13T21:02:11.795Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 462,
+  "fields": {
+    "student": 9,
+    "question": 108,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.802Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 463,
+  "fields": {
+    "student": 9,
+    "question": 109,
+    "response_value": 4,
+    "submitted_at": "2026-03-13T21:02:11.807Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 464,
+  "fields": {
+    "student": 9,
+    "question": 110,
+    "response_value": 2,
+    "submitted_at": "2026-03-13T21:02:11.811Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 465,
+  "fields": {
+    "student": 9,
+    "question": 111,
+    "response_value": 2,
+    "submitted_at": "2026-03-13T21:02:11.817Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 466,
+  "fields": {
+    "student": 9,
+    "question": 112,
+    "response_value": 2,
+    "submitted_at": "2026-03-13T21:02:11.822Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 467,
+  "fields": {
+    "student": 9,
+    "question": 113,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.827Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 468,
+  "fields": {
+    "student": 9,
+    "question": 114,
+    "response_value": 1,
+    "submitted_at": "2026-03-13T21:02:11.834Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 469,
+  "fields": {
+    "student": 9,
+    "question": 115,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.839Z"
+  }
+},
+{
+  "model": "assessment.psychometricresponse",
+  "pk": 470,
+  "fields": {
+    "student": 9,
+    "question": 116,
+    "response_value": 3,
+    "submitted_at": "2026-03-13T21:02:11.844Z"
+  }
+}
+]
