@@ -5,7 +5,7 @@
   "fields": {
     "question_text": "I enjoy working with tools and machinery",
     "category": "REALISTIC",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-09T07:22:23.378Z"
   }
 },
@@ -15,7 +15,7 @@
   "fields": {
     "question_text": "I like conducting experiments and analyzing data",
     "category": "INVESTIGATIVE",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-09T07:22:35.937Z"
   }
 },
@@ -25,7 +25,7 @@
   "fields": {
     "question_text": "I enjoy creative activities like painting or writing",
     "category": "ARTISTIC",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-09T07:22:48.213Z"
   }
 },
@@ -35,7 +35,7 @@
   "fields": {
     "question_text": "I like helping and teaching others",
     "category": "SOCIAL",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-09T07:23:19.040Z"
   }
 },
@@ -45,7 +45,7 @@
   "fields": {
     "question_text": "I enjoy leading teams and managing projects",
     "category": "ENTERPRISING",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-09T07:27:55.777Z"
   }
 },
@@ -55,7 +55,7 @@
   "fields": {
     "question_text": "I like organizing data and following established procedures",
     "category": "CONVENTIONAL",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-09T07:28:06.892Z"
   }
 },
@@ -65,7 +65,7 @@
   "fields": {
     "question_text": "I enjoy working with tools and machines",
     "category": "REALISTIC",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.096Z"
   }
 },
@@ -75,7 +75,7 @@
   "fields": {
     "question_text": "I like working outdoors",
     "category": "REALISTIC",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.132Z"
   }
 },
@@ -85,7 +85,7 @@
   "fields": {
     "question_text": "I prefer hands-on practical work",
     "category": "REALISTIC",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.136Z"
   }
 },
@@ -95,7 +95,7 @@
   "fields": {
     "question_text": "I enjoy building and fixing things",
     "category": "REALISTIC",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.141Z"
   }
 },
@@ -105,7 +105,7 @@
   "fields": {
     "question_text": "I like working with my hands",
     "category": "REALISTIC",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.145Z"
   }
 },
@@ -115,7 +115,7 @@
   "fields": {
     "question_text": "I enjoy mechanical and technical activities",
     "category": "REALISTIC",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.151Z"
   }
 },
@@ -125,7 +125,7 @@
   "fields": {
     "question_text": "I prefer physical work over desk work",
     "category": "REALISTIC",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.156Z"
   }
 },
@@ -135,7 +135,7 @@
   "fields": {
     "question_text": "I like working with animals or plants",
     "category": "REALISTIC",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.163Z"
   }
 },
@@ -145,7 +145,7 @@
   "fields": {
     "question_text": "I enjoy operating equipment and machinery",
     "category": "REALISTIC",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.170Z"
   }
 },
@@ -155,7 +155,7 @@
   "fields": {
     "question_text": "I am good at repairing things",
     "category": "REALISTIC",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.177Z"
   }
 },
@@ -165,7 +165,7 @@
   "fields": {
     "question_text": "I enjoy solving complex problems",
     "category": "INVESTIGATIVE",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.184Z"
   }
 },
@@ -175,7 +175,7 @@
   "fields": {
     "question_text": "I like conducting experiments and research",
     "category": "INVESTIGATIVE",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.230Z"
   }
 },
@@ -185,7 +185,7 @@
   "fields": {
     "question_text": "I enjoy analyzing data and information",
     "category": "INVESTIGATIVE",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.278Z"
   }
 },
@@ -195,7 +195,7 @@
   "fields": {
     "question_text": "I like learning about scientific concepts",
     "category": "INVESTIGATIVE",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.311Z"
   }
 },
@@ -205,7 +205,7 @@
   "fields": {
     "question_text": "I enjoy working with numbers and formulas",
     "category": "INVESTIGATIVE",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.372Z"
   }
 },
@@ -215,7 +215,7 @@
   "fields": {
     "question_text": "I like investigating how things work",
     "category": "INVESTIGATIVE",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.415Z"
   }
 },
@@ -225,7 +225,7 @@
   "fields": {
     "question_text": "I prefer working independently on research",
     "category": "INVESTIGATIVE",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.432Z"
   }
 },
@@ -235,7 +235,7 @@
   "fields": {
     "question_text": "I enjoy reading scientific articles",
     "category": "INVESTIGATIVE",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.441Z"
   }
 },
@@ -245,7 +245,7 @@
   "fields": {
     "question_text": "I like thinking about abstract ideas",
     "category": "INVESTIGATIVE",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.490Z"
   }
 },
@@ -255,7 +255,7 @@
   "fields": {
     "question_text": "I am curious about natural phenomena",
     "category": "INVESTIGATIVE",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.496Z"
   }
 },
@@ -265,7 +265,7 @@
   "fields": {
     "question_text": "I enjoy creative and artistic activities",
     "category": "ARTISTIC",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.500Z"
   }
 },
@@ -275,7 +275,7 @@
   "fields": {
     "question_text": "I like expressing myself through art",
     "category": "ARTISTIC",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.507Z"
   }
 },
@@ -285,7 +285,7 @@
   "fields": {
     "question_text": "I enjoy writing stories or poems",
     "category": "ARTISTIC",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.511Z"
   }
 },
@@ -295,7 +295,7 @@
   "fields": {
     "question_text": "I like designing and creating things",
     "category": "ARTISTIC",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.516Z"
   }
 },
@@ -305,7 +305,7 @@
   "fields": {
     "question_text": "I enjoy music and performing arts",
     "category": "ARTISTIC",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.524Z"
   }
 },
@@ -315,7 +315,7 @@
   "fields": {
     "question_text": "I prefer unstructured and flexible work",
     "category": "ARTISTIC",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.529Z"
   }
 },
@@ -325,7 +325,7 @@
   "fields": {
     "question_text": "I like working in creative environments",
     "category": "ARTISTIC",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.534Z"
   }
 },
@@ -335,7 +335,7 @@
   "fields": {
     "question_text": "I enjoy using my imagination",
     "category": "ARTISTIC",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.542Z"
   }
 },
@@ -345,7 +345,7 @@
   "fields": {
     "question_text": "I like experimenting with new ideas",
     "category": "ARTISTIC",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.548Z"
   }
 },
@@ -355,7 +355,7 @@
   "fields": {
     "question_text": "I appreciate beauty and aesthetics",
     "category": "ARTISTIC",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.558Z"
   }
 },
@@ -365,7 +365,7 @@
   "fields": {
     "question_text": "I enjoy helping and teaching others",
     "category": "SOCIAL",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.565Z"
   }
 },
@@ -375,7 +375,7 @@
   "fields": {
     "question_text": "I like working with people",
     "category": "SOCIAL",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.575Z"
   }
 },
@@ -385,7 +385,7 @@
   "fields": {
     "question_text": "I enjoy counseling and advising others",
     "category": "SOCIAL",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.584Z"
   }
 },
@@ -395,7 +395,7 @@
   "fields": {
     "question_text": "I like working in teams",
     "category": "SOCIAL",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.600Z"
   }
 },
@@ -405,7 +405,7 @@
   "fields": {
     "question_text": "I enjoy volunteering and community service",
     "category": "SOCIAL",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.614Z"
   }
 },
@@ -415,7 +415,7 @@
   "fields": {
     "question_text": "I am good at understanding others' feelings",
     "category": "SOCIAL",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.655Z"
   }
 },
@@ -425,7 +425,7 @@
   "fields": {
     "question_text": "I like resolving conflicts",
     "category": "SOCIAL",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.663Z"
   }
 },
@@ -435,7 +435,7 @@
   "fields": {
     "question_text": "I enjoy caring for others",
     "category": "SOCIAL",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.675Z"
   }
 },
@@ -445,7 +445,7 @@
   "fields": {
     "question_text": "I like organizing social events",
     "category": "SOCIAL",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.680Z"
   }
 },
@@ -455,7 +455,7 @@
   "fields": {
     "question_text": "I prefer jobs that involve interaction",
     "category": "SOCIAL",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.692Z"
   }
 },
@@ -465,7 +465,7 @@
   "fields": {
     "question_text": "I enjoy leading and managing projects",
     "category": "ENTERPRISING",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.700Z"
   }
 },
@@ -475,7 +475,7 @@
   "fields": {
     "question_text": "I like persuading and influencing others",
     "category": "ENTERPRISING",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.708Z"
   }
 },
@@ -485,7 +485,7 @@
   "fields": {
     "question_text": "I enjoy starting new businesses or ventures",
     "category": "ENTERPRISING",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.728Z"
   }
 },
@@ -495,7 +495,7 @@
   "fields": {
     "question_text": "I like taking risks and making decisions",
     "category": "ENTERPRISING",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.742Z"
   }
 },
@@ -505,7 +505,7 @@
   "fields": {
     "question_text": "I enjoy selling and promoting ideas",
     "category": "ENTERPRISING",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.752Z"
   }
 },
@@ -515,7 +515,7 @@
   "fields": {
     "question_text": "I am comfortable public speaking",
     "category": "ENTERPRISING",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.760Z"
   }
 },
@@ -525,7 +525,7 @@
   "fields": {
     "question_text": "I like setting goals and achieving them",
     "category": "ENTERPRISING",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.780Z"
   }
 },
@@ -535,7 +535,7 @@
   "fields": {
     "question_text": "I enjoy competitive environments",
     "category": "ENTERPRISING",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.800Z"
   }
 },
@@ -545,7 +545,7 @@
   "fields": {
     "question_text": "I like organizing and delegating tasks",
     "category": "ENTERPRISING",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.826Z"
   }
 },
@@ -555,7 +555,7 @@
   "fields": {
     "question_text": "I am good at motivating others",
     "category": "ENTERPRISING",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.834Z"
   }
 },
@@ -565,7 +565,7 @@
   "fields": {
     "question_text": "I enjoy organizing and maintaining records",
     "category": "CONVENTIONAL",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.844Z"
   }
 },
@@ -575,7 +575,7 @@
   "fields": {
     "question_text": "I like following clear procedures and rules",
     "category": "CONVENTIONAL",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.875Z"
   }
 },
@@ -585,7 +585,7 @@
   "fields": {
     "question_text": "I enjoy working with data and details",
     "category": "CONVENTIONAL",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.892Z"
   }
 },
@@ -595,7 +595,7 @@
   "fields": {
     "question_text": "I like structured and orderly environments",
     "category": "CONVENTIONAL",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.900Z"
   }
 },
@@ -605,7 +605,7 @@
   "fields": {
     "question_text": "I enjoy administrative and clerical work",
     "category": "CONVENTIONAL",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.915Z"
   }
 },
@@ -615,7 +615,7 @@
   "fields": {
     "question_text": "I am good at keeping things organized",
     "category": "CONVENTIONAL",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.929Z"
   }
 },
@@ -625,7 +625,7 @@
   "fields": {
     "question_text": "I like working with systems and processes",
     "category": "CONVENTIONAL",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.942Z"
   }
 },
@@ -635,7 +635,7 @@
   "fields": {
     "question_text": "I enjoy tasks that require accuracy",
     "category": "CONVENTIONAL",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.955Z"
   }
 },
@@ -645,7 +645,7 @@
   "fields": {
     "question_text": "I prefer predictable work routines",
     "category": "CONVENTIONAL",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.973Z"
   }
 },
@@ -655,7 +655,7 @@
   "fields": {
     "question_text": "I am detail-oriented and thorough",
     "category": "CONVENTIONAL",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.984Z"
   }
 },
@@ -665,7 +665,7 @@
   "fields": {
     "question_text": "I have a vivid imagination",
     "category": "OPENNESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:21.995Z"
   }
 },
@@ -675,7 +675,7 @@
   "fields": {
     "question_text": "I am interested in abstract ideas",
     "category": "OPENNESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.000Z"
   }
 },
@@ -685,7 +685,7 @@
   "fields": {
     "question_text": "I enjoy trying new and different things",
     "category": "OPENNESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.009Z"
   }
 },
@@ -695,7 +695,7 @@
   "fields": {
     "question_text": "I appreciate art and beauty",
     "category": "OPENNESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.017Z"
   }
 },
@@ -705,7 +705,7 @@
   "fields": {
     "question_text": "I am curious about many things",
     "category": "OPENNESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.027Z"
   }
 },
@@ -715,7 +715,7 @@
   "fields": {
     "question_text": "I enjoy thinking about complex problems",
     "category": "OPENNESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.039Z"
   }
 },
@@ -725,7 +725,7 @@
   "fields": {
     "question_text": "I like to explore new places",
     "category": "OPENNESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.045Z"
   }
 },
@@ -735,7 +735,7 @@
   "fields": {
     "question_text": "I am open to new experiences",
     "category": "OPENNESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.052Z"
   }
 },
@@ -745,7 +745,7 @@
   "fields": {
     "question_text": "I enjoy learning about different cultures",
     "category": "OPENNESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.060Z"
   }
 },
@@ -755,7 +755,7 @@
   "fields": {
     "question_text": "I like to consider multiple perspectives",
     "category": "OPENNESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.067Z"
   }
 },
@@ -765,7 +765,7 @@
   "fields": {
     "question_text": "I am always prepared and organized",
     "category": "CONSCIENTIOUSNESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.079Z"
   }
 },
@@ -775,7 +775,7 @@
   "fields": {
     "question_text": "I follow through on my commitments",
     "category": "CONSCIENTIOUSNESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.114Z"
   }
 },
@@ -785,7 +785,7 @@
   "fields": {
     "question_text": "I pay attention to details",
     "category": "CONSCIENTIOUSNESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.129Z"
   }
 },
@@ -795,7 +795,7 @@
   "fields": {
     "question_text": "I like to have a plan and stick to it",
     "category": "CONSCIENTIOUSNESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.142Z"
   }
 },
@@ -805,7 +805,7 @@
   "fields": {
     "question_text": "I am punctual and meet deadlines",
     "category": "CONSCIENTIOUSNESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.152Z"
   }
 },
@@ -815,7 +815,7 @@
   "fields": {
     "question_text": "I keep my workspace tidy",
     "category": "CONSCIENTIOUSNESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.163Z"
   }
 },
@@ -825,7 +825,7 @@
   "fields": {
     "question_text": "I complete tasks systematically",
     "category": "CONSCIENTIOUSNESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.175Z"
   }
 },
@@ -835,7 +835,7 @@
   "fields": {
     "question_text": "I am reliable and dependable",
     "category": "CONSCIENTIOUSNESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.181Z"
   }
 },
@@ -845,7 +845,7 @@
   "fields": {
     "question_text": "I think about consequences before acting",
     "category": "CONSCIENTIOUSNESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.193Z"
   }
 },
@@ -855,7 +855,7 @@
   "fields": {
     "question_text": "I work hard to achieve my goals",
     "category": "CONSCIENTIOUSNESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.214Z"
   }
 },
@@ -865,7 +865,7 @@
   "fields": {
     "question_text": "I enjoy being around people",
     "category": "EXTRAVERSION",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.225Z"
   }
 },
@@ -875,7 +875,7 @@
   "fields": {
     "question_text": "I feel comfortable in social situations",
     "category": "EXTRAVERSION",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.231Z"
   }
 },
@@ -885,7 +885,7 @@
   "fields": {
     "question_text": "I like to be the center of attention",
     "category": "EXTRAVERSION",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.238Z"
   }
 },
@@ -895,7 +895,7 @@
   "fields": {
     "question_text": "I am talkative and outgoing",
     "category": "EXTRAVERSION",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.243Z"
   }
 },
@@ -905,7 +905,7 @@
   "fields": {
     "question_text": "I make friends easily",
     "category": "EXTRAVERSION",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.247Z"
   }
 },
@@ -915,7 +915,7 @@
   "fields": {
     "question_text": "I enjoy parties and social gatherings",
     "category": "EXTRAVERSION",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.252Z"
   }
 },
@@ -925,7 +925,7 @@
   "fields": {
     "question_text": "I am energized by being with others",
     "category": "EXTRAVERSION",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.258Z"
   }
 },
@@ -935,7 +935,7 @@
   "fields": {
     "question_text": "I like to start conversations",
     "category": "EXTRAVERSION",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.262Z"
   }
 },
@@ -945,7 +945,7 @@
   "fields": {
     "question_text": "I am comfortable meeting new people",
     "category": "EXTRAVERSION",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.266Z"
   }
 },
@@ -955,7 +955,7 @@
   "fields": {
     "question_text": "I prefer working in groups",
     "category": "EXTRAVERSION",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.272Z"
   }
 },
@@ -965,7 +965,7 @@
   "fields": {
     "question_text": "I am considerate of others' feelings",
     "category": "AGREEABLENESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.277Z"
   }
 },
@@ -975,7 +975,7 @@
   "fields": {
     "question_text": "I like to help and support others",
     "category": "AGREEABLENESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.281Z"
   }
 },
@@ -985,7 +985,7 @@
   "fields": {
     "question_text": "I trust people easily",
     "category": "AGREEABLENESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.287Z"
   }
 },
@@ -995,7 +995,7 @@
   "fields": {
     "question_text": "I am cooperative and easy to work with",
     "category": "AGREEABLENESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.291Z"
   }
 },
@@ -1005,7 +1005,7 @@
   "fields": {
     "question_text": "I avoid conflicts and arguments",
     "category": "AGREEABLENESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.295Z"
   }
 },
@@ -1015,7 +1015,7 @@
   "fields": {
     "question_text": "I am sympathetic and compassionate",
     "category": "AGREEABLENESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.299Z"
   }
 },
@@ -1025,7 +1025,7 @@
   "fields": {
     "question_text": "I put others' needs before my own",
     "category": "AGREEABLENESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.306Z"
   }
 },
@@ -1035,7 +1035,7 @@
   "fields": {
     "question_text": "I am polite and respectful",
     "category": "AGREEABLENESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.310Z"
   }
 },
@@ -1045,7 +1045,7 @@
   "fields": {
     "question_text": "I forgive others easily",
     "category": "AGREEABLENESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.315Z"
   }
 },
@@ -1055,7 +1055,7 @@
   "fields": {
     "question_text": "I believe most people are good",
     "category": "AGREEABLENESS",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.321Z"
   }
 },
@@ -1065,7 +1065,7 @@
   "fields": {
     "question_text": "I often feel stressed or anxious",
     "category": "NEUROTICISM",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.326Z"
   }
 },
@@ -1075,7 +1075,7 @@
   "fields": {
     "question_text": "I worry about things that might go wrong",
     "category": "NEUROTICISM",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.330Z"
   }
 },
@@ -1085,7 +1085,7 @@
   "fields": {
     "question_text": "My mood changes frequently",
     "category": "NEUROTICISM",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.336Z"
   }
 },
@@ -1095,7 +1095,7 @@
   "fields": {
     "question_text": "I get upset easily",
     "category": "NEUROTICISM",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.342Z"
   }
 },
@@ -1105,7 +1105,7 @@
   "fields": {
     "question_text": "I feel nervous in stressful situations",
     "category": "NEUROTICISM",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.345Z"
   }
 },
@@ -1115,7 +1115,7 @@
   "fields": {
     "question_text": "I tend to overthink situations",
     "category": "NEUROTICISM",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.349Z"
   }
 },
@@ -1125,7 +1125,7 @@
   "fields": {
     "question_text": "I am sensitive to criticism",
     "category": "NEUROTICISM",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.355Z"
   }
 },
@@ -1135,7 +1135,7 @@
   "fields": {
     "question_text": "I sometimes feel sad or depressed",
     "category": "NEUROTICISM",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.360Z"
   }
 },
@@ -1145,7 +1145,7 @@
   "fields": {
     "question_text": "I have difficulty handling pressure",
     "category": "NEUROTICISM",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.364Z"
   }
 },
@@ -1155,8 +1155,188 @@
   "fields": {
     "question_text": "I get irritated by small things",
     "category": "NEUROTICISM",
-    "is_active": true,
+    "is_active": false,
     "created_at": "2026-02-11T13:05:22.368Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 117,
+  "fields": {
+    "question_text": "I enjoy working with tools, machines, and hands-on equipment",
+    "category": "REALISTIC",
+    "is_active": true,
+    "created_at": "2026-04-06T09:56:05.975Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 118,
+  "fields": {
+    "question_text": "I like working outdoors or in physical environments",
+    "category": "REALISTIC",
+    "is_active": true,
+    "created_at": "2026-04-06T09:56:05.993Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 119,
+  "fields": {
+    "question_text": "I prefer practical, hands-on work over desk work",
+    "category": "REALISTIC",
+    "is_active": true,
+    "created_at": "2026-04-06T09:56:05.997Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 120,
+  "fields": {
+    "question_text": "I enjoy solving complex problems and puzzles",
+    "category": "INVESTIGATIVE",
+    "is_active": true,
+    "created_at": "2026-04-06T09:56:06.000Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 121,
+  "fields": {
+    "question_text": "I like conducting research and analyzing data",
+    "category": "INVESTIGATIVE",
+    "is_active": true,
+    "created_at": "2026-04-06T09:56:06.003Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 122,
+  "fields": {
+    "question_text": "I am curious about understanding how things work",
+    "category": "INVESTIGATIVE",
+    "is_active": true,
+    "created_at": "2026-04-06T09:56:06.006Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 123,
+  "fields": {
+    "question_text": "I enjoy creative activities like art, design, or writing",
+    "category": "ARTISTIC",
+    "is_active": true,
+    "created_at": "2026-04-06T09:56:06.011Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 124,
+  "fields": {
+    "question_text": "I like expressing myself through creative projects",
+    "category": "ARTISTIC",
+    "is_active": true,
+    "created_at": "2026-04-06T09:56:06.016Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 125,
+  "fields": {
+    "question_text": "I appreciate beauty, aesthetics, and original ideas",
+    "category": "ARTISTIC",
+    "is_active": true,
+    "created_at": "2026-04-06T09:56:06.023Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 126,
+  "fields": {
+    "question_text": "I enjoy helping, teaching, or counseling others",
+    "category": "SOCIAL",
+    "is_active": true,
+    "created_at": "2026-04-06T09:56:06.026Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 127,
+  "fields": {
+    "question_text": "I like working closely with people in teams",
+    "category": "SOCIAL",
+    "is_active": true,
+    "created_at": "2026-04-06T09:56:06.029Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 128,
+  "fields": {
+    "question_text": "I am good at understanding and supporting others' needs",
+    "category": "SOCIAL",
+    "is_active": true,
+    "created_at": "2026-04-06T09:56:06.035Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 129,
+  "fields": {
+    "question_text": "I enjoy leading projects and influencing others",
+    "category": "ENTERPRISING",
+    "is_active": true,
+    "created_at": "2026-04-06T09:56:06.039Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 130,
+  "fields": {
+    "question_text": "I like taking risks and pursuing business opportunities",
+    "category": "ENTERPRISING",
+    "is_active": true,
+    "created_at": "2026-04-06T09:56:06.042Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 131,
+  "fields": {
+    "question_text": "I am comfortable persuading people and public speaking",
+    "category": "ENTERPRISING",
+    "is_active": true,
+    "created_at": "2026-04-06T09:56:06.047Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 132,
+  "fields": {
+    "question_text": "I enjoy organizing data and maintaining records",
+    "category": "CONVENTIONAL",
+    "is_active": true,
+    "created_at": "2026-04-06T09:56:06.054Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 133,
+  "fields": {
+    "question_text": "I like following clear procedures and structured tasks",
+    "category": "CONVENTIONAL",
+    "is_active": true,
+    "created_at": "2026-04-06T09:56:06.058Z"
+  }
+},
+{
+  "model": "assessment.psychometricquestion",
+  "pk": 134,
+  "fields": {
+    "question_text": "I am detail-oriented and thorough in my work",
+    "category": "CONVENTIONAL",
+    "is_active": true,
+    "created_at": "2026-04-06T09:56:06.072Z"
   }
 }
 ]

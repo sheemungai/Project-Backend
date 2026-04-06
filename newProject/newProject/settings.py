@@ -159,7 +159,9 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:8080",
     "http://127.0.0.1:5500",
     "http://localhost:5173",
-   "https://recommendation-system-beta.vercel.app"
+   "https://recommendation-system-beta.vercel.app",
+   "https://recommendation-sy-git-a50359-mungaisheilla19-gmailcoms-projects.vercel.app",
+   "https://recommendation-system-dlq5aftm2.vercel.app"
 ]
 
 # For development only - allows all origins
